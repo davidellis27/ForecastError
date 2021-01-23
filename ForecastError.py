@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import numpy as np
-import pandas as pd
 from numpy import random
 
 
@@ -400,4 +399,3 @@ for test_values in test_values_set:
 
     print('\n')
 
-# test change
