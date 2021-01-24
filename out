@@ -1,0 +1,4080 @@
+START: 1
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 2
+
+MAPE            13.71  Mean Absolute Percentage Error
+MASE            11.18  Mean Absolute Scaled Error
+MDAPE            7.69  Median Absolute Percentage Error
+WMAPE            7.64  Weighted Mean Absolute Percentage Error
+SMAPE           15.48  Symmetric Mean Absolute Percentage Error
+ME           -2206.00  Mean Error
+MAE           4120.00  Mean Absolute Error
+MPE             -4.38  Mean Percentage Error
+RMSE          4982.38  Root Mean Squared Error
+NRMSE            4.41  Normalized Root Mean Squared Error
+BIAS_TRACK      23.60  Bias Tracking Signal
+BIAS_NFM         3.33  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             3.64  Mean Absolute Percentage Error
+MASE             1.41  Mean Absolute Scaled Error
+MDAPE            0.94  Median Absolute Percentage Error
+WMAPE            0.97  Weighted Mean Absolute Percentage Error
+SMAPE            2.63  Symmetric Mean Absolute Percentage Error
+ME              52.60  Mean Error
+MAE            241.40  Mean Absolute Error
+MPE              2.17  Mean Percentage Error
+RMSE           286.32  Root Mean Squared Error
+NRMSE            0.57  Normalized Root Mean Squared Error
+BIAS_TRACK     -12.40  Bias Tracking Signal
+BIAS_NFM        -0.55  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 9
+
+MAPE            13.97  Mean Absolute Percentage Error
+MASE            11.27  Mean Absolute Scaled Error
+MDAPE            7.31  Median Absolute Percentage Error
+WMAPE            7.56  Weighted Mean Absolute Percentage Error
+SMAPE           16.63  Symmetric Mean Absolute Percentage Error
+ME           -2398.50  Mean Error
+MAE           4184.10  Mean Absolute Error
+MPE             -4.73  Mean Percentage Error
+RMSE          4982.72  Root Mean Squared Error
+NRMSE            4.36  Normalized Root Mean Squared Error
+BIAS_TRACK      35.00  Bias Tracking Signal
+BIAS_NFM         3.30  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 2
+
+MAPE            17.66  Mean Absolute Percentage Error
+MASE            21.38  Mean Absolute Scaled Error
+MDAPE           11.83  Median Absolute Percentage Error
+WMAPE           12.13  Weighted Mean Absolute Percentage Error
+SMAPE           18.87  Symmetric Mean Absolute Percentage Error
+ME          -16046.50  Mean Error
+MAE          21489.10  Mean Absolute Error
+MPE             -7.87  Mean Percentage Error
+RMSE         25822.41  Root Mean Squared Error
+NRMSE            7.37  Normalized Root Mean Squared Error
+BIAS_TRACK      45.80  Bias Tracking Signal
+BIAS_NFM         5.76  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 25
+
+MAPE            34.51  Mean Absolute Percentage Error
+MASE            24.21  Mean Absolute Scaled Error
+MDAPE           15.18  Median Absolute Percentage Error
+WMAPE           15.56  Weighted Mean Absolute Percentage Error
+SMAPE           28.52  Symmetric Mean Absolute Percentage Error
+ME             538.50  Mean Error
+MAE          25143.50  Mean Absolute Error
+MPE             16.70  Mean Percentage Error
+RMSE         28907.36  Root Mean Squared Error
+NRMSE            8.12  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.50  Bias Tracking Signal
+BIAS_NFM        -3.50  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 46
+
+MAPE            20.69  Mean Absolute Percentage Error
+MASE            20.24  Mean Absolute Scaled Error
+MDAPE           11.53  Median Absolute Percentage Error
+WMAPE           11.85  Weighted Mean Absolute Percentage Error
+SMAPE           19.06  Symmetric Mean Absolute Percentage Error
+ME          -14873.37  Mean Error
+MAE          20669.19  Mean Absolute Error
+MPE             -4.40  Mean Percentage Error
+RMSE         25089.77  Root Mean Squared Error
+NRMSE            6.98  Normalized Root Mean Squared Error
+BIAS_TRACK      41.66  Bias Tracking Signal
+BIAS_NFM         5.46  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 1
+
+MAPE            15.83  Mean Absolute Percentage Error
+MASE            18.01  Mean Absolute Scaled Error
+MDAPE           10.26  Median Absolute Percentage Error
+WMAPE           11.59  Weighted Mean Absolute Percentage Error
+SMAPE           19.29  Symmetric Mean Absolute Percentage Error
+ME          -10932.00  Mean Error
+MAE          19436.00  Mean Absolute Error
+MPE             -6.56  Mean Percentage Error
+RMSE         23249.52  Root Mean Squared Error
+NRMSE            6.70  Normalized Root Mean Squared Error
+BIAS_TRACK      28.00  Bias Tracking Signal
+BIAS_NFM         3.69  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.68  Mean Absolute Percentage Error
+MASE            25.53  Mean Absolute Scaled Error
+MDAPE           12.62  Median Absolute Percentage Error
+WMAPE           12.12  Weighted Mean Absolute Percentage Error
+SMAPE           18.93  Symmetric Mean Absolute Percentage Error
+ME          -21665.00  Mean Error
+MAE          23081.00  Mean Absolute Error
+MPE            -13.58  Mean Percentage Error
+RMSE         27748.46  Root Mean Squared Error
+NRMSE            8.14  Normalized Root Mean Squared Error
+BIAS_TRACK      74.00  Bias Tracking Signal
+BIAS_NFM         8.31  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 28
+
+MAPE            19.26  Mean Absolute Percentage Error
+MASE            20.46  Mean Absolute Scaled Error
+MDAPE           12.13  Median Absolute Percentage Error
+WMAPE           12.35  Weighted Mean Absolute Percentage Error
+SMAPE           22.15  Symmetric Mean Absolute Percentage Error
+ME          -19963.98  Mean Error
+MAE          21646.76  Mean Absolute Error
+MPE            -13.27  Mean Percentage Error
+RMSE         26446.02  Root Mean Squared Error
+NRMSE            7.37  Normalized Root Mean Squared Error
+BIAS_TRACK      66.15  Bias Tracking Signal
+BIAS_NFM         9.50  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 810
+
+MAPE            42.73  Mean Absolute Percentage Error
+MASE            23.04  Mean Absolute Scaled Error
+MDAPE           14.57  Median Absolute Percentage Error
+WMAPE           15.26  Weighted Mean Absolute Percentage Error
+SMAPE           32.36  Symmetric Mean Absolute Percentage Error
+ME            -560.50  Mean Error
+MAE          24392.21  Mean Absolute Error
+MPE             23.14  Mean Percentage Error
+RMSE         28320.44  Root Mean Squared Error
+NRMSE            7.92  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.68  Bias Tracking Signal
+BIAS_NFM        -3.80  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 1
+
+MAPE            21.34  Mean Absolute Percentage Error
+MASE            19.28  Mean Absolute Scaled Error
+MDAPE           11.78  Median Absolute Percentage Error
+WMAPE           12.51  Weighted Mean Absolute Percentage Error
+SMAPE           23.42  Symmetric Mean Absolute Percentage Error
+ME          -19805.00  Mean Error
+MAE          21634.20  Mean Absolute Error
+MPE            -11.84  Mean Percentage Error
+RMSE         26343.58  Root Mean Squared Error
+NRMSE            7.53  Normalized Root Mean Squared Error
+BIAS_TRACK      63.40  Bias Tracking Signal
+BIAS_NFM         9.26  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 17
+
+MAPE            66.36  Mean Absolute Percentage Error
+MASE            22.49  Mean Absolute Scaled Error
+MDAPE           13.69  Median Absolute Percentage Error
+WMAPE           14.81  Weighted Mean Absolute Percentage Error
+SMAPE           30.28  Symmetric Mean Absolute Percentage Error
+ME           -2035.00  Mean Error
+MAE          23293.40  Mean Absolute Error
+MPE             47.45  Mean Percentage Error
+RMSE         27466.22  Root Mean Squared Error
+NRMSE            7.72  Normalized Root Mean Squared Error
+BIAS_TRACK       1.60  Bias Tracking Signal
+BIAS_NFM        -3.46  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 9
+
+MAPE            43.17  Mean Absolute Percentage Error
+MASE            34.93  Mean Absolute Scaled Error
+MDAPE           21.43  Median Absolute Percentage Error
+WMAPE           21.35  Weighted Mean Absolute Percentage Error
+SMAPE           37.66  Symmetric Mean Absolute Percentage Error
+ME          -10150.80  Mean Error
+MAE          12669.20  Mean Absolute Error
+MPE             -0.23  Mean Percentage Error
+RMSE         15435.83  Root Mean Squared Error
+NRMSE           11.98  Normalized Root Mean Squared Error
+BIAS_TRACK      49.00  Bias Tracking Signal
+BIAS_NFM        10.15  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 95
+
+MAPE           103.25  Mean Absolute Percentage Error
+MASE            47.64  Mean Absolute Scaled Error
+MDAPE           23.12  Median Absolute Percentage Error
+WMAPE           37.97  Weighted Mean Absolute Percentage Error
+SMAPE           78.48  Symmetric Mean Absolute Percentage Error
+ME            8276.80  Mean Error
+MAE          18873.60  Mean Absolute Error
+MPE             83.95  Mean Percentage Error
+RMSE         22948.56  Root Mean Squared Error
+NRMSE           17.94  Normalized Root Mean Squared Error
+BIAS_TRACK     -28.20  Bias Tracking Signal
+BIAS_NFM       -26.40  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.50  Mean Absolute Percentage Error
+MASE            45.92  Mean Absolute Scaled Error
+MDAPE           23.75  Median Absolute Percentage Error
+WMAPE           23.71  Weighted Mean Absolute Percentage Error
+SMAPE           36.90  Symmetric Mean Absolute Percentage Error
+ME          -15489.80  Mean Error
+MAE          15489.80  Mean Absolute Error
+MPE            -28.50  Mean Percentage Error
+RMSE         17682.10  Root Mean Squared Error
+NRMSE           14.13  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.45  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 66
+
+MAPE            84.37  Mean Absolute Percentage Error
+MASE            43.72  Mean Absolute Scaled Error
+MDAPE           28.08  Median Absolute Percentage Error
+WMAPE           34.27  Weighted Mean Absolute Percentage Error
+SMAPE           63.23  Symmetric Mean Absolute Percentage Error
+ME           14153.00  Mean Error
+MAE          14153.00  Mean Absolute Error
+MPE             84.37  Mean Percentage Error
+RMSE         16339.36  Root Mean Squared Error
+NRMSE           17.18  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -31.62  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 57
+
+MAPE            70.43  Mean Absolute Percentage Error
+MASE            31.08  Mean Absolute Scaled Error
+MDAPE           19.09  Median Absolute Percentage Error
+WMAPE           22.23  Weighted Mean Absolute Percentage Error
+SMAPE           49.97  Symmetric Mean Absolute Percentage Error
+ME            9812.00  Mean Error
+MAE           9812.00  Mean Absolute Error
+MPE             70.43  Mean Percentage Error
+RMSE         11268.37  Root Mean Squared Error
+NRMSE           11.59  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -24.98  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            27.37  Mean Absolute Percentage Error
+MASE            82.05  Mean Absolute Scaled Error
+MDAPE           25.00  Median Absolute Percentage Error
+WMAPE           22.62  Weighted Mean Absolute Percentage Error
+SMAPE           22.83  Symmetric Mean Absolute Percentage Error
+ME              54.40  Mean Error
+MAE            100.80  Mean Absolute Error
+MPE             19.63  Mean Percentage Error
+RMSE           122.47  Root Mean Squared Error
+NRMSE           40.82  Normalized Root Mean Squared Error
+BIAS_TRACK     -29.80  Bias Tracking Signal
+BIAS_NFM        -7.20  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 107
+
+MAPE            54.42  Mean Absolute Percentage Error
+MASE            80.10  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           44.93  Weighted Mean Absolute Percentage Error
+SMAPE           82.60  Symmetric Mean Absolute Percentage Error
+ME              14.40  Mean Error
+MAE            325.20  Mean Absolute Error
+MPE             20.21  Mean Percentage Error
+RMSE           373.26  Root Mean Squared Error
+NRMSE           33.93  Normalized Root Mean Squared Error
+BIAS_TRACK      -3.60  Bias Tracking Signal
+BIAS_NFM       -19.40  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 204
+
+MAPE            44.45  Mean Absolute Percentage Error
+MASE            76.27  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           67.37  Weighted Mean Absolute Percentage Error
+SMAPE          132.22  Symmetric Mean Absolute Percentage Error
+ME            -258.80  Mean Error
+MAE            715.20  Mean Absolute Error
+MPE            -13.12  Mean Percentage Error
+RMSE           873.84  Root Mean Squared Error
+NRMSE           36.41  Normalized Root Mean Squared Error
+BIAS_TRACK      -4.60  Bias Tracking Signal
+BIAS_NFM       -22.52  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 245
+
+MAPE            40.66  Mean Absolute Percentage Error
+MASE            75.80  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           83.54  Weighted Mean Absolute Percentage Error
+SMAPE          161.02  Symmetric Mean Absolute Percentage Error
+ME            -942.60  Mean Error
+MAE           1450.20  Mean Absolute Error
+MPE            -30.83  Mean Percentage Error
+RMSE          2030.98  Root Mean Squared Error
+NRMSE           37.61  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.40  Bias Tracking Signal
+BIAS_NFM       -19.96  Bias Normalized Forecast Metric
+
+MAPE  :  [13.71, 3.64, 13.97, 17.66, 34.51, 20.69, 15.83, 16.68, 19.26, 42.73, 21.34, 66.36, 43.17, 103.25, 28.5, 84.37, 70.43, 27.37, 54.42, 44.45, 40.66]
+MASE  :  [11.18, 1.41, 11.27, 21.38, 24.21, 20.24, 18.01, 25.53, 20.46, 23.04, 19.28, 22.49, 34.93, 47.64, 45.92, 43.72, 31.08, 82.05, 80.1, 76.27, 75.8]
+MDAPE  :  [7.69, 0.94, 7.31, 11.83, 15.18, 11.53, 10.26, 12.62, 12.13, 14.57, 11.78, 13.69, 21.43, 23.12, 23.75, 28.08, 19.09, 25.0, 28.57, 28.57, 16.67]
+WMAPE  :  [7.64, 0.97, 7.56, 12.13, 15.56, 11.85, 11.59, 12.12, 12.35, 15.26, 12.51, 14.81, 21.35, 37.97, 23.71, 34.27, 22.23, 22.62, 44.93, 67.37, 83.54]
+SMAPE  :  [15.48, 2.63, 16.63, 18.87, 28.52, 19.06, 19.29, 18.93, 22.15, 32.36, 23.42, 30.28, 37.66, 78.48, 36.9, 63.23, 49.97, 22.83, 82.6, 132.22, 161.02]
+ME  :  [-2206.0, 52.6, -2398.5, -16046.5, 538.5, -14873.37, -10932.0, -21665.0, -19963.98, -560.5, -19805.0, -2035.0, -10150.8, 8276.8, -15489.8, 14153.0, 9812.0, 54.4, 14.4, -258.8, -942.6]
+MAE  :  [4120.0, 241.4, 4184.1, 21489.1, 25143.5, 20669.2, 19436.0, 23081.0, 21646.76, 24392.21, 21634.2, 23293.4, 12669.2, 18873.6, 15489.8, 14153.0, 9812.0, 100.8, 325.2, 715.2, 1450.2]
+MPE  :  [-4.38, 2.17, -4.73, -7.87, 16.7, -4.4, -6.56, -13.58, -13.27, 23.14, -11.84, 47.45, -0.23, 83.95, -28.5, 84.37, 70.43, 19.63, 20.21, -13.12, -30.83]
+RMSE  :  [4982.38, 286.32, 4982.72, 25822.41, 28907.36, 25089.77, 23249.52, 27748.46, 26446.02, 28320.44, 26343.58, 27466.22, 15435.83, 22948.56, 17682.1, 16339.36, 11268.37, 122.47, 373.26, 873.84, 2030.98]
+NRMSE  :  [4.41, 0.57, 4.36, 7.37, 8.12, 6.98, 6.7, 8.14, 7.37, 7.92, 7.53, 7.72, 11.98, 17.94, 14.13, 17.18, 11.59, 40.82, 33.93, 36.41, 37.61]
+BIAS_TRACK  :  [23.6, -12.4, 35.0, 45.8, -1.5, 41.66, 28.0, 74.0, 66.15, -0.68, 63.4, 1.6, 49.0, -28.2, 100.0, -100.0, -100.0, -29.8, -3.6, -4.6, -6.4]
+BIAS_NFM  :  [3.33, -0.55, 3.3, 5.76, -3.5, 5.46, 3.69, 8.31, 9.5, -3.8, 9.26, -3.46, 10.15, -26.4, 18.45, -31.62, -24.98, -7.2, -19.4, -22.52, -19.96]
+
+FINISH: 1
+
+START: 2
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 4
+
+MAPE            15.48  Mean Absolute Percentage Error
+MASE            10.69  Mean Absolute Scaled Error
+MDAPE            6.59  Median Absolute Percentage Error
+WMAPE            7.04  Weighted Mean Absolute Percentage Error
+SMAPE           15.35  Symmetric Mean Absolute Percentage Error
+ME           -2526.60  Mean Error
+MAE           3952.60  Mean Absolute Error
+MPE             -1.24  Mean Percentage Error
+RMSE          4836.73  Root Mean Squared Error
+NRMSE            4.25  Normalized Root Mean Squared Error
+BIAS_TRACK      35.60  Bias Tracking Signal
+BIAS_NFM         2.21  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             2.29  Mean Absolute Percentage Error
+MASE             1.43  Mean Absolute Scaled Error
+MDAPE            1.01  Median Absolute Percentage Error
+WMAPE            0.96  Weighted Mean Absolute Percentage Error
+SMAPE            2.27  Symmetric Mean Absolute Percentage Error
+ME              60.00  Mean Error
+MAE            245.60  Mean Absolute Error
+MPE              0.45  Mean Percentage Error
+RMSE           289.00  Root Mean Squared Error
+NRMSE            0.59  Normalized Root Mean Squared Error
+BIAS_TRACK     -11.80  Bias Tracking Signal
+BIAS_NFM        -0.17  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 5
+
+MAPE            13.08  Mean Absolute Percentage Error
+MASE            11.85  Mean Absolute Scaled Error
+MDAPE            7.28  Median Absolute Percentage Error
+WMAPE            7.53  Weighted Mean Absolute Percentage Error
+SMAPE           15.10  Symmetric Mean Absolute Percentage Error
+ME           -2240.10  Mean Error
+MAE           4151.90  Mean Absolute Error
+MPE             -4.80  Mean Percentage Error
+RMSE          4957.66  Root Mean Squared Error
+NRMSE            4.35  Normalized Root Mean Squared Error
+BIAS_TRACK      30.00  Bias Tracking Signal
+BIAS_NFM         3.29  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 3
+
+MAPE            16.39  Mean Absolute Percentage Error
+MASE            19.27  Mean Absolute Scaled Error
+MDAPE           10.66  Median Absolute Percentage Error
+WMAPE           11.22  Weighted Mean Absolute Percentage Error
+SMAPE           18.10  Symmetric Mean Absolute Percentage Error
+ME          -14136.60  Mean Error
+MAE          19905.00  Mean Absolute Error
+MPE             -7.21  Mean Percentage Error
+RMSE         24193.95  Root Mean Squared Error
+NRMSE            6.76  Normalized Root Mean Squared Error
+BIAS_TRACK      41.90  Bias Tracking Signal
+BIAS_NFM         4.99  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 24
+
+MAPE            35.76  Mean Absolute Percentage Error
+MASE            23.47  Mean Absolute Scaled Error
+MDAPE           14.38  Median Absolute Percentage Error
+WMAPE           15.15  Weighted Mean Absolute Percentage Error
+SMAPE           27.98  Symmetric Mean Absolute Percentage Error
+ME            -293.10  Mean Error
+MAE          24612.90  Mean Absolute Error
+MPE             18.83  Mean Percentage Error
+RMSE         28373.30  Root Mean Squared Error
+NRMSE            8.25  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.10  Bias Tracking Signal
+BIAS_NFM        -3.94  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 44
+
+MAPE            18.59  Mean Absolute Percentage Error
+MASE            20.53  Mean Absolute Scaled Error
+MDAPE           11.64  Median Absolute Percentage Error
+WMAPE           11.92  Weighted Mean Absolute Percentage Error
+SMAPE           19.20  Symmetric Mean Absolute Percentage Error
+ME          -15035.76  Mean Error
+MAE          20813.73  Mean Absolute Error
+MPE             -6.80  Mean Percentage Error
+RMSE         25264.20  Root Mean Squared Error
+NRMSE            7.04  Normalized Root Mean Squared Error
+BIAS_TRACK      42.77  Bias Tracking Signal
+BIAS_NFM         5.64  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 1
+
+MAPE            15.17  Mean Absolute Percentage Error
+MASE            17.20  Mean Absolute Scaled Error
+MDAPE            8.77  Median Absolute Percentage Error
+WMAPE           10.33  Weighted Mean Absolute Percentage Error
+SMAPE           17.95  Symmetric Mean Absolute Percentage Error
+ME          -10279.00  Mean Error
+MAE          18817.00  Mean Absolute Error
+MPE             -3.22  Mean Percentage Error
+RMSE         23295.18  Root Mean Squared Error
+NRMSE            6.90  Normalized Root Mean Squared Error
+BIAS_TRACK      28.00  Bias Tracking Signal
+BIAS_NFM         1.97  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            20.73  Mean Absolute Percentage Error
+MASE            21.38  Mean Absolute Scaled Error
+MDAPE           11.53  Median Absolute Percentage Error
+WMAPE           12.59  Weighted Mean Absolute Percentage Error
+SMAPE           25.95  Symmetric Mean Absolute Percentage Error
+ME          -22310.00  Mean Error
+MAE          23434.00  Mean Absolute Error
+MPE            -16.25  Mean Percentage Error
+RMSE         28103.93  Root Mean Squared Error
+NRMSE            8.00  Normalized Root Mean Squared Error
+BIAS_TRACK      80.00  Bias Tracking Signal
+BIAS_NFM        11.69  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 57
+
+MAPE            18.76  Mean Absolute Percentage Error
+MASE            20.45  Mean Absolute Scaled Error
+MDAPE           12.02  Median Absolute Percentage Error
+WMAPE           12.36  Weighted Mean Absolute Percentage Error
+SMAPE           22.42  Symmetric Mean Absolute Percentage Error
+ME          -19962.01  Mean Error
+MAE          21618.06  Mean Absolute Error
+MPE            -13.84  Mean Percentage Error
+RMSE         26423.39  Root Mean Squared Error
+NRMSE            7.38  Normalized Root Mean Squared Error
+BIAS_TRACK      66.66  Bias Tracking Signal
+BIAS_NFM         9.41  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 783
+
+MAPE            51.40  Mean Absolute Percentage Error
+MASE            22.79  Mean Absolute Scaled Error
+MDAPE           14.49  Median Absolute Percentage Error
+WMAPE           15.16  Weighted Mean Absolute Percentage Error
+SMAPE           31.85  Symmetric Mean Absolute Percentage Error
+ME            -850.57  Mean Error
+MAE          24357.88  Mean Absolute Error
+MPE             32.08  Mean Percentage Error
+RMSE         28299.47  Root Mean Squared Error
+NRMSE            7.89  Normalized Root Mean Squared Error
+BIAS_TRACK       0.98  Bias Tracking Signal
+BIAS_NFM        -3.86  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 0
+
+MAPE            16.10  Mean Absolute Percentage Error
+MASE            19.72  Mean Absolute Scaled Error
+MDAPE           11.12  Median Absolute Percentage Error
+WMAPE           11.57  Weighted Mean Absolute Percentage Error
+SMAPE           19.33  Symmetric Mean Absolute Percentage Error
+ME          -18335.40  Mean Error
+MAE          20388.60  Mean Absolute Error
+MPE            -13.01  Mean Percentage Error
+RMSE         25192.87  Root Mean Squared Error
+NRMSE            7.28  Normalized Root Mean Squared Error
+BIAS_TRACK      58.40  Bias Tracking Signal
+BIAS_NFM         8.35  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 19
+
+MAPE            31.21  Mean Absolute Percentage Error
+MASE            24.07  Mean Absolute Scaled Error
+MDAPE           13.13  Median Absolute Percentage Error
+WMAPE           14.26  Weighted Mean Absolute Percentage Error
+SMAPE           29.52  Symmetric Mean Absolute Percentage Error
+ME           -1001.40  Mean Error
+MAE          23359.80  Mean Absolute Error
+MPE             13.67  Mean Percentage Error
+RMSE         27624.83  Root Mean Squared Error
+NRMSE            7.90  Normalized Root Mean Squared Error
+BIAS_TRACK       4.00  Bias Tracking Signal
+BIAS_NFM        -4.02  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 5
+
+MAPE            30.34  Mean Absolute Percentage Error
+MASE            35.42  Mean Absolute Scaled Error
+MDAPE           20.76  Median Absolute Percentage Error
+WMAPE           20.82  Weighted Mean Absolute Percentage Error
+SMAPE           34.33  Symmetric Mean Absolute Percentage Error
+ME          -10028.20  Mean Error
+MAE          12539.40  Mean Absolute Error
+MPE            -12.58  Mean Percentage Error
+RMSE         15281.56  Root Mean Squared Error
+NRMSE           12.38  Normalized Root Mean Squared Error
+BIAS_TRACK      51.60  Bias Tracking Signal
+BIAS_NFM        10.78  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 94
+
+MAPE            64.76  Mean Absolute Percentage Error
+MASE            45.28  Mean Absolute Scaled Error
+MDAPE           22.12  Median Absolute Percentage Error
+WMAPE           33.28  Weighted Mean Absolute Percentage Error
+SMAPE           72.13  Symmetric Mean Absolute Percentage Error
+ME            5407.20  Mean Error
+MAE          17311.20  Mean Absolute Error
+MPE             42.64  Mean Percentage Error
+RMSE         21146.82  Root Mean Squared Error
+NRMSE           17.11  Normalized Root Mean Squared Error
+BIAS_TRACK     -18.80  Bias Tracking Signal
+BIAS_NFM       -21.76  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.41  Mean Absolute Percentage Error
+MASE            45.26  Mean Absolute Scaled Error
+MDAPE           23.01  Median Absolute Percentage Error
+WMAPE           22.99  Weighted Mean Absolute Percentage Error
+SMAPE           37.62  Symmetric Mean Absolute Percentage Error
+ME          -15453.80  Mean Error
+MAE          15453.80  Mean Absolute Error
+MPE            -28.41  Mean Percentage Error
+RMSE         17679.97  Root Mean Squared Error
+NRMSE           14.35  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.81  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 71
+
+MAPE            80.85  Mean Absolute Percentage Error
+MASE            43.09  Mean Absolute Scaled Error
+MDAPE           26.85  Median Absolute Percentage Error
+WMAPE           33.10  Weighted Mean Absolute Percentage Error
+SMAPE           61.91  Symmetric Mean Absolute Percentage Error
+ME           13885.00  Mean Error
+MAE          13885.00  Mean Absolute Error
+MPE             80.85  Mean Percentage Error
+RMSE         16163.50  Root Mean Squared Error
+NRMSE           16.98  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -30.95  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 48
+
+MAPE            76.37  Mean Absolute Percentage Error
+MASE            32.77  Mean Absolute Scaled Error
+MDAPE           22.99  Median Absolute Percentage Error
+WMAPE           24.22  Weighted Mean Absolute Percentage Error
+SMAPE           50.04  Symmetric Mean Absolute Percentage Error
+ME           10338.00  Mean Error
+MAE          10338.00  Mean Absolute Error
+MPE             76.37  Mean Percentage Error
+RMSE         11662.60  Root Mean Squared Error
+NRMSE           12.26  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -25.02  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            26.57  Mean Absolute Percentage Error
+MASE            76.99  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           21.92  Weighted Mean Absolute Percentage Error
+SMAPE           22.45  Symmetric Mean Absolute Percentage Error
+ME              41.00  Mean Error
+MAE            100.60  Mean Absolute Error
+MPE             16.63  Mean Percentage Error
+RMSE           121.41  Root Mean Squared Error
+NRMSE           40.47  Normalized Root Mean Squared Error
+BIAS_TRACK     -17.60  Bias Tracking Signal
+BIAS_NFM        -5.81  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 108
+
+MAPE            58.61  Mean Absolute Percentage Error
+MASE            74.66  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           45.94  Weighted Mean Absolute Percentage Error
+SMAPE           83.55  Symmetric Mean Absolute Percentage Error
+ME              36.80  Mean Error
+MAE            320.80  Mean Absolute Error
+MPE             27.25  Mean Percentage Error
+RMSE           368.84  Root Mean Squared Error
+NRMSE           33.53  Normalized Root Mean Squared Error
+BIAS_TRACK     -10.00  Bias Tracking Signal
+BIAS_NFM       -21.72  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 196
+
+MAPE            45.77  Mean Absolute Percentage Error
+MASE            76.67  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           67.61  Weighted Mean Absolute Percentage Error
+SMAPE          130.79  Symmetric Mean Absolute Percentage Error
+ME            -281.80  Mean Error
+MAE            724.60  Mean Absolute Error
+MPE            -13.67  Mean Percentage Error
+RMSE           883.91  Root Mean Squared Error
+NRMSE           36.83  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.40  Bias Tracking Signal
+BIAS_NFM       -20.38  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 221
+
+MAPE            47.40  Mean Absolute Percentage Error
+MASE            75.00  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           83.42  Weighted Mean Absolute Percentage Error
+SMAPE          155.06  Symmetric Mean Absolute Percentage Error
+ME            -994.80  Mean Error
+MAE           1468.00  Mean Absolute Error
+MPE            -26.00  Mean Percentage Error
+RMSE          2077.87  Root Mean Squared Error
+NRMSE           38.48  Normalized Root Mean Squared Error
+BIAS_TRACK      -3.00  Bias Tracking Signal
+BIAS_NFM       -15.45  Bias Normalized Forecast Metric
+
+MAPE  :  [15.48, 2.29, 13.08, 16.39, 35.76, 18.59, 15.17, 20.73, 18.76, 51.4, 16.1, 31.21, 30.34, 64.76, 28.41, 80.85, 76.37, 26.57, 58.61, 45.77, 47.4]
+MASE  :  [10.69, 1.43, 11.85, 19.27, 23.47, 20.53, 17.2, 21.38, 20.45, 22.79, 19.72, 24.07, 35.42, 45.28, 45.26, 43.09, 32.77, 76.99, 74.66, 76.67, 75.0]
+MDAPE  :  [6.59, 1.01, 7.28, 10.66, 14.38, 11.64, 8.77, 11.53, 12.02, 14.49, 11.12, 13.13, 20.76, 22.12, 23.01, 26.85, 22.99, 16.67, 28.57, 37.5, 28.57]
+WMAPE  :  [7.04, 0.96, 7.53, 11.22, 15.15, 11.92, 10.33, 12.59, 12.36, 15.16, 11.57, 14.26, 20.82, 33.28, 22.99, 33.1, 24.22, 21.92, 45.94, 67.61, 83.42]
+SMAPE  :  [15.35, 2.27, 15.1, 18.1, 27.98, 19.2, 17.95, 25.95, 22.42, 31.85, 19.33, 29.52, 34.33, 72.13, 37.62, 61.91, 50.04, 22.45, 83.55, 130.79, 155.06]
+ME  :  [-2526.6, 60.0, -2240.1, -14136.6, -293.1, -15035.76, -10279.0, -22310.0, -19962.01, -850.57, -18335.4, -1001.4, -10028.2, 5407.2, -15453.8, 13885.0, 10338.0, 41.0, 36.8, -281.8, -994.8]
+MAE  :  [3952.6, 245.6, 4151.9, 19905.0, 24612.9, 20813.73, 18817.0, 23434.0, 21618.06, 24357.88, 20388.6, 23359.8, 12539.4, 17311.2, 15453.8, 13885.0, 10338.0, 100.6, 320.8, 724.6, 1468.0]
+MPE  :  [-1.24, 0.45, -4.8, -7.21, 18.83, -6.8, -3.22, -16.25, -13.84, 32.08, -13.01, 13.67, -12.58, 42.64, -28.41, 80.85, 76.37, 16.63, 27.25, -13.67, -26.0]
+RMSE  :  [4836.73, 289.0, 4957.66, 24193.95, 28373.3, 25264.2, 23295.18, 28103.93, 26423.39, 28299.47, 25192.87, 27624.83, 15281.56, 21146.82, 17679.97, 16163.5, 11662.6, 121.41, 368.84, 883.91, 2077.87]
+NRMSE  :  [4.25, 0.59, 4.35, 6.76, 8.25, 7.04, 6.9, 8.0, 7.38, 7.89, 7.28, 7.9, 12.38, 17.11, 14.35, 16.98, 12.26, 40.47, 33.53, 36.83, 38.48]
+BIAS_TRACK  :  [35.6, -11.8, 30.0, 41.9, -0.1, 42.77, 28.0, 80.0, 66.66, 0.98, 58.4, 4.0, 51.6, -18.8, 100.0, -100.0, -100.0, -17.6, -10.0, -1.4, -3.0]
+BIAS_NFM  :  [2.21, -0.17, 3.29, 4.99, -3.94, 5.64, 1.97, 11.69, 9.41, -3.86, 8.35, -4.02, 10.78, -21.76, 18.81, -30.95, -25.02, -5.81, -21.72, -20.38, -15.45]
+
+FINISH: 2
+
+START: 3
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 1
+
+MAPE            12.60  Mean Absolute Percentage Error
+MASE            11.81  Mean Absolute Scaled Error
+MDAPE            7.43  Median Absolute Percentage Error
+WMAPE            7.46  Weighted Mean Absolute Percentage Error
+SMAPE           14.73  Symmetric Mean Absolute Percentage Error
+ME           -2736.00  Mean Error
+MAE           4184.00  Mean Absolute Error
+MPE             -7.24  Mean Percentage Error
+RMSE          4940.52  Root Mean Squared Error
+NRMSE            4.34  Normalized Root Mean Squared Error
+BIAS_TRACK      43.20  Bias Tracking Signal
+BIAS_NFM         4.65  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             3.86  Mean Absolute Percentage Error
+MASE             1.56  Mean Absolute Scaled Error
+MDAPE            0.95  Median Absolute Percentage Error
+WMAPE            0.95  Weighted Mean Absolute Percentage Error
+SMAPE            2.71  Symmetric Mean Absolute Percentage Error
+ME              37.80  Mean Error
+MAE            243.80  Mean Absolute Error
+MPE              2.23  Mean Percentage Error
+RMSE           284.99  Root Mean Squared Error
+NRMSE            0.57  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.40  Bias Tracking Signal
+BIAS_NFM        -0.50  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 10
+
+MAPE            14.65  Mean Absolute Percentage Error
+MASE            12.22  Mean Absolute Scaled Error
+MDAPE            7.80  Median Absolute Percentage Error
+WMAPE            7.77  Weighted Mean Absolute Percentage Error
+SMAPE           16.54  Symmetric Mean Absolute Percentage Error
+ME           -2466.10  Mean Error
+MAE           4363.50  Mean Absolute Error
+MPE             -4.09  Mean Percentage Error
+RMSE          5159.43  Root Mean Squared Error
+NRMSE            4.53  Normalized Root Mean Squared Error
+BIAS_TRACK      34.00  Bias Tracking Signal
+BIAS_NFM         2.98  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 5
+
+MAPE            17.25  Mean Absolute Percentage Error
+MASE            19.61  Mean Absolute Scaled Error
+MDAPE           11.80  Median Absolute Percentage Error
+WMAPE           11.75  Weighted Mean Absolute Percentage Error
+SMAPE           19.42  Symmetric Mean Absolute Percentage Error
+ME          -14278.70  Mean Error
+MAE          20501.90  Mean Absolute Error
+MPE             -7.36  Mean Percentage Error
+RMSE         24964.06  Root Mean Squared Error
+NRMSE            7.13  Normalized Root Mean Squared Error
+BIAS_TRACK      36.60  Bias Tracking Signal
+BIAS_NFM         5.11  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 27
+
+MAPE            37.16  Mean Absolute Percentage Error
+MASE            22.87  Mean Absolute Scaled Error
+MDAPE           14.58  Median Absolute Percentage Error
+WMAPE           14.88  Weighted Mean Absolute Percentage Error
+SMAPE           28.25  Symmetric Mean Absolute Percentage Error
+ME             268.10  Mean Error
+MAE          24772.70  Mean Absolute Error
+MPE             20.00  Mean Percentage Error
+RMSE         28656.18  Root Mean Squared Error
+NRMSE            8.19  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.60  Bias Tracking Signal
+BIAS_NFM        -3.78  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 39
+
+MAPE            21.51  Mean Absolute Percentage Error
+MASE            20.13  Mean Absolute Scaled Error
+MDAPE           11.55  Median Absolute Percentage Error
+WMAPE           11.89  Weighted Mean Absolute Percentage Error
+SMAPE           19.29  Symmetric Mean Absolute Percentage Error
+ME          -14983.29  Mean Error
+MAE          20698.18  Mean Absolute Error
+MPE             -3.70  Mean Percentage Error
+RMSE         25106.08  Root Mean Squared Error
+NRMSE            6.98  Normalized Root Mean Squared Error
+BIAS_TRACK      42.58  Bias Tracking Signal
+BIAS_NFM         5.47  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            14.55  Mean Absolute Percentage Error
+MASE            22.78  Mean Absolute Scaled Error
+MDAPE           12.60  Median Absolute Percentage Error
+WMAPE           11.90  Weighted Mean Absolute Percentage Error
+SMAPE           16.02  Symmetric Mean Absolute Percentage Error
+ME          -17153.00  Mean Error
+MAE          21765.00  Mean Absolute Error
+MPE             -8.79  Mean Percentage Error
+RMSE         26076.57  Root Mean Squared Error
+NRMSE            8.22  Normalized Root Mean Squared Error
+BIAS_TRACK      46.00  Bias Tracking Signal
+BIAS_NFM         5.47  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.85  Mean Absolute Percentage Error
+MASE            22.21  Mean Absolute Scaled Error
+MDAPE           12.15  Median Absolute Percentage Error
+WMAPE           12.77  Weighted Mean Absolute Percentage Error
+SMAPE           20.51  Symmetric Mean Absolute Percentage Error
+ME          -21989.00  Mean Error
+MAE          23557.00  Mean Absolute Error
+MPE            -14.98  Mean Percentage Error
+RMSE         28129.85  Root Mean Squared Error
+NRMSE            8.33  Normalized Root Mean Squared Error
+BIAS_TRACK      68.00  Bias Tracking Signal
+BIAS_NFM         9.38  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 47
+
+MAPE            19.28  Mean Absolute Percentage Error
+MASE            20.83  Mean Absolute Scaled Error
+MDAPE           12.23  Median Absolute Percentage Error
+WMAPE           12.44  Weighted Mean Absolute Percentage Error
+SMAPE           22.42  Symmetric Mean Absolute Percentage Error
+ME          -20227.80  Mean Error
+MAE          21878.77  Mean Absolute Error
+MPE            -13.46  Mean Percentage Error
+RMSE         26666.50  Root Mean Squared Error
+NRMSE            7.44  Normalized Root Mean Squared Error
+BIAS_TRACK      67.18  Bias Tracking Signal
+BIAS_NFM         9.46  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 799
+
+MAPE            40.37  Mean Absolute Percentage Error
+MASE            22.85  Mean Absolute Scaled Error
+MDAPE           14.69  Median Absolute Percentage Error
+WMAPE           15.17  Weighted Mean Absolute Percentage Error
+SMAPE           32.16  Symmetric Mean Absolute Percentage Error
+ME            -902.79  Mean Error
+MAE          24440.77  Mean Absolute Error
+MPE             20.79  Mean Percentage Error
+RMSE         28375.80  Root Mean Squared Error
+NRMSE            7.94  Normalized Root Mean Squared Error
+BIAS_TRACK       0.73  Bias Tracking Signal
+BIAS_NFM        -3.75  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 1
+
+MAPE            18.14  Mean Absolute Percentage Error
+MASE            20.42  Mean Absolute Scaled Error
+MDAPE           11.43  Median Absolute Percentage Error
+WMAPE           12.23  Weighted Mean Absolute Percentage Error
+SMAPE           22.32  Symmetric Mean Absolute Percentage Error
+ME          -19860.80  Mean Error
+MAE          21780.80  Mean Absolute Error
+MPE            -14.38  Mean Percentage Error
+RMSE         26326.94  Root Mean Squared Error
+NRMSE            7.50  Normalized Root Mean Squared Error
+BIAS_TRACK      64.20  Bias Tracking Signal
+BIAS_NFM         9.47  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 33
+
+MAPE            36.57  Mean Absolute Percentage Error
+MASE            22.17  Mean Absolute Scaled Error
+MDAPE           14.06  Median Absolute Percentage Error
+WMAPE           15.06  Weighted Mean Absolute Percentage Error
+SMAPE           36.87  Symmetric Mean Absolute Percentage Error
+ME           -1547.00  Mean Error
+MAE          23473.00  Mean Absolute Error
+MPE             16.32  Mean Percentage Error
+RMSE         27467.13  Root Mean Squared Error
+NRMSE            7.70  Normalized Root Mean Squared Error
+BIAS_TRACK       2.20  Bias Tracking Signal
+BIAS_NFM        -5.65  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 6
+
+MAPE            25.60  Mean Absolute Percentage Error
+MASE            34.58  Mean Absolute Scaled Error
+MDAPE           19.56  Median Absolute Percentage Error
+WMAPE           20.08  Weighted Mean Absolute Percentage Error
+SMAPE           33.53  Symmetric Mean Absolute Percentage Error
+ME          -10003.00  Mean Error
+MAE          12261.40  Mean Absolute Error
+MPE            -17.62  Mean Percentage Error
+RMSE         14879.74  Root Mean Squared Error
+NRMSE           11.58  Normalized Root Mean Squared Error
+BIAS_TRACK      52.60  Bias Tracking Signal
+BIAS_NFM        11.53  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 65
+
+MAPE            91.05  Mean Absolute Percentage Error
+MASE            53.44  Mean Absolute Scaled Error
+MDAPE           29.98  Median Absolute Percentage Error
+WMAPE           38.92  Weighted Mean Absolute Percentage Error
+SMAPE           69.20  Symmetric Mean Absolute Percentage Error
+ME            7140.60  Mean Error
+MAE          18919.80  Mean Absolute Error
+MPE             68.86  Mean Percentage Error
+RMSE         22467.19  Root Mean Squared Error
+NRMSE           18.10  Normalized Root Mean Squared Error
+BIAS_TRACK     -25.60  Bias Tracking Signal
+BIAS_NFM       -19.69  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.94  Mean Absolute Percentage Error
+MASE            46.71  Mean Absolute Scaled Error
+MDAPE           23.71  Median Absolute Percentage Error
+WMAPE           23.92  Weighted Mean Absolute Percentage Error
+SMAPE           37.82  Symmetric Mean Absolute Percentage Error
+ME          -15578.40  Mean Error
+MAE          15578.40  Mean Absolute Error
+MPE            -28.94  Mean Percentage Error
+RMSE         17689.96  Root Mean Squared Error
+NRMSE           14.45  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.91  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 86
+
+MAPE            73.64  Mean Absolute Percentage Error
+MASE            46.53  Mean Absolute Scaled Error
+MDAPE           29.00  Median Absolute Percentage Error
+WMAPE           35.44  Weighted Mean Absolute Percentage Error
+SMAPE           68.42  Symmetric Mean Absolute Percentage Error
+ME           15023.00  Mean Error
+MAE          15023.00  Mean Absolute Error
+MPE             73.64  Mean Percentage Error
+RMSE         17207.12  Root Mean Squared Error
+NRMSE           17.67  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -34.21  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 55
+
+MAPE            53.04  Mean Absolute Percentage Error
+MASE            28.62  Mean Absolute Scaled Error
+MDAPE           19.52  Median Absolute Percentage Error
+WMAPE           22.03  Weighted Mean Absolute Percentage Error
+SMAPE           49.18  Symmetric Mean Absolute Percentage Error
+ME            9563.80  Mean Error
+MAE           9563.80  Mean Absolute Error
+MPE             53.04  Mean Percentage Error
+RMSE         11113.03  Root Mean Squared Error
+NRMSE           11.46  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -24.59  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            27.05  Mean Absolute Percentage Error
+MASE            78.34  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           22.14  Weighted Mean Absolute Percentage Error
+SMAPE           22.58  Symmetric Mean Absolute Percentage Error
+ME              48.40  Mean Error
+MAE            100.00  Mean Absolute Error
+MPE             18.45  Mean Percentage Error
+RMSE           122.64  Root Mean Squared Error
+NRMSE           40.88  Normalized Root Mean Squared Error
+BIAS_TRACK     -23.20  Bias Tracking Signal
+BIAS_NFM        -6.60  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 121
+
+MAPE            64.31  Mean Absolute Percentage Error
+MASE            78.59  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           48.73  Weighted Mean Absolute Percentage Error
+SMAPE           90.56  Symmetric Mean Absolute Percentage Error
+ME              50.20  Mean Error
+MAE            340.20  Mean Absolute Error
+MPE             32.29  Mean Percentage Error
+RMSE           381.55  Root Mean Squared Error
+NRMSE           34.69  Normalized Root Mean Squared Error
+BIAS_TRACK     -12.40  Bias Tracking Signal
+BIAS_NFM       -24.80  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 186
+
+MAPE            47.26  Mean Absolute Percentage Error
+MASE            79.52  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           66.75  Weighted Mean Absolute Percentage Error
+SMAPE          127.35  Symmetric Mean Absolute Percentage Error
+ME            -285.60  Mean Error
+MAE            710.40  Mean Absolute Error
+MPE            -12.89  Mean Percentage Error
+RMSE           868.47  Root Mean Squared Error
+NRMSE           36.19  Normalized Root Mean Squared Error
+BIAS_TRACK       2.40  Bias Tracking Signal
+BIAS_NFM       -18.43  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 230
+
+MAPE            42.24  Mean Absolute Percentage Error
+MASE            78.01  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           82.70  Weighted Mean Absolute Percentage Error
+SMAPE          157.73  Symmetric Mean Absolute Percentage Error
+ME            -968.60  Mean Error
+MAE           1444.60  Mean Absolute Error
+MPE            -33.28  Mean Percentage Error
+RMSE          2010.31  Root Mean Squared Error
+NRMSE           37.23  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.40  Bias Tracking Signal
+BIAS_NFM       -15.37  Bias Normalized Forecast Metric
+
+MAPE  :  [12.6, 3.86, 14.65, 17.25, 37.16, 21.51, 14.55, 16.85, 19.28, 40.37, 18.14, 36.57, 25.6, 91.05, 28.94, 73.64, 53.04, 27.05, 64.31, 47.26, 42.24]
+MASE  :  [11.81, 1.56, 12.22, 19.61, 22.87, 20.13, 22.78, 22.21, 20.83, 22.85, 20.42, 22.17, 34.58, 53.44, 46.71, 46.53, 28.62, 78.34, 78.59, 79.52, 78.01]
+MDAPE  :  [7.43, 0.95, 7.8, 11.8, 14.58, 11.55, 12.6, 12.15, 12.23, 14.69, 11.43, 14.06, 19.56, 29.98, 23.71, 29.0, 19.52, 16.67, 37.5, 37.5, 37.5]
+WMAPE  :  [7.46, 0.95, 7.77, 11.75, 14.88, 11.89, 11.9, 12.77, 12.44, 15.17, 12.23, 15.06, 20.08, 38.92, 23.92, 35.44, 22.03, 22.14, 48.73, 66.75, 82.7]
+SMAPE  :  [14.73, 2.71, 16.54, 19.42, 28.25, 19.29, 16.02, 20.51, 22.42, 32.16, 22.32, 36.87, 33.53, 69.2, 37.82, 68.42, 49.18, 22.58, 90.56, 127.35, 157.73]
+ME  :  [-2736.0, 37.8, -2466.1, -14278.7, 268.1, -14983.29, -17153.0, -21989.0, -20227.8, -902.79, -19860.8, -1547.0, -10003.0, 7140.6, -15578.4, 15023.0, 9563.8, 48.4, 50.2, -285.6, -968.6]
+MAE  :  [4184.0, 243.8, 4363.5, 20501.9, 24772.7, 20698.18, 21765.0, 23557.0, 21878.77, 24440.78, 21780.8, 23473.0, 12261.4, 18919.8, 15578.4, 15023.0, 9563.8, 100.0, 340.2, 710.4, 1444.6]
+MPE  :  [-7.24, 2.23, -4.09, -7.36, 20.0, -3.7, -8.79, -14.98, -13.46, 20.79, -14.38, 16.32, -17.62, 68.86, -28.94, 73.64, 53.04, 18.45, 32.29, -12.89, -33.28]
+RMSE  :  [4940.52, 284.99, 5159.43, 24964.06, 28656.18, 25106.08, 26076.57, 28129.85, 26666.5, 28375.8, 26326.94, 27467.13, 14879.74, 22467.19, 17689.96, 17207.12, 11113.03, 122.64, 381.55, 868.47, 2010.31]
+NRMSE  :  [4.34, 0.57, 4.53, 7.13, 8.19, 6.98, 8.22, 8.33, 7.44, 7.94, 7.5, 7.7, 11.58, 18.1, 14.45, 17.67, 11.46, 40.88, 34.69, 36.19, 37.23]
+BIAS_TRACK  :  [43.2, -6.4, 34.0, 36.6, -0.6, 42.58, 46.0, 68.0, 67.18, 0.73, 64.2, 2.2, 52.6, -25.6, 100.0, -100.0, -100.0, -23.2, -12.4, 2.4, -0.4]
+BIAS_NFM  :  [4.65, -0.5, 2.98, 5.11, -3.78, 5.47, 5.47, 9.38, 9.46, -3.75, 9.47, -5.65, 11.53, -19.69, 18.91, -34.21, -24.59, -6.6, -24.8, -18.43, -15.37]
+
+FINISH: 3
+
+START: 4
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 1
+
+MAPE            15.75  Mean Absolute Percentage Error
+MASE            12.21  Mean Absolute Scaled Error
+MDAPE            7.71  Median Absolute Percentage Error
+WMAPE            7.74  Weighted Mean Absolute Percentage Error
+SMAPE           15.48  Symmetric Mean Absolute Percentage Error
+ME           -2314.60  Mean Error
+MAE           4151.40  Mean Absolute Error
+MPE             -2.39  Mean Percentage Error
+RMSE          4958.87  Root Mean Squared Error
+NRMSE            4.41  Normalized Root Mean Squared Error
+BIAS_TRACK      31.20  Bias Tracking Signal
+BIAS_NFM         3.26  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             2.80  Mean Absolute Percentage Error
+MASE             1.44  Mean Absolute Scaled Error
+MDAPE            0.94  Median Absolute Percentage Error
+WMAPE            0.92  Weighted Mean Absolute Percentage Error
+SMAPE            2.51  Symmetric Mean Absolute Percentage Error
+ME              46.60  Mean Error
+MAE            240.60  Mean Absolute Error
+MPE              1.23  Mean Percentage Error
+RMSE           285.34  Root Mean Squared Error
+NRMSE            0.57  Normalized Root Mean Squared Error
+BIAS_TRACK      -8.60  Bias Tracking Signal
+BIAS_NFM        -0.43  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 10
+
+MAPE            15.98  Mean Absolute Percentage Error
+MASE            11.72  Mean Absolute Scaled Error
+MDAPE            7.62  Median Absolute Percentage Error
+WMAPE            7.67  Weighted Mean Absolute Percentage Error
+SMAPE           17.34  Symmetric Mean Absolute Percentage Error
+ME           -2245.70  Mean Error
+MAE           4166.90  Mean Absolute Error
+MPE             -1.96  Mean Percentage Error
+RMSE          4972.44  Root Mean Squared Error
+NRMSE            4.43  Normalized Root Mean Squared Error
+BIAS_TRACK      29.60  Bias Tracking Signal
+BIAS_NFM         2.26  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 2
+
+MAPE            21.41  Mean Absolute Percentage Error
+MASE            20.13  Mean Absolute Scaled Error
+MDAPE           11.35  Median Absolute Percentage Error
+WMAPE           11.97  Weighted Mean Absolute Percentage Error
+SMAPE           19.78  Symmetric Mean Absolute Percentage Error
+ME          -15059.80  Mean Error
+MAE          20718.60  Mean Absolute Error
+MPE             -4.42  Mean Percentage Error
+RMSE         25155.99  Root Mean Squared Error
+NRMSE            7.23  Normalized Root Mean Squared Error
+BIAS_TRACK      45.30  Bias Tracking Signal
+BIAS_NFM         5.76  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 32
+
+MAPE            33.73  Mean Absolute Percentage Error
+MASE            22.82  Mean Absolute Scaled Error
+MDAPE           13.98  Median Absolute Percentage Error
+WMAPE           14.53  Weighted Mean Absolute Percentage Error
+SMAPE           28.64  Symmetric Mean Absolute Percentage Error
+ME            -690.00  Mean Error
+MAE          24373.20  Mean Absolute Error
+MPE             16.48  Mean Percentage Error
+RMSE         28271.65  Root Mean Squared Error
+NRMSE            8.08  Normalized Root Mean Squared Error
+BIAS_TRACK       0.30  Bias Tracking Signal
+BIAS_NFM        -4.04  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 48
+
+MAPE            20.94  Mean Absolute Percentage Error
+MASE            20.08  Mean Absolute Scaled Error
+MDAPE           11.35  Median Absolute Percentage Error
+WMAPE           11.77  Weighted Mean Absolute Percentage Error
+SMAPE           19.15  Symmetric Mean Absolute Percentage Error
+ME          -14777.48  Mean Error
+MAE          20619.85  Mean Absolute Error
+MPE             -3.99  Mean Percentage Error
+RMSE         25019.66  Root Mean Squared Error
+NRMSE            6.97  Normalized Root Mean Squared Error
+BIAS_TRACK      42.19  Bias Tracking Signal
+BIAS_NFM         5.34  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            13.52  Mean Absolute Percentage Error
+MASE            20.01  Mean Absolute Scaled Error
+MDAPE           10.18  Median Absolute Percentage Error
+WMAPE           10.80  Weighted Mean Absolute Percentage Error
+SMAPE           15.01  Symmetric Mean Absolute Percentage Error
+ME          -13129.00  Mean Error
+MAE          20029.00  Mean Absolute Error
+MPE             -7.16  Mean Percentage Error
+RMSE         24248.88  Root Mean Squared Error
+NRMSE            7.34  Normalized Root Mean Squared Error
+BIAS_TRACK      36.00  Bias Tracking Signal
+BIAS_NFM         4.59  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            14.23  Mean Absolute Percentage Error
+MASE            19.81  Mean Absolute Scaled Error
+MDAPE           10.37  Median Absolute Percentage Error
+WMAPE           10.47  Weighted Mean Absolute Percentage Error
+SMAPE           15.79  Symmetric Mean Absolute Percentage Error
+ME          -18419.00  Mean Error
+MAE          20477.00  Mean Absolute Error
+MPE            -10.93  Mean Percentage Error
+RMSE         25032.56  Root Mean Squared Error
+NRMSE            7.52  Normalized Root Mean Squared Error
+BIAS_TRACK      64.00  Bias Tracking Signal
+BIAS_NFM         6.64  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 44
+
+MAPE            18.46  Mean Absolute Percentage Error
+MASE            20.68  Mean Absolute Scaled Error
+MDAPE           12.06  Median Absolute Percentage Error
+WMAPE           12.30  Weighted Mean Absolute Percentage Error
+SMAPE           21.92  Symmetric Mean Absolute Percentage Error
+ME          -20041.01  Mean Error
+MAE          21706.48  Mean Absolute Error
+MPE            -13.70  Mean Percentage Error
+RMSE         26505.05  Root Mean Squared Error
+NRMSE            7.38  Normalized Root Mean Squared Error
+BIAS_TRACK      66.51  Bias Tracking Signal
+BIAS_NFM         9.28  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 794
+
+MAPE            45.16  Mean Absolute Percentage Error
+MASE            22.78  Mean Absolute Scaled Error
+MDAPE           14.44  Median Absolute Percentage Error
+WMAPE           15.27  Weighted Mean Absolute Percentage Error
+SMAPE           32.28  Symmetric Mean Absolute Percentage Error
+ME            -945.69  Mean Error
+MAE          24406.27  Mean Absolute Error
+MPE             25.38  Mean Percentage Error
+RMSE         28313.13  Root Mean Squared Error
+NRMSE            7.88  Normalized Root Mean Squared Error
+BIAS_TRACK       1.19  Bias Tracking Signal
+BIAS_NFM        -3.70  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 2
+
+MAPE            18.23  Mean Absolute Percentage Error
+MASE            21.49  Mean Absolute Scaled Error
+MDAPE           12.62  Median Absolute Percentage Error
+WMAPE           12.68  Weighted Mean Absolute Percentage Error
+SMAPE           22.14  Symmetric Mean Absolute Percentage Error
+ME          -20284.00  Mean Error
+MAE          21884.00  Mean Absolute Error
+MPE            -13.89  Mean Percentage Error
+RMSE         26683.85  Root Mean Squared Error
+NRMSE            7.65  Normalized Root Mean Squared Error
+BIAS_TRACK      68.80  Bias Tracking Signal
+BIAS_NFM         9.00  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 12
+
+MAPE            32.16  Mean Absolute Percentage Error
+MASE            23.62  Mean Absolute Scaled Error
+MDAPE           14.43  Median Absolute Percentage Error
+WMAPE           14.71  Weighted Mean Absolute Percentage Error
+SMAPE           29.37  Symmetric Mean Absolute Percentage Error
+ME           -1511.80  Mean Error
+MAE          24109.00  Mean Absolute Error
+MPE             11.53  Mean Percentage Error
+RMSE         27965.22  Root Mean Squared Error
+NRMSE            7.87  Normalized Root Mean Squared Error
+BIAS_TRACK       1.60  Bias Tracking Signal
+BIAS_NFM        -1.61  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 4
+
+MAPE            29.84  Mean Absolute Percentage Error
+MASE            37.44  Mean Absolute Scaled Error
+MDAPE           19.17  Median Absolute Percentage Error
+WMAPE           20.15  Weighted Mean Absolute Percentage Error
+SMAPE           33.54  Symmetric Mean Absolute Percentage Error
+ME           -9534.00  Mean Error
+MAE          12160.00  Mean Absolute Error
+MPE            -11.45  Mean Percentage Error
+RMSE         14951.47  Root Mean Squared Error
+NRMSE           11.64  Normalized Root Mean Squared Error
+BIAS_TRACK      47.60  Bias Tracking Signal
+BIAS_NFM        10.37  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 68
+
+MAPE           209.14  Mean Absolute Percentage Error
+MASE            47.13  Mean Absolute Scaled Error
+MDAPE           25.75  Median Absolute Percentage Error
+WMAPE           37.52  Weighted Mean Absolute Percentage Error
+SMAPE           68.78  Symmetric Mean Absolute Percentage Error
+ME            6170.20  Mean Error
+MAE          18007.40  Mean Absolute Error
+MPE            187.24  Mean Percentage Error
+RMSE         21789.37  Root Mean Squared Error
+NRMSE           17.13  Normalized Root Mean Squared Error
+BIAS_TRACK     -25.20  Bias Tracking Signal
+BIAS_NFM       -19.89  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            29.46  Mean Absolute Percentage Error
+MASE            46.81  Mean Absolute Scaled Error
+MDAPE           24.05  Median Absolute Percentage Error
+WMAPE           23.71  Weighted Mean Absolute Percentage Error
+SMAPE           39.35  Symmetric Mean Absolute Percentage Error
+ME          -15398.20  Mean Error
+MAE          15398.20  Mean Absolute Error
+MPE            -29.46  Mean Percentage Error
+RMSE         17458.93  Root Mean Squared Error
+NRMSE           14.32  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        19.68  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 65
+
+MAPE            98.34  Mean Absolute Percentage Error
+MASE            46.16  Mean Absolute Scaled Error
+MDAPE           29.47  Median Absolute Percentage Error
+WMAPE           34.51  Weighted Mean Absolute Percentage Error
+SMAPE           61.43  Symmetric Mean Absolute Percentage Error
+ME           14532.20  Mean Error
+MAE          14532.20  Mean Absolute Error
+MPE             98.34  Mean Percentage Error
+RMSE         16800.78  Root Mean Squared Error
+NRMSE           17.69  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -30.71  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 54
+
+MAPE            79.56  Mean Absolute Percentage Error
+MASE            30.58  Mean Absolute Scaled Error
+MDAPE           20.54  Median Absolute Percentage Error
+WMAPE           23.00  Weighted Mean Absolute Percentage Error
+SMAPE           51.35  Symmetric Mean Absolute Percentage Error
+ME            9843.80  Mean Error
+MAE           9843.80  Mean Absolute Error
+MPE             79.56  Mean Percentage Error
+RMSE         11255.86  Root Mean Squared Error
+NRMSE           11.99  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -25.67  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            28.70  Mean Absolute Percentage Error
+MASE            80.02  Mean Absolute Scaled Error
+MDAPE           25.00  Median Absolute Percentage Error
+WMAPE           23.53  Weighted Mean Absolute Percentage Error
+SMAPE           23.76  Symmetric Mean Absolute Percentage Error
+ME              56.40  Mean Error
+MAE            104.40  Mean Absolute Error
+MPE             20.70  Mean Percentage Error
+RMSE           126.33  Root Mean Squared Error
+NRMSE           42.11  Normalized Root Mean Squared Error
+BIAS_TRACK     -28.80  Bias Tracking Signal
+BIAS_NFM        -7.52  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 118
+
+MAPE            55.00  Mean Absolute Percentage Error
+MASE            74.85  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           45.41  Weighted Mean Absolute Percentage Error
+SMAPE           86.12  Symmetric Mean Absolute Percentage Error
+ME              38.40  Mean Error
+MAE            327.60  Mean Absolute Error
+MPE             23.33  Mean Percentage Error
+RMSE           375.82  Root Mean Squared Error
+NRMSE           34.17  Normalized Root Mean Squared Error
+BIAS_TRACK     -10.20  Bias Tracking Signal
+BIAS_NFM       -22.74  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 196
+
+MAPE            46.25  Mean Absolute Percentage Error
+MASE            76.33  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           66.86  Weighted Mean Absolute Percentage Error
+SMAPE          129.30  Symmetric Mean Absolute Percentage Error
+ME            -249.60  Mean Error
+MAE            697.20  Mean Absolute Error
+MPE            -10.42  Mean Percentage Error
+RMSE           853.16  Root Mean Squared Error
+NRMSE           35.55  Normalized Root Mean Squared Error
+BIAS_TRACK      -3.60  Bias Tracking Signal
+BIAS_NFM       -21.86  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 230
+
+MAPE            45.15  Mean Absolute Percentage Error
+MASE            84.67  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           83.69  Weighted Mean Absolute Percentage Error
+SMAPE          158.99  Symmetric Mean Absolute Percentage Error
+ME           -1020.40  Mean Error
+MAE           1502.40  Mean Absolute Error
+MPE            -30.02  Mean Percentage Error
+RMSE          2086.10  Root Mean Squared Error
+NRMSE           38.63  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.60  Bias Tracking Signal
+BIAS_NFM       -15.74  Bias Normalized Forecast Metric
+
+MAPE  :  [15.75, 2.8, 15.98, 21.41, 33.73, 20.94, 13.52, 14.23, 18.46, 45.16, 18.23, 32.16, 29.84, 209.14, 29.46, 98.34, 79.56, 28.7, 55.0, 46.25, 45.15]
+MASE  :  [12.21, 1.44, 11.72, 20.13, 22.82, 20.08, 20.01, 19.81, 20.68, 22.78, 21.49, 23.62, 37.44, 47.13, 46.81, 46.16, 30.58, 80.02, 74.85, 76.33, 84.67]
+MDAPE  :  [7.71, 0.94, 7.62, 11.35, 13.98, 11.35, 10.18, 10.37, 12.06, 14.44, 12.62, 14.43, 19.17, 25.75, 24.05, 29.47, 20.54, 25.0, 28.57, 28.57, 28.57]
+WMAPE  :  [7.74, 0.92, 7.67, 11.97, 14.53, 11.77, 10.8, 10.47, 12.3, 15.27, 12.68, 14.71, 20.15, 37.52, 23.71, 34.51, 23.0, 23.53, 45.41, 66.86, 83.69]
+SMAPE  :  [15.48, 2.51, 17.34, 19.78, 28.64, 19.15, 15.01, 15.79, 21.92, 32.28, 22.14, 29.37, 33.54, 68.78, 39.35, 61.43, 51.35, 23.76, 86.12, 129.3, 158.99]
+ME  :  [-2314.6, 46.6, -2245.7, -15059.8, -690.0, -14777.48, -13129.0, -18419.0, -20041.01, -945.69, -20284.0, -1511.8, -9534.0, 6170.2, -15398.2, 14532.2, 9843.8, 56.4, 38.4, -249.6, -1020.4]
+MAE  :  [4151.4, 240.6, 4166.9, 20718.6, 24373.2, 20619.85, 20029.0, 20477.0, 21706.48, 24406.27, 21884.0, 24109.0, 12160.0, 18007.4, 15398.2, 14532.2, 9843.8, 104.4, 327.6, 697.2, 1502.4]
+MPE  :  [-2.39, 1.23, -1.96, -4.42, 16.48, -3.99, -7.16, -10.93, -13.7, 25.38, -13.89, 11.53, -11.45, 187.24, -29.46, 98.34, 79.56, 20.7, 23.33, -10.42, -30.02]
+RMSE  :  [4958.87, 285.34, 4972.44, 25155.99, 28271.65, 25019.66, 24248.88, 25032.56, 26505.05, 28313.13, 26683.85, 27965.22, 14951.47, 21789.37, 17458.93, 16800.78, 11255.86, 126.33, 375.82, 853.16, 2086.1]
+NRMSE  :  [4.41, 0.57, 4.43, 7.23, 8.08, 6.97, 7.34, 7.52, 7.38, 7.88, 7.65, 7.87, 11.64, 17.13, 14.32, 17.69, 11.99, 42.11, 34.17, 35.55, 38.63]
+BIAS_TRACK  :  [31.2, -8.6, 29.6, 45.3, 0.3, 42.18, 36.0, 64.0, 66.51, 1.19, 68.8, 1.6, 47.6, -25.2, 100.0, -100.0, -100.0, -28.8, -10.2, -3.6, -1.6]
+BIAS_NFM  :  [3.26, -0.43, 2.26, 5.76, -4.04, 5.34, 4.59, 6.64, 9.28, -3.7, 9.0, -1.61, 10.37, -19.89, 19.68, -30.71, -25.67, -7.52, -22.74, -21.86, -15.74]
+
+FINISH: 4
+
+START: 5
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 4
+
+MAPE            16.37  Mean Absolute Percentage Error
+MASE            11.74  Mean Absolute Scaled Error
+MDAPE            7.27  Median Absolute Percentage Error
+WMAPE            7.65  Weighted Mean Absolute Percentage Error
+SMAPE           15.47  Symmetric Mean Absolute Percentage Error
+ME           -2396.80  Mean Error
+MAE           4208.00  Mean Absolute Error
+MPE             -0.48  Mean Percentage Error
+RMSE          4981.64  Root Mean Squared Error
+NRMSE            4.42  Normalized Root Mean Squared Error
+BIAS_TRACK      30.00  Bias Tracking Signal
+BIAS_NFM         2.20  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             3.51  Mean Absolute Percentage Error
+MASE             1.48  Mean Absolute Scaled Error
+MDAPE            1.07  Median Absolute Percentage Error
+WMAPE            1.02  Weighted Mean Absolute Percentage Error
+SMAPE            2.61  Symmetric Mean Absolute Percentage Error
+ME              41.00  Mean Error
+MAE            249.80  Mean Absolute Error
+MPE              1.73  Mean Percentage Error
+RMSE           290.76  Root Mean Squared Error
+NRMSE            0.58  Normalized Root Mean Squared Error
+BIAS_TRACK      -8.20  Bias Tracking Signal
+BIAS_NFM        -0.38  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 5
+
+MAPE            21.90  Mean Absolute Percentage Error
+MASE            12.35  Mean Absolute Scaled Error
+MDAPE            7.30  Median Absolute Percentage Error
+WMAPE            7.30  Weighted Mean Absolute Percentage Error
+SMAPE           14.56  Symmetric Mean Absolute Percentage Error
+ME           -2174.30  Mean Error
+MAE           4168.10  Mean Absolute Error
+MPE              5.83  Mean Percentage Error
+RMSE          4982.01  Root Mean Squared Error
+NRMSE            4.37  Normalized Root Mean Squared Error
+BIAS_TRACK      28.40  Bias Tracking Signal
+BIAS_NFM         2.30  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 5
+
+MAPE            16.96  Mean Absolute Percentage Error
+MASE            19.08  Mean Absolute Scaled Error
+MDAPE           11.02  Median Absolute Percentage Error
+WMAPE           11.43  Weighted Mean Absolute Percentage Error
+SMAPE           18.16  Symmetric Mean Absolute Percentage Error
+ME          -15391.70  Mean Error
+MAE          20748.30  Mean Absolute Error
+MPE             -6.76  Mean Percentage Error
+RMSE         25268.48  Root Mean Squared Error
+NRMSE            7.06  Normalized Root Mean Squared Error
+BIAS_TRACK      47.20  Bias Tracking Signal
+BIAS_NFM         4.89  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 23
+
+MAPE            55.50  Mean Absolute Percentage Error
+MASE            22.92  Mean Absolute Scaled Error
+MDAPE           14.87  Median Absolute Percentage Error
+WMAPE           15.22  Weighted Mean Absolute Percentage Error
+SMAPE           27.64  Symmetric Mean Absolute Percentage Error
+ME             263.90  Mean Error
+MAE          24555.10  Mean Absolute Error
+MPE             38.69  Mean Percentage Error
+RMSE         28576.12  Root Mean Squared Error
+NRMSE            8.18  Normalized Root Mean Squared Error
+BIAS_TRACK       0.80  Bias Tracking Signal
+BIAS_NFM        -3.90  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 48
+
+MAPE            19.41  Mean Absolute Percentage Error
+MASE            20.15  Mean Absolute Scaled Error
+MDAPE           11.50  Median Absolute Percentage Error
+WMAPE           11.79  Weighted Mean Absolute Percentage Error
+SMAPE           19.18  Symmetric Mean Absolute Percentage Error
+ME          -14892.28  Mean Error
+MAE          20620.26  Mean Absolute Error
+MPE             -5.83  Mean Percentage Error
+RMSE         25105.91  Root Mean Squared Error
+NRMSE            6.99  Normalized Root Mean Squared Error
+BIAS_TRACK      42.35  Bias Tracking Signal
+BIAS_NFM         5.55  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            15.99  Mean Absolute Percentage Error
+MASE            22.84  Mean Absolute Scaled Error
+MDAPE           11.88  Median Absolute Percentage Error
+WMAPE           12.62  Weighted Mean Absolute Percentage Error
+SMAPE           18.37  Symmetric Mean Absolute Percentage Error
+ME          -16990.00  Mean Error
+MAE          21760.00  Mean Absolute Error
+MPE            -11.12  Mean Percentage Error
+RMSE         26402.75  Root Mean Squared Error
+NRMSE            8.21  Normalized Root Mean Squared Error
+BIAS_TRACK      46.00  Bias Tracking Signal
+BIAS_NFM         6.98  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.44  Mean Absolute Percentage Error
+MASE            18.45  Mean Absolute Scaled Error
+MDAPE           11.19  Median Absolute Percentage Error
+WMAPE           11.56  Weighted Mean Absolute Percentage Error
+SMAPE           21.12  Symmetric Mean Absolute Percentage Error
+ME          -20530.00  Mean Error
+MAE          21254.00  Mean Absolute Error
+MPE            -14.95  Mean Percentage Error
+RMSE         26104.08  Root Mean Squared Error
+NRMSE            7.94  Normalized Root Mean Squared Error
+BIAS_TRACK      76.00  Bias Tracking Signal
+BIAS_NFM         9.88  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 51
+
+MAPE            18.24  Mean Absolute Percentage Error
+MASE            20.60  Mean Absolute Scaled Error
+MDAPE           11.95  Median Absolute Percentage Error
+WMAPE           12.30  Weighted Mean Absolute Percentage Error
+SMAPE           22.02  Symmetric Mean Absolute Percentage Error
+ME          -19820.19  Mean Error
+MAE          21567.87  Mean Absolute Error
+MPE            -13.78  Mean Percentage Error
+RMSE         26343.08  Root Mean Squared Error
+NRMSE            7.34  Normalized Root Mean Squared Error
+BIAS_TRACK      65.58  Bias Tracking Signal
+BIAS_NFM         9.16  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 779
+
+MAPE            42.91  Mean Absolute Percentage Error
+MASE            22.73  Mean Absolute Scaled Error
+MDAPE           14.61  Median Absolute Percentage Error
+WMAPE           15.24  Weighted Mean Absolute Percentage Error
+SMAPE           32.21  Symmetric Mean Absolute Percentage Error
+ME            -588.40  Mean Error
+MAE          24458.64  Mean Absolute Error
+MPE             23.43  Mean Percentage Error
+RMSE         28409.57  Root Mean Squared Error
+NRMSE            7.92  Normalized Root Mean Squared Error
+BIAS_TRACK       0.84  Bias Tracking Signal
+BIAS_NFM        -3.79  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 3
+
+MAPE            22.19  Mean Absolute Percentage Error
+MASE            21.14  Mean Absolute Scaled Error
+MDAPE           12.20  Median Absolute Percentage Error
+WMAPE           12.61  Weighted Mean Absolute Percentage Error
+SMAPE           23.10  Symmetric Mean Absolute Percentage Error
+ME          -20002.20  Mean Error
+MAE          21842.60  Mean Absolute Error
+MPE            -10.21  Mean Percentage Error
+RMSE         26916.28  Root Mean Squared Error
+NRMSE            7.56  Normalized Root Mean Squared Error
+BIAS_TRACK      65.80  Bias Tracking Signal
+BIAS_NFM         8.98  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 20
+
+MAPE            33.30  Mean Absolute Percentage Error
+MASE            22.18  Mean Absolute Scaled Error
+MDAPE           14.57  Median Absolute Percentage Error
+WMAPE           15.03  Weighted Mean Absolute Percentage Error
+SMAPE           32.57  Symmetric Mean Absolute Percentage Error
+ME           -2190.80  Mean Error
+MAE          24510.80  Mean Absolute Error
+MPE             12.90  Mean Percentage Error
+RMSE         28491.09  Root Mean Squared Error
+NRMSE            8.21  Normalized Root Mean Squared Error
+BIAS_TRACK       6.00  Bias Tracking Signal
+BIAS_NFM        -3.40  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 2
+
+MAPE            26.79  Mean Absolute Percentage Error
+MASE            35.10  Mean Absolute Scaled Error
+MDAPE           19.48  Median Absolute Percentage Error
+WMAPE           20.83  Weighted Mean Absolute Percentage Error
+SMAPE           33.80  Symmetric Mean Absolute Percentage Error
+ME           -9654.40  Mean Error
+MAE          12100.00  Mean Absolute Error
+MPE            -16.34  Mean Percentage Error
+RMSE         14869.56  Root Mean Squared Error
+NRMSE           11.68  Normalized Root Mean Squared Error
+BIAS_TRACK      49.20  Bias Tracking Signal
+BIAS_NFM        12.09  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 91
+
+MAPE            80.88  Mean Absolute Percentage Error
+MASE            51.19  Mean Absolute Scaled Error
+MDAPE           26.15  Median Absolute Percentage Error
+WMAPE           38.81  Weighted Mean Absolute Percentage Error
+SMAPE           77.11  Symmetric Mean Absolute Percentage Error
+ME            7686.80  Mean Error
+MAE          18653.60  Mean Absolute Error
+MPE             58.10  Mean Percentage Error
+RMSE         22458.56  Root Mean Squared Error
+NRMSE           18.27  Normalized Root Mean Squared Error
+BIAS_TRACK     -25.00  Bias Tracking Signal
+BIAS_NFM       -23.12  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            30.10  Mean Absolute Percentage Error
+MASE            44.37  Mean Absolute Scaled Error
+MDAPE           24.48  Median Absolute Percentage Error
+WMAPE           24.43  Weighted Mean Absolute Percentage Error
+SMAPE           40.15  Symmetric Mean Absolute Percentage Error
+ME          -15568.60  Mean Error
+MAE          15568.60  Mean Absolute Error
+MPE            -30.10  Mean Percentage Error
+RMSE         17711.23  Root Mean Squared Error
+NRMSE           14.45  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        20.08  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 80
+
+MAPE           101.30  Mean Absolute Percentage Error
+MASE            43.95  Mean Absolute Scaled Error
+MDAPE           27.05  Median Absolute Percentage Error
+WMAPE           33.27  Weighted Mean Absolute Percentage Error
+SMAPE           65.16  Symmetric Mean Absolute Percentage Error
+ME           13533.20  Mean Error
+MAE          13533.20  Mean Absolute Error
+MPE            101.30  Mean Percentage Error
+RMSE         15829.72  Root Mean Squared Error
+NRMSE           16.73  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -32.58  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 52
+
+MAPE            94.73  Mean Absolute Percentage Error
+MASE            31.85  Mean Absolute Scaled Error
+MDAPE           20.92  Median Absolute Percentage Error
+WMAPE           22.10  Weighted Mean Absolute Percentage Error
+SMAPE           47.84  Symmetric Mean Absolute Percentage Error
+ME           10210.60  Mean Error
+MAE          10210.60  Mean Absolute Error
+MPE             94.73  Mean Percentage Error
+RMSE         11621.21  Root Mean Squared Error
+NRMSE           12.03  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -23.92  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            27.53  Mean Absolute Percentage Error
+MASE            82.54  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           22.44  Weighted Mean Absolute Percentage Error
+SMAPE           22.93  Symmetric Mean Absolute Percentage Error
+ME              48.20  Mean Error
+MAE            101.40  Mean Absolute Error
+MPE             18.67  Mean Percentage Error
+RMSE           124.18  Root Mean Squared Error
+NRMSE           41.39  Normalized Root Mean Squared Error
+BIAS_TRACK     -21.80  Bias Tracking Signal
+BIAS_NFM        -6.63  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 104
+
+MAPE            59.54  Mean Absolute Percentage Error
+MASE            78.88  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           46.49  Weighted Mean Absolute Percentage Error
+SMAPE           83.00  Symmetric Mean Absolute Percentage Error
+ME              24.60  Mean Error
+MAE            325.00  Mean Absolute Error
+MPE             26.70  Mean Percentage Error
+RMSE           372.59  Root Mean Squared Error
+NRMSE           33.87  Normalized Root Mean Squared Error
+BIAS_TRACK      -8.20  Bias Tracking Signal
+BIAS_NFM       -20.42  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 199
+
+MAPE            41.84  Mean Absolute Percentage Error
+MASE            78.57  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           64.37  Weighted Mean Absolute Percentage Error
+SMAPE          127.42  Symmetric Mean Absolute Percentage Error
+ME            -215.60  Mean Error
+MAE            659.60  Mean Absolute Error
+MPE            -13.57  Mean Percentage Error
+RMSE           804.24  Root Mean Squared Error
+NRMSE           33.51  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.20  Bias Tracking Signal
+BIAS_NFM       -22.53  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 223
+
+MAPE            45.95  Mean Absolute Percentage Error
+MASE            78.44  Mean Absolute Scaled Error
+MDAPE           44.44  Median Absolute Percentage Error
+WMAPE           83.46  Weighted Mean Absolute Percentage Error
+SMAPE          158.07  Symmetric Mean Absolute Percentage Error
+ME           -1046.80  Mean Error
+MAE           1514.00  Mean Absolute Error
+MPE            -31.78  Mean Percentage Error
+RMSE          2084.49  Root Mean Squared Error
+NRMSE           38.60  Normalized Root Mean Squared Error
+BIAS_TRACK       2.20  Bias Tracking Signal
+BIAS_NFM       -13.29  Bias Normalized Forecast Metric
+
+MAPE  :  [16.37, 3.51, 21.9, 16.96, 55.5, 19.41, 15.99, 16.44, 18.24, 42.91, 22.19, 33.3, 26.79, 80.88, 30.1, 101.3, 94.73, 27.53, 59.54, 41.84, 45.95]
+MASE  :  [11.74, 1.48, 12.35, 19.08, 22.92, 20.15, 22.84, 18.45, 20.6, 22.73, 21.14, 22.18, 35.1, 51.19, 44.37, 43.95, 31.85, 82.54, 78.88, 78.57, 78.44]
+MDAPE  :  [7.27, 1.07, 7.3, 11.02, 14.87, 11.5, 11.88, 11.19, 11.95, 14.61, 12.2, 14.57, 19.48, 26.15, 24.48, 27.05, 20.92, 16.67, 28.57, 28.57, 44.44]
+WMAPE  :  [7.65, 1.02, 7.3, 11.43, 15.22, 11.79, 12.62, 11.56, 12.3, 15.24, 12.61, 15.03, 20.83, 38.81, 24.43, 33.27, 22.1, 22.44, 46.49, 64.37, 83.46]
+SMAPE  :  [15.47, 2.61, 14.56, 18.16, 27.64, 19.18, 18.37, 21.12, 22.02, 32.21, 23.1, 32.57, 33.8, 77.11, 40.15, 65.16, 47.84, 22.93, 83.0, 127.42, 158.07]
+ME  :  [-2396.8, 41.0, -2174.3, -15391.7, 263.9, -14892.28, -16990.0, -20530.0, -19820.2, -588.4, -20002.2, -2190.8, -9654.4, 7686.8, -15568.6, 13533.2, 10210.6, 48.2, 24.6, -215.6, -1046.8]
+MAE  :  [4208.0, 249.8, 4168.1, 20748.3, 24555.1, 20620.26, 21760.0, 21254.0, 21567.86, 24458.64, 21842.6, 24510.8, 12100.0, 18653.6, 15568.6, 13533.2, 10210.6, 101.4, 325.0, 659.6, 1514.0]
+MPE  :  [-0.48, 1.73, 5.83, -6.76, 38.69, -5.83, -11.12, -14.95, -13.78, 23.43, -10.21, 12.9, -16.34, 58.1, -30.1, 101.3, 94.73, 18.67, 26.7, -13.57, -31.78]
+RMSE  :  [4981.64, 290.76, 4982.01, 25268.48, 28576.12, 25105.91, 26402.75, 26104.08, 26343.08, 28409.57, 26916.28, 28491.09, 14869.56, 22458.56, 17711.23, 15829.72, 11621.21, 124.18, 372.59, 804.24, 2084.49]
+NRMSE  :  [4.42, 0.58, 4.37, 7.06, 8.18, 6.99, 8.21, 7.94, 7.34, 7.92, 7.56, 8.21, 11.68, 18.27, 14.45, 16.73, 12.03, 41.39, 33.87, 33.51, 38.6]
+BIAS_TRACK  :  [30.0, -8.2, 28.4, 47.2, 0.8, 42.36, 46.0, 76.0, 65.58, 0.84, 65.8, 6.0, 49.2, -25.0, 100.0, -100.0, -100.0, -21.8, -8.2, -1.2, 2.2]
+BIAS_NFM  :  [2.2, -0.38, 2.3, 4.89, -3.9, 5.55, 6.98, 9.88, 9.16, -3.79, 8.98, -3.4, 12.09, -23.12, 20.08, -32.58, -23.92, -6.63, -20.42, -22.53, -13.29]
+
+FINISH: 5
+
+START: 6
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 0
+
+MAPE            15.11  Mean Absolute Percentage Error
+MASE            12.23  Mean Absolute Scaled Error
+MDAPE            7.33  Median Absolute Percentage Error
+WMAPE            7.93  Weighted Mean Absolute Percentage Error
+SMAPE           15.05  Symmetric Mean Absolute Percentage Error
+ME           -2665.80  Mean Error
+MAE           4378.60  Mean Absolute Error
+MPE             -4.21  Mean Percentage Error
+RMSE          5178.78  Root Mean Squared Error
+NRMSE            4.61  Normalized Root Mean Squared Error
+BIAS_TRACK      34.20  Bias Tracking Signal
+BIAS_NFM         4.15  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             2.73  Mean Absolute Percentage Error
+MASE             1.56  Mean Absolute Scaled Error
+MDAPE            0.99  Median Absolute Percentage Error
+WMAPE            0.99  Weighted Mean Absolute Percentage Error
+SMAPE            2.40  Symmetric Mean Absolute Percentage Error
+ME              53.00  Mean Error
+MAE            250.60  Mean Absolute Error
+MPE              1.09  Mean Percentage Error
+RMSE           293.63  Root Mean Squared Error
+NRMSE            0.58  Normalized Root Mean Squared Error
+BIAS_TRACK      -9.00  Bias Tracking Signal
+BIAS_NFM        -0.34  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 4
+
+MAPE            15.44  Mean Absolute Percentage Error
+MASE            12.15  Mean Absolute Scaled Error
+MDAPE            7.80  Median Absolute Percentage Error
+WMAPE            7.56  Weighted Mean Absolute Percentage Error
+SMAPE           15.07  Symmetric Mean Absolute Percentage Error
+ME           -2221.00  Mean Error
+MAE           4201.60  Mean Absolute Error
+MPE             -1.34  Mean Percentage Error
+RMSE          5030.77  Root Mean Squared Error
+NRMSE            4.41  Normalized Root Mean Squared Error
+BIAS_TRACK      28.10  Bias Tracking Signal
+BIAS_NFM         2.70  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 2
+
+MAPE            20.22  Mean Absolute Percentage Error
+MASE            19.51  Mean Absolute Scaled Error
+MDAPE           10.84  Median Absolute Percentage Error
+WMAPE           11.56  Weighted Mean Absolute Percentage Error
+SMAPE           18.90  Symmetric Mean Absolute Percentage Error
+ME          -14800.40  Mean Error
+MAE          20752.80  Mean Absolute Error
+MPE             -4.56  Mean Percentage Error
+RMSE         25025.45  Root Mean Squared Error
+NRMSE            6.99  Normalized Root Mean Squared Error
+BIAS_TRACK      41.20  Bias Tracking Signal
+BIAS_NFM         5.43  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 25
+
+MAPE            53.98  Mean Absolute Percentage Error
+MASE            24.16  Mean Absolute Scaled Error
+MDAPE           14.58  Median Absolute Percentage Error
+WMAPE           15.07  Weighted Mean Absolute Percentage Error
+SMAPE           27.50  Symmetric Mean Absolute Percentage Error
+ME             -80.20  Mean Error
+MAE          24339.60  Mean Absolute Error
+MPE             36.61  Mean Percentage Error
+RMSE         28205.31  Root Mean Squared Error
+NRMSE            8.12  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.90  Bias Tracking Signal
+BIAS_NFM        -3.31  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 63
+
+MAPE            20.54  Mean Absolute Percentage Error
+MASE            20.07  Mean Absolute Scaled Error
+MDAPE           11.60  Median Absolute Percentage Error
+WMAPE           11.84  Weighted Mean Absolute Percentage Error
+SMAPE           19.30  Symmetric Mean Absolute Percentage Error
+ME          -14924.32  Mean Error
+MAE          20716.04  Mean Absolute Error
+MPE             -4.62  Mean Percentage Error
+RMSE         25173.30  Root Mean Squared Error
+NRMSE            7.02  Normalized Root Mean Squared Error
+BIAS_TRACK      42.44  Bias Tracking Signal
+BIAS_NFM         5.41  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.15  Mean Absolute Percentage Error
+MASE            23.10  Mean Absolute Scaled Error
+MDAPE           11.83  Median Absolute Percentage Error
+WMAPE           12.18  Weighted Mean Absolute Percentage Error
+SMAPE           18.21  Symmetric Mean Absolute Percentage Error
+ME          -14110.00  Mean Error
+MAE          20860.00  Mean Absolute Error
+MPE             -9.81  Mean Percentage Error
+RMSE         24858.82  Root Mean Squared Error
+NRMSE            7.77  Normalized Root Mean Squared Error
+BIAS_TRACK      40.00  Bias Tracking Signal
+BIAS_NFM         6.26  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            15.24  Mean Absolute Percentage Error
+MASE            23.19  Mean Absolute Scaled Error
+MDAPE           12.14  Median Absolute Percentage Error
+WMAPE           11.96  Weighted Mean Absolute Percentage Error
+SMAPE           17.80  Symmetric Mean Absolute Percentage Error
+ME          -21079.00  Mean Error
+MAE          22471.00  Mean Absolute Error
+MPE            -13.62  Mean Percentage Error
+RMSE         26895.57  Root Mean Squared Error
+NRMSE            7.94  Normalized Root Mean Squared Error
+BIAS_TRACK      72.00  Bias Tracking Signal
+BIAS_NFM         8.14  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 50
+
+MAPE            18.32  Mean Absolute Percentage Error
+MASE            20.85  Mean Absolute Scaled Error
+MDAPE           12.17  Median Absolute Percentage Error
+WMAPE           12.43  Weighted Mean Absolute Percentage Error
+SMAPE           22.18  Symmetric Mean Absolute Percentage Error
+ME          -20130.69  Mean Error
+MAE          21746.79  Mean Absolute Error
+MPE            -14.28  Mean Percentage Error
+RMSE         26518.44  Root Mean Squared Error
+NRMSE            7.38  Normalized Root Mean Squared Error
+BIAS_TRACK      67.42  Bias Tracking Signal
+BIAS_NFM         9.40  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 840
+
+MAPE            41.75  Mean Absolute Percentage Error
+MASE            22.53  Mean Absolute Scaled Error
+MDAPE           14.41  Median Absolute Percentage Error
+WMAPE           15.10  Weighted Mean Absolute Percentage Error
+SMAPE           32.40  Symmetric Mean Absolute Percentage Error
+ME            -740.07  Mean Error
+MAE          24215.47  Mean Absolute Error
+MPE             22.31  Mean Percentage Error
+RMSE         28161.23  Root Mean Squared Error
+NRMSE            7.88  Normalized Root Mean Squared Error
+BIAS_TRACK       0.74  Bias Tracking Signal
+BIAS_NFM        -4.00  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 0
+
+MAPE            19.03  Mean Absolute Percentage Error
+MASE            20.55  Mean Absolute Scaled Error
+MDAPE           12.56  Median Absolute Percentage Error
+WMAPE           12.42  Weighted Mean Absolute Percentage Error
+SMAPE           23.11  Symmetric Mean Absolute Percentage Error
+ME          -21234.00  Mean Error
+MAE          22784.40  Mean Absolute Error
+MPE            -15.67  Mean Percentage Error
+RMSE         27533.84  Root Mean Squared Error
+NRMSE            7.85  Normalized Root Mean Squared Error
+BIAS_TRACK      69.20  Bias Tracking Signal
+BIAS_NFM        10.54  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 26
+
+MAPE            31.06  Mean Absolute Percentage Error
+MASE            22.93  Mean Absolute Scaled Error
+MDAPE           14.40  Median Absolute Percentage Error
+WMAPE           15.43  Weighted Mean Absolute Percentage Error
+SMAPE           35.40  Symmetric Mean Absolute Percentage Error
+ME            1398.60  Mean Error
+MAE          24214.60  Mean Absolute Error
+MPE             10.76  Mean Percentage Error
+RMSE         28057.52  Root Mean Squared Error
+NRMSE            8.08  Normalized Root Mean Squared Error
+BIAS_TRACK      -7.80  Bias Tracking Signal
+BIAS_NFM        -4.42  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 5
+
+MAPE            30.69  Mean Absolute Percentage Error
+MASE            31.13  Mean Absolute Scaled Error
+MDAPE           18.89  Median Absolute Percentage Error
+WMAPE           19.89  Weighted Mean Absolute Percentage Error
+SMAPE           32.14  Symmetric Mean Absolute Percentage Error
+ME           -8917.40  Mean Error
+MAE          11636.20  Mean Absolute Error
+MPE             -7.25  Mean Percentage Error
+RMSE         14484.84  Root Mean Squared Error
+NRMSE           11.32  Normalized Root Mean Squared Error
+BIAS_TRACK      44.60  Bias Tracking Signal
+BIAS_NFM         8.25  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 85
+
+MAPE           106.67  Mean Absolute Percentage Error
+MASE            52.71  Mean Absolute Scaled Error
+MDAPE           25.77  Median Absolute Percentage Error
+WMAPE           41.26  Weighted Mean Absolute Percentage Error
+SMAPE           75.30  Symmetric Mean Absolute Percentage Error
+ME            9660.00  Mean Error
+MAE          19220.40  Mean Absolute Error
+MPE             88.70  Mean Percentage Error
+RMSE         23336.99  Root Mean Squared Error
+NRMSE           18.22  Normalized Root Mean Squared Error
+BIAS_TRACK     -33.60  Bias Tracking Signal
+BIAS_NFM       -26.02  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.30  Mean Absolute Percentage Error
+MASE            42.31  Mean Absolute Scaled Error
+MDAPE           23.45  Median Absolute Percentage Error
+WMAPE           23.35  Weighted Mean Absolute Percentage Error
+SMAPE           36.67  Symmetric Mean Absolute Percentage Error
+ME          -14972.60  Mean Error
+MAE          14972.60  Mean Absolute Error
+MPE            -28.30  Mean Percentage Error
+RMSE         17105.06  Root Mean Squared Error
+NRMSE           13.92  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.34  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 75
+
+MAPE           111.92  Mean Absolute Percentage Error
+MASE            43.58  Mean Absolute Scaled Error
+MDAPE           28.54  Median Absolute Percentage Error
+WMAPE           34.86  Weighted Mean Absolute Percentage Error
+SMAPE           66.01  Symmetric Mean Absolute Percentage Error
+ME           14159.20  Mean Error
+MAE          14159.20  Mean Absolute Error
+MPE            111.92  Mean Percentage Error
+RMSE         16496.72  Root Mean Squared Error
+NRMSE           17.44  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -33.01  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 43
+
+MAPE            77.00  Mean Absolute Percentage Error
+MASE            30.69  Mean Absolute Scaled Error
+MDAPE           20.87  Median Absolute Percentage Error
+WMAPE           23.34  Weighted Mean Absolute Percentage Error
+SMAPE           47.47  Symmetric Mean Absolute Percentage Error
+ME            9998.20  Mean Error
+MAE           9998.20  Mean Absolute Error
+MPE             77.00  Mean Percentage Error
+RMSE         11453.08  Root Mean Squared Error
+NRMSE           11.84  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -23.74  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            28.20  Mean Absolute Percentage Error
+MASE            83.76  Mean Absolute Scaled Error
+MDAPE           25.00  Median Absolute Percentage Error
+WMAPE           23.28  Weighted Mean Absolute Percentage Error
+SMAPE           23.46  Symmetric Mean Absolute Percentage Error
+ME              55.80  Mean Error
+MAE            103.40  Mean Absolute Error
+MPE             20.27  Mean Percentage Error
+RMSE           124.66  Root Mean Squared Error
+NRMSE           41.55  Normalized Root Mean Squared Error
+BIAS_TRACK     -29.80  Bias Tracking Signal
+BIAS_NFM        -7.40  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 112
+
+MAPE            53.97  Mean Absolute Percentage Error
+MASE            78.16  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           44.73  Weighted Mean Absolute Percentage Error
+SMAPE           84.28  Symmetric Mean Absolute Percentage Error
+ME              15.80  Mean Error
+MAE            328.60  Mean Absolute Error
+MPE             19.13  Mean Percentage Error
+RMSE           374.30  Root Mean Squared Error
+NRMSE           34.03  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.40  Bias Tracking Signal
+BIAS_NFM       -19.94  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 223
+
+MAPE            47.71  Mean Absolute Percentage Error
+MASE            76.36  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           68.11  Weighted Mean Absolute Percentage Error
+SMAPE          138.18  Symmetric Mean Absolute Percentage Error
+ME            -193.00  Mean Error
+MAE            695.00  Mean Absolute Error
+MPE             -6.07  Mean Percentage Error
+RMSE           835.40  Root Mean Squared Error
+NRMSE           34.81  Normalized Root Mean Squared Error
+BIAS_TRACK     -10.20  Bias Tracking Signal
+BIAS_NFM       -28.61  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 227
+
+MAPE            42.72  Mean Absolute Percentage Error
+MASE            78.07  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           82.63  Weighted Mean Absolute Percentage Error
+SMAPE          156.19  Symmetric Mean Absolute Percentage Error
+ME            -979.40  Mean Error
+MAE           1449.40  Mean Absolute Error
+MPE            -32.39  Mean Percentage Error
+RMSE          2035.94  Root Mean Squared Error
+NRMSE           37.70  Normalized Root Mean Squared Error
+BIAS_TRACK       1.80  Bias Tracking Signal
+BIAS_NFM       -15.04  Bias Normalized Forecast Metric
+
+MAPE  :  [15.11, 2.73, 15.44, 20.22, 53.98, 20.54, 16.15, 15.24, 18.32, 41.75, 19.03, 31.06, 30.69, 106.67, 28.3, 111.92, 77.0, 28.2, 53.97, 47.71, 42.72]
+MASE  :  [12.23, 1.56, 12.15, 19.51, 24.16, 20.07, 23.1, 23.19, 20.85, 22.53, 20.55, 22.93, 31.13, 52.71, 42.31, 43.58, 30.69, 83.76, 78.16, 76.36, 78.07]
+MDAPE  :  [7.33, 0.99, 7.8, 10.84, 14.58, 11.6, 11.83, 12.14, 12.17, 14.41, 12.56, 14.4, 18.89, 25.77, 23.45, 28.54, 20.87, 25.0, 28.57, 28.57, 28.57]
+WMAPE  :  [7.93, 0.99, 7.56, 11.56, 15.07, 11.84, 12.18, 11.96, 12.43, 15.1, 12.42, 15.43, 19.89, 41.26, 23.35, 34.86, 23.34, 23.28, 44.73, 68.11, 82.63]
+SMAPE  :  [15.05, 2.4, 15.07, 18.9, 27.5, 19.3, 18.21, 17.8, 22.18, 32.4, 23.11, 35.4, 32.14, 75.3, 36.67, 66.01, 47.47, 23.46, 84.28, 138.18, 156.19]
+ME  :  [-2665.8, 53.0, -2221.0, -14800.4, -80.2, -14924.32, -14110.0, -21079.0, -20130.69, -740.07, -21234.0, 1398.6, -8917.4, 9660.0, -14972.6, 14159.2, 9998.2, 55.8, 15.8, -193.0, -979.4]
+MAE  :  [4378.6, 250.6, 4201.6, 20752.8, 24339.6, 20716.04, 20860.0, 22471.0, 21746.79, 24215.47, 22784.4, 24214.6, 11636.2, 19220.4, 14972.6, 14159.2, 9998.2, 103.4, 328.6, 695.0, 1449.4]
+MPE  :  [-4.21, 1.09, -1.34, -4.56, 36.61, -4.62, -9.81, -13.62, -14.28, 22.31, -15.67, 10.76, -7.25, 88.7, -28.3, 111.92, 77.0, 20.27, 19.13, -6.07, -32.39]
+RMSE  :  [5178.78, 293.63, 5030.77, 25025.45, 28205.31, 25173.3, 24858.82, 26895.57, 26518.44, 28161.23, 27533.84, 28057.52, 14484.84, 23336.99, 17105.06, 16496.72, 11453.08, 124.66, 374.3, 835.4, 2035.94]
+NRMSE  :  [4.61, 0.58, 4.41, 6.99, 8.12, 7.02, 7.77, 7.94, 7.38, 7.88, 7.85, 8.08, 11.32, 18.22, 13.92, 17.44, 11.84, 41.55, 34.03, 34.81, 37.7]
+BIAS_TRACK  :  [34.2, -9.0, 28.1, 41.2, -1.9, 42.44, 40.0, 72.0, 67.42, 0.74, 69.2, -7.8, 44.6, -33.6, 100.0, -100.0, -100.0, -29.8, -1.4, -10.2, 1.8]
+BIAS_NFM  :  [4.15, -0.34, 2.7, 5.43, -3.31, 5.41, 6.26, 8.14, 9.4, -4.0, 10.54, -4.42, 8.25, -26.02, 18.34, -33.01, -23.74, -7.4, -19.94, -28.61, -15.04]
+
+FINISH: 6
+
+START: 7
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 6
+
+MAPE            11.69  Mean Absolute Percentage Error
+MASE            10.85  Mean Absolute Scaled Error
+MDAPE            6.04  Median Absolute Percentage Error
+WMAPE            6.72  Weighted Mean Absolute Percentage Error
+SMAPE           15.42  Symmetric Mean Absolute Percentage Error
+ME           -2081.20  Mean Error
+MAE           3724.40  Mean Absolute Error
+MPE             -4.96  Mean Percentage Error
+RMSE          4588.69  Root Mean Squared Error
+NRMSE            4.17  Normalized Root Mean Squared Error
+BIAS_TRACK      28.40  Bias Tracking Signal
+BIAS_NFM         2.46  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 1
+
+MAPE             2.18  Mean Absolute Percentage Error
+MASE             1.55  Mean Absolute Scaled Error
+MDAPE            1.06  Median Absolute Percentage Error
+WMAPE            0.99  Weighted Mean Absolute Percentage Error
+SMAPE            2.50  Symmetric Mean Absolute Percentage Error
+ME              54.60  Mean Error
+MAE            255.00  Mean Absolute Error
+MPE              0.57  Mean Percentage Error
+RMSE           295.47  Root Mean Squared Error
+NRMSE            0.59  Normalized Root Mean Squared Error
+BIAS_TRACK     -10.80  Bias Tracking Signal
+BIAS_NFM        -0.41  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 7
+
+MAPE            14.34  Mean Absolute Percentage Error
+MASE            11.77  Mean Absolute Scaled Error
+MDAPE            7.27  Median Absolute Percentage Error
+WMAPE            7.35  Weighted Mean Absolute Percentage Error
+SMAPE           16.01  Symmetric Mean Absolute Percentage Error
+ME           -2205.00  Mean Error
+MAE           4164.40  Mean Absolute Error
+MPE             -3.67  Mean Percentage Error
+RMSE          5003.16  Root Mean Squared Error
+NRMSE            4.39  Normalized Root Mean Squared Error
+BIAS_TRACK      26.50  Bias Tracking Signal
+BIAS_NFM         3.14  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 3
+
+MAPE            20.46  Mean Absolute Percentage Error
+MASE            20.23  Mean Absolute Scaled Error
+MDAPE           10.92  Median Absolute Percentage Error
+WMAPE           11.62  Weighted Mean Absolute Percentage Error
+SMAPE           19.12  Symmetric Mean Absolute Percentage Error
+ME          -14625.40  Mean Error
+MAE          20341.80  Mean Absolute Error
+MPE             -3.76  Mean Percentage Error
+RMSE         24756.08  Root Mean Squared Error
+NRMSE            7.02  Normalized Root Mean Squared Error
+BIAS_TRACK      44.90  Bias Tracking Signal
+BIAS_NFM         4.91  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 34
+
+MAPE            41.63  Mean Absolute Percentage Error
+MASE            23.02  Mean Absolute Scaled Error
+MDAPE           14.84  Median Absolute Percentage Error
+WMAPE           15.05  Weighted Mean Absolute Percentage Error
+SMAPE           30.49  Symmetric Mean Absolute Percentage Error
+ME           -2323.00  Mean Error
+MAE          25003.60  Mean Absolute Error
+MPE             22.38  Mean Percentage Error
+RMSE         28801.67  Root Mean Squared Error
+NRMSE            8.27  Normalized Root Mean Squared Error
+BIAS_TRACK       4.20  Bias Tracking Signal
+BIAS_NFM        -3.65  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 47
+
+MAPE            19.74  Mean Absolute Percentage Error
+MASE            20.42  Mean Absolute Scaled Error
+MDAPE           11.43  Median Absolute Percentage Error
+WMAPE           11.86  Weighted Mean Absolute Percentage Error
+SMAPE           19.20  Symmetric Mean Absolute Percentage Error
+ME          -15105.28  Mean Error
+MAE          20905.99  Mean Absolute Error
+MPE             -5.47  Mean Percentage Error
+RMSE         25383.29  Root Mean Squared Error
+NRMSE            7.07  Normalized Root Mean Squared Error
+BIAS_TRACK      42.45  Bias Tracking Signal
+BIAS_NFM         5.51  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            19.83  Mean Absolute Percentage Error
+MASE            23.03  Mean Absolute Scaled Error
+MDAPE           11.60  Median Absolute Percentage Error
+WMAPE           11.93  Weighted Mean Absolute Percentage Error
+SMAPE           19.15  Symmetric Mean Absolute Percentage Error
+ME          -15956.00  Mean Error
+MAE          20226.00  Mean Absolute Error
+MPE             -5.64  Mean Percentage Error
+RMSE         25585.93  Root Mean Squared Error
+NRMSE            7.69  Normalized Root Mean Squared Error
+BIAS_TRACK      38.00  Bias Tracking Signal
+BIAS_NFM         5.73  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.23  Mean Absolute Percentage Error
+MASE            22.86  Mean Absolute Scaled Error
+MDAPE           12.43  Median Absolute Percentage Error
+WMAPE           12.25  Weighted Mean Absolute Percentage Error
+SMAPE           18.47  Symmetric Mean Absolute Percentage Error
+ME          -21527.00  Mean Error
+MAE          22353.00  Mean Absolute Error
+MPE            -13.51  Mean Percentage Error
+RMSE         27242.82  Root Mean Squared Error
+NRMSE            8.14  Normalized Root Mean Squared Error
+BIAS_TRACK      82.00  Bias Tracking Signal
+BIAS_NFM         8.30  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 55
+
+MAPE            18.18  Mean Absolute Percentage Error
+MASE            20.83  Mean Absolute Scaled Error
+MDAPE           12.08  Median Absolute Percentage Error
+WMAPE           12.40  Weighted Mean Absolute Percentage Error
+SMAPE           21.94  Symmetric Mean Absolute Percentage Error
+ME          -20074.16  Mean Error
+MAE          21793.91  Mean Absolute Error
+MPE            -14.08  Mean Percentage Error
+RMSE         26537.39  Root Mean Squared Error
+NRMSE            7.42  Normalized Root Mean Squared Error
+BIAS_TRACK      66.31  Bias Tracking Signal
+BIAS_NFM         9.24  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 797
+
+MAPE            43.37  Mean Absolute Percentage Error
+MASE            22.81  Mean Absolute Scaled Error
+MDAPE           14.38  Median Absolute Percentage Error
+WMAPE           15.05  Weighted Mean Absolute Percentage Error
+SMAPE           31.81  Symmetric Mean Absolute Percentage Error
+ME            -657.57  Mean Error
+MAE          24353.33  Mean Absolute Error
+MPE             24.01  Mean Percentage Error
+RMSE         28307.11  Root Mean Squared Error
+NRMSE            7.91  Normalized Root Mean Squared Error
+BIAS_TRACK       0.45  Bias Tracking Signal
+BIAS_NFM        -3.70  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 0
+
+MAPE            17.83  Mean Absolute Percentage Error
+MASE            21.38  Mean Absolute Scaled Error
+MDAPE           13.15  Median Absolute Percentage Error
+WMAPE           13.25  Weighted Mean Absolute Percentage Error
+SMAPE           21.77  Symmetric Mean Absolute Percentage Error
+ME          -21424.40  Mean Error
+MAE          22868.00  Mean Absolute Error
+MPE            -15.66  Mean Percentage Error
+RMSE         27609.97  Root Mean Squared Error
+NRMSE            7.89  Normalized Root Mean Squared Error
+BIAS_TRACK      66.60  Bias Tracking Signal
+BIAS_NFM         9.90  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 23
+
+MAPE            46.61  Mean Absolute Percentage Error
+MASE            23.81  Mean Absolute Scaled Error
+MDAPE           13.77  Median Absolute Percentage Error
+WMAPE           15.00  Weighted Mean Absolute Percentage Error
+SMAPE           31.45  Symmetric Mean Absolute Percentage Error
+ME             737.20  Mean Error
+MAE          23862.40  Mean Absolute Error
+MPE             28.33  Mean Percentage Error
+RMSE         27653.37  Root Mean Squared Error
+NRMSE            7.76  Normalized Root Mean Squared Error
+BIAS_TRACK      -3.40  Bias Tracking Signal
+BIAS_NFM        -4.42  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 11
+
+MAPE            30.16  Mean Absolute Percentage Error
+MASE            33.63  Mean Absolute Scaled Error
+MDAPE           21.21  Median Absolute Percentage Error
+WMAPE           20.93  Weighted Mean Absolute Percentage Error
+SMAPE           36.10  Symmetric Mean Absolute Percentage Error
+ME           -9443.20  Mean Error
+MAE          12376.00  Mean Absolute Error
+MPE             -9.44  Mean Percentage Error
+RMSE         15053.54  Root Mean Squared Error
+NRMSE           11.91  Normalized Root Mean Squared Error
+BIAS_TRACK      44.00  Bias Tracking Signal
+BIAS_NFM         7.72  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 90
+
+MAPE           105.79  Mean Absolute Percentage Error
+MASE            50.88  Mean Absolute Scaled Error
+MDAPE           25.77  Median Absolute Percentage Error
+WMAPE           38.31  Weighted Mean Absolute Percentage Error
+SMAPE           74.90  Symmetric Mean Absolute Percentage Error
+ME            8038.00  Mean Error
+MAE          18790.00  Mean Absolute Error
+MPE             85.17  Mean Percentage Error
+RMSE         22648.93  Root Mean Squared Error
+NRMSE           18.09  Normalized Root Mean Squared Error
+BIAS_TRACK     -28.00  Bias Tracking Signal
+BIAS_NFM       -23.74  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.71  Mean Absolute Percentage Error
+MASE            46.36  Mean Absolute Scaled Error
+MDAPE           23.70  Median Absolute Percentage Error
+WMAPE           23.54  Weighted Mean Absolute Percentage Error
+SMAPE           37.64  Symmetric Mean Absolute Percentage Error
+ME          -15597.20  Mean Error
+MAE          15597.20  Mean Absolute Error
+MPE            -28.71  Mean Percentage Error
+RMSE         17636.70  Root Mean Squared Error
+NRMSE           14.52  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.82  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 67
+
+MAPE           105.01  Mean Absolute Percentage Error
+MASE            46.28  Mean Absolute Scaled Error
+MDAPE           28.35  Median Absolute Percentage Error
+WMAPE           33.86  Weighted Mean Absolute Percentage Error
+SMAPE           62.94  Symmetric Mean Absolute Percentage Error
+ME           14338.60  Mean Error
+MAE          14338.60  Mean Absolute Error
+MPE            105.01  Mean Percentage Error
+RMSE         16534.54  Root Mean Squared Error
+NRMSE           17.86  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -31.47  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 56
+
+MAPE            48.37  Mean Absolute Percentage Error
+MASE            30.69  Mean Absolute Scaled Error
+MDAPE           20.30  Median Absolute Percentage Error
+WMAPE           22.44  Weighted Mean Absolute Percentage Error
+SMAPE           49.21  Symmetric Mean Absolute Percentage Error
+ME            9742.80  Mean Error
+MAE           9742.80  Mean Absolute Error
+MPE             48.37  Mean Percentage Error
+RMSE         11141.07  Root Mean Squared Error
+NRMSE           11.56  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -24.61  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            26.78  Mean Absolute Percentage Error
+MASE            83.92  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           22.13  Weighted Mean Absolute Percentage Error
+SMAPE           22.53  Symmetric Mean Absolute Percentage Error
+ME              46.40  Mean Error
+MAE            100.40  Mean Absolute Error
+MPE             17.78  Mean Percentage Error
+RMSE           121.49  Root Mean Squared Error
+NRMSE           40.50  Normalized Root Mean Squared Error
+BIAS_TRACK     -22.80  Bias Tracking Signal
+BIAS_NFM        -6.36  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 101
+
+MAPE            58.86  Mean Absolute Percentage Error
+MASE            76.59  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           47.02  Weighted Mean Absolute Percentage Error
+SMAPE           82.60  Symmetric Mean Absolute Percentage Error
+ME              17.20  Mean Error
+MAE            328.00  Mean Absolute Error
+MPE             24.84  Mean Percentage Error
+RMSE           373.42  Root Mean Squared Error
+NRMSE           33.95  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.80  Bias Tracking Signal
+BIAS_NFM       -19.48  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 206
+
+MAPE            46.54  Mean Absolute Percentage Error
+MASE            77.38  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           66.95  Weighted Mean Absolute Percentage Error
+SMAPE          132.09  Symmetric Mean Absolute Percentage Error
+ME            -214.00  Mean Error
+MAE            684.00  Mean Absolute Error
+MPE             -8.44  Mean Percentage Error
+RMSE           834.87  Root Mean Squared Error
+NRMSE           34.79  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.60  Bias Tracking Signal
+BIAS_NFM       -24.88  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 230
+
+MAPE            42.60  Mean Absolute Percentage Error
+MASE            75.41  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           83.14  Weighted Mean Absolute Percentage Error
+SMAPE          157.40  Symmetric Mean Absolute Percentage Error
+ME            -978.20  Mean Error
+MAE           1459.00  Mean Absolute Error
+MPE            -31.40  Mean Percentage Error
+RMSE          2038.41  Root Mean Squared Error
+NRMSE           37.75  Normalized Root Mean Squared Error
+BIAS_TRACK      -3.60  Bias Tracking Signal
+BIAS_NFM       -16.14  Bias Normalized Forecast Metric
+
+MAPE  :  [11.69, 2.18, 14.34, 20.46, 41.63, 19.74, 19.83, 16.23, 18.18, 43.37, 17.83, 46.61, 30.16, 105.79, 28.71, 105.01, 48.37, 26.78, 58.86, 46.54, 42.6]
+MASE  :  [10.85, 1.55, 11.77, 20.23, 23.02, 20.42, 23.03, 22.86, 20.83, 22.81, 21.38, 23.81, 33.63, 50.88, 46.36, 46.28, 30.69, 83.92, 76.59, 77.38, 75.41]
+MDAPE  :  [6.04, 1.06, 7.27, 10.92, 14.84, 11.43, 11.6, 12.43, 12.08, 14.38, 13.15, 13.77, 21.21, 25.77, 23.7, 28.35, 20.3, 16.67, 37.5, 28.57, 28.57]
+WMAPE  :  [6.72, 0.99, 7.35, 11.62, 15.05, 11.86, 11.93, 12.25, 12.4, 15.05, 13.25, 15.0, 20.93, 38.31, 23.54, 33.86, 22.44, 22.13, 47.02, 66.95, 83.14]
+SMAPE  :  [15.42, 2.5, 16.01, 19.12, 30.49, 19.2, 19.15, 18.47, 21.94, 31.81, 21.77, 31.45, 36.1, 74.9, 37.64, 62.94, 49.21, 22.53, 82.6, 132.09, 157.4]
+ME  :  [-2081.2, 54.6, -2205.0, -14625.4, -2323.0, -15105.28, -15956.0, -21527.0, -20074.16, -657.57, -21424.4, 737.2, -9443.2, 8038.0, -15597.2, 14338.6, 9742.8, 46.4, 17.2, -214.0, -978.2]
+MAE  :  [3724.4, 255.0, 4164.4, 20341.8, 25003.6, 20906.0, 20226.0, 22353.0, 21793.91, 24353.33, 22868.0, 23862.4, 12376.0, 18790.0, 15597.2, 14338.6, 9742.8, 100.4, 328.0, 684.0, 1459.0]
+MPE  :  [-4.96, 0.57, -3.67, -3.76, 22.38, -5.47, -5.64, -13.51, -14.08, 24.01, -15.66, 28.33, -9.44, 85.17, -28.71, 105.01, 48.37, 17.78, 24.84, -8.44, -31.4]
+RMSE  :  [4588.69, 295.47, 5003.16, 24756.08, 28801.67, 25383.29, 25585.93, 27242.82, 26537.39, 28307.11, 27609.97, 27653.37, 15053.54, 22648.93, 17636.7, 16534.54, 11141.07, 121.49, 373.42, 834.87, 2038.41]
+NRMSE  :  [4.17, 0.59, 4.39, 7.02, 8.27, 7.07, 7.69, 8.14, 7.42, 7.91, 7.89, 7.76, 11.91, 18.09, 14.52, 17.86, 11.56, 40.5, 33.95, 34.79, 37.75]
+BIAS_TRACK  :  [28.4, -10.8, 26.5, 44.9, 4.2, 42.44, 38.0, 82.0, 66.32, 0.44, 66.6, -3.4, 44.0, -28.0, 100.0, -100.0, -100.0, -22.8, -6.8, -6.6, -3.6]
+BIAS_NFM  :  [2.46, -0.41, 3.14, 4.91, -3.65, 5.51, 5.73, 8.3, 9.24, -3.7, 9.9, -4.42, 7.72, -23.74, 18.82, -31.47, -24.61, -6.36, -19.48, -24.88, -16.14]
+
+FINISH: 7
+
+START: 8
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 3
+
+MAPE            15.19  Mean Absolute Percentage Error
+MASE            11.88  Mean Absolute Scaled Error
+MDAPE            7.58  Median Absolute Percentage Error
+WMAPE            7.62  Weighted Mean Absolute Percentage Error
+SMAPE           15.80  Symmetric Mean Absolute Percentage Error
+ME           -2730.40  Mean Error
+MAE           4225.20  Mean Absolute Error
+MPE             -3.15  Mean Percentage Error
+RMSE          5113.48  Root Mean Squared Error
+NRMSE            4.50  Normalized Root Mean Squared Error
+BIAS_TRACK      36.20  Bias Tracking Signal
+BIAS_NFM         3.26  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             2.99  Mean Absolute Percentage Error
+MASE             1.54  Mean Absolute Scaled Error
+MDAPE            0.98  Median Absolute Percentage Error
+WMAPE            0.98  Weighted Mean Absolute Percentage Error
+SMAPE            2.53  Symmetric Mean Absolute Percentage Error
+ME              47.60  Mean Error
+MAE            258.00  Mean Absolute Error
+MPE              1.26  Mean Percentage Error
+RMSE           296.38  Root Mean Squared Error
+NRMSE            0.59  Normalized Root Mean Squared Error
+BIAS_TRACK      -8.00  Bias Tracking Signal
+BIAS_NFM        -0.36  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 8
+
+MAPE            17.25  Mean Absolute Percentage Error
+MASE            11.72  Mean Absolute Scaled Error
+MDAPE            7.68  Median Absolute Percentage Error
+WMAPE            7.73  Weighted Mean Absolute Percentage Error
+SMAPE           16.31  Symmetric Mean Absolute Percentage Error
+ME           -2080.60  Mean Error
+MAE           4086.60  Mean Absolute Error
+MPE              0.54  Mean Percentage Error
+RMSE          4885.32  Root Mean Squared Error
+NRMSE            4.33  Normalized Root Mean Squared Error
+BIAS_TRACK      28.60  Bias Tracking Signal
+BIAS_NFM         1.78  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 4
+
+MAPE            16.41  Mean Absolute Percentage Error
+MASE            19.45  Mean Absolute Scaled Error
+MDAPE           10.86  Median Absolute Percentage Error
+WMAPE           11.32  Weighted Mean Absolute Percentage Error
+SMAPE           18.41  Symmetric Mean Absolute Percentage Error
+ME          -13882.10  Mean Error
+MAE          19875.30  Mean Absolute Error
+MPE             -7.04  Mean Percentage Error
+RMSE         24289.97  Root Mean Squared Error
+NRMSE            6.81  Normalized Root Mean Squared Error
+BIAS_TRACK      38.90  Bias Tracking Signal
+BIAS_NFM         4.75  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 18
+
+MAPE            34.90  Mean Absolute Percentage Error
+MASE            23.01  Mean Absolute Scaled Error
+MDAPE           14.71  Median Absolute Percentage Error
+WMAPE           14.80  Weighted Mean Absolute Percentage Error
+SMAPE           26.18  Symmetric Mean Absolute Percentage Error
+ME            -747.10  Mean Error
+MAE          24534.70  Mean Absolute Error
+MPE             16.95  Mean Percentage Error
+RMSE         28164.27  Root Mean Squared Error
+NRMSE            7.90  Normalized Root Mean Squared Error
+BIAS_TRACK       5.40  Bias Tracking Signal
+BIAS_NFM        -2.33  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 54
+
+MAPE            21.07  Mean Absolute Percentage Error
+MASE            20.32  Mean Absolute Scaled Error
+MDAPE           11.53  Median Absolute Percentage Error
+WMAPE           11.87  Weighted Mean Absolute Percentage Error
+SMAPE           19.32  Symmetric Mean Absolute Percentage Error
+ME          -15138.88  Mean Error
+MAE          20792.96  Mean Absolute Error
+MPE             -4.39  Mean Percentage Error
+RMSE         25282.45  Root Mean Squared Error
+NRMSE            7.07  Normalized Root Mean Squared Error
+BIAS_TRACK      43.18  Bias Tracking Signal
+BIAS_NFM         5.61  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            18.75  Mean Absolute Percentage Error
+MASE            19.44  Mean Absolute Scaled Error
+MDAPE           13.49  Median Absolute Percentage Error
+WMAPE           13.48  Weighted Mean Absolute Percentage Error
+SMAPE           21.63  Symmetric Mean Absolute Percentage Error
+ME          -16669.00  Mean Error
+MAE          22085.00  Mean Absolute Error
+MPE            -10.38  Mean Percentage Error
+RMSE         27127.16  Root Mean Squared Error
+NRMSE            7.91  Normalized Root Mean Squared Error
+BIAS_TRACK      40.00  Bias Tracking Signal
+BIAS_NFM         7.16  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 1
+
+MAPE            13.46  Mean Absolute Percentage Error
+MASE            16.79  Mean Absolute Scaled Error
+MDAPE           10.77  Median Absolute Percentage Error
+WMAPE           10.57  Weighted Mean Absolute Percentage Error
+SMAPE           17.46  Symmetric Mean Absolute Percentage Error
+ME          -16305.00  Mean Error
+MAE          18931.00  Mean Absolute Error
+MPE             -9.90  Mean Percentage Error
+RMSE         23543.17  Root Mean Squared Error
+NRMSE            6.83  Normalized Root Mean Squared Error
+BIAS_TRACK      48.00  Bias Tracking Signal
+BIAS_NFM         5.07  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 51
+
+MAPE            18.65  Mean Absolute Percentage Error
+MASE            20.40  Mean Absolute Scaled Error
+MDAPE           11.98  Median Absolute Percentage Error
+WMAPE           12.29  Weighted Mean Absolute Percentage Error
+SMAPE           22.17  Symmetric Mean Absolute Percentage Error
+ME          -19753.38  Mean Error
+MAE          21438.58  Mean Absolute Error
+MPE            -13.71  Mean Percentage Error
+RMSE         26249.49  Root Mean Squared Error
+NRMSE            7.33  Normalized Root Mean Squared Error
+BIAS_TRACK      66.09  Bias Tracking Signal
+BIAS_NFM         9.32  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 826
+
+MAPE            38.63  Mean Absolute Percentage Error
+MASE            22.86  Mean Absolute Scaled Error
+MDAPE           14.55  Median Absolute Percentage Error
+WMAPE           15.10  Weighted Mean Absolute Percentage Error
+SMAPE           32.15  Symmetric Mean Absolute Percentage Error
+ME            -396.48  Mean Error
+MAE          24298.39  Mean Absolute Error
+MPE             19.45  Mean Percentage Error
+RMSE         28235.94  Root Mean Squared Error
+NRMSE            7.85  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.81  Bias Tracking Signal
+BIAS_NFM        -4.00  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 1
+
+MAPE            16.90  Mean Absolute Percentage Error
+MASE            20.75  Mean Absolute Scaled Error
+MDAPE           12.27  Median Absolute Percentage Error
+WMAPE           12.14  Weighted Mean Absolute Percentage Error
+SMAPE           20.82  Symmetric Mean Absolute Percentage Error
+ME          -20023.40  Mean Error
+MAE          21630.20  Mean Absolute Error
+MPE            -13.99  Mean Percentage Error
+RMSE         26405.97  Root Mean Squared Error
+NRMSE            7.51  Normalized Root Mean Squared Error
+BIAS_TRACK      65.40  Bias Tracking Signal
+BIAS_NFM         8.76  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 26
+
+MAPE            33.78  Mean Absolute Percentage Error
+MASE            21.88  Mean Absolute Scaled Error
+MDAPE           15.21  Median Absolute Percentage Error
+WMAPE           15.89  Weighted Mean Absolute Percentage Error
+SMAPE           35.51  Symmetric Mean Absolute Percentage Error
+ME             -67.20  Mean Error
+MAE          24591.20  Mean Absolute Error
+MPE             14.19  Mean Percentage Error
+RMSE         28510.27  Root Mean Squared Error
+NRMSE            8.20  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.40  Bias Tracking Signal
+BIAS_NFM        -5.29  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 7
+
+MAPE            38.28  Mean Absolute Percentage Error
+MASE            34.11  Mean Absolute Scaled Error
+MDAPE           19.08  Median Absolute Percentage Error
+WMAPE           19.76  Weighted Mean Absolute Percentage Error
+SMAPE           33.08  Symmetric Mean Absolute Percentage Error
+ME           -9669.80  Mean Error
+MAE          12327.80  Mean Absolute Error
+MPE             -1.29  Mean Percentage Error
+RMSE         15103.21  Root Mean Squared Error
+NRMSE           11.90  Normalized Root Mean Squared Error
+BIAS_TRACK      47.00  Bias Tracking Signal
+BIAS_NFM         9.18  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 86
+
+MAPE            87.28  Mean Absolute Percentage Error
+MASE            51.08  Mean Absolute Scaled Error
+MDAPE           26.14  Median Absolute Percentage Error
+WMAPE           38.76  Weighted Mean Absolute Percentage Error
+SMAPE           74.20  Symmetric Mean Absolute Percentage Error
+ME            8032.00  Mean Error
+MAE          19158.00  Mean Absolute Error
+MPE             66.74  Mean Percentage Error
+RMSE         22829.56  Root Mean Squared Error
+NRMSE           18.55  Normalized Root Mean Squared Error
+BIAS_TRACK     -26.00  Bias Tracking Signal
+BIAS_NFM       -23.75  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            28.36  Mean Absolute Percentage Error
+MASE            43.96  Mean Absolute Scaled Error
+MDAPE           22.42  Median Absolute Percentage Error
+WMAPE           23.07  Weighted Mean Absolute Percentage Error
+SMAPE           37.26  Symmetric Mean Absolute Percentage Error
+ME          -14917.40  Mean Error
+MAE          14917.40  Mean Absolute Error
+MPE            -28.36  Mean Percentage Error
+RMSE         16948.02  Root Mean Squared Error
+NRMSE           13.96  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        18.63  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 77
+
+MAPE           160.77  Mean Absolute Percentage Error
+MASE            47.05  Mean Absolute Scaled Error
+MDAPE           29.48  Median Absolute Percentage Error
+WMAPE           37.32  Weighted Mean Absolute Percentage Error
+SMAPE           69.06  Symmetric Mean Absolute Percentage Error
+ME           14810.40  Mean Error
+MAE          14810.40  Mean Absolute Error
+MPE            160.77  Mean Percentage Error
+RMSE         17122.46  Root Mean Squared Error
+NRMSE           17.76  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -34.53  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 42
+
+MAPE            55.77  Mean Absolute Percentage Error
+MASE            29.65  Mean Absolute Scaled Error
+MDAPE           21.31  Median Absolute Percentage Error
+WMAPE           22.93  Weighted Mean Absolute Percentage Error
+SMAPE           45.51  Symmetric Mean Absolute Percentage Error
+ME            9861.20  Mean Error
+MAE           9861.20  Mean Absolute Error
+MPE             55.77  Mean Percentage Error
+RMSE         11252.83  Root Mean Squared Error
+NRMSE           11.72  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -22.76  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            26.00  Mean Absolute Percentage Error
+MASE            78.60  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           21.27  Weighted Mean Absolute Percentage Error
+SMAPE           21.74  Symmetric Mean Absolute Percentage Error
+ME              46.80  Mean Error
+MAE             96.40  Mean Absolute Error
+MPE             17.73  Mean Percentage Error
+RMSE           120.00  Root Mean Squared Error
+NRMSE           40.00  Normalized Root Mean Squared Error
+BIAS_TRACK     -23.00  Bias Tracking Signal
+BIAS_NFM        -6.36  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 104
+
+MAPE            61.47  Mean Absolute Percentage Error
+MASE            73.99  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           47.27  Weighted Mean Absolute Percentage Error
+SMAPE           84.52  Symmetric Mean Absolute Percentage Error
+ME              13.00  Mean Error
+MAE            334.20  Mean Absolute Error
+MPE             25.96  Mean Percentage Error
+RMSE           377.12  Root Mean Squared Error
+NRMSE           34.28  Normalized Root Mean Squared Error
+BIAS_TRACK      -1.80  Bias Tracking Signal
+BIAS_NFM       -19.56  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 213
+
+MAPE            46.29  Mean Absolute Percentage Error
+MASE            76.50  Mean Absolute Scaled Error
+MDAPE           28.57  Median Absolute Percentage Error
+WMAPE           67.72  Weighted Mean Absolute Percentage Error
+SMAPE          135.49  Symmetric Mean Absolute Percentage Error
+ME            -224.20  Mean Error
+MAE            703.40  Mean Absolute Error
+MPE            -10.06  Mean Percentage Error
+RMSE           845.61  Root Mean Squared Error
+NRMSE           35.23  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.60  Bias Tracking Signal
+BIAS_NFM       -25.35  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 220
+
+MAPE            46.07  Mean Absolute Percentage Error
+MASE            79.56  Mean Absolute Scaled Error
+MDAPE           44.44  Median Absolute Percentage Error
+WMAPE           83.00  Weighted Mean Absolute Percentage Error
+SMAPE          156.12  Symmetric Mean Absolute Percentage Error
+ME           -1006.20  Mean Error
+MAE           1470.20  Mean Absolute Error
+MPE            -30.77  Mean Percentage Error
+RMSE          2038.04  Root Mean Squared Error
+NRMSE           37.74  Normalized Root Mean Squared Error
+BIAS_TRACK       2.20  Bias Tracking Signal
+BIAS_NFM       -13.43  Bias Normalized Forecast Metric
+
+MAPE  :  [15.19, 2.99, 17.25, 16.41, 34.9, 21.07, 18.75, 13.46, 18.65, 38.63, 16.9, 33.78, 38.28, 87.28, 28.36, 160.77, 55.77, 26.0, 61.47, 46.29, 46.07]
+MASE  :  [11.88, 1.54, 11.72, 19.45, 23.01, 20.32, 19.44, 16.79, 20.4, 22.86, 20.75, 21.88, 34.11, 51.08, 43.96, 47.05, 29.65, 78.6, 73.99, 76.5, 79.56]
+MDAPE  :  [7.58, 0.98, 7.68, 10.86, 14.71, 11.53, 13.49, 10.77, 11.98, 14.55, 12.27, 15.21, 19.08, 26.14, 22.42, 29.48, 21.31, 16.67, 37.5, 28.57, 44.44]
+WMAPE  :  [7.62, 0.98, 7.73, 11.32, 14.8, 11.87, 13.48, 10.57, 12.29, 15.1, 12.14, 15.89, 19.76, 38.76, 23.07, 37.32, 22.93, 21.27, 47.27, 67.72, 83.0]
+SMAPE  :  [15.8, 2.53, 16.31, 18.41, 26.18, 19.32, 21.63, 17.46, 22.17, 32.15, 20.82, 35.51, 33.08, 74.2, 37.26, 69.06, 45.51, 21.74, 84.52, 135.49, 156.12]
+ME  :  [-2730.4, 47.6, -2080.6, -13882.1, -747.1, -15138.88, -16669.0, -16305.0, -19753.38, -396.48, -20023.4, -67.2, -9669.8, 8032.0, -14917.4, 14810.4, 9861.2, 46.8, 13.0, -224.2, -1006.2]
+MAE  :  [4225.2, 258.0, 4086.6, 19875.3, 24534.7, 20792.96, 22085.0, 18931.0, 21438.58, 24298.39, 21630.2, 24591.2, 12327.8, 19158.0, 14917.4, 14810.4, 9861.2, 96.4, 334.2, 703.4, 1470.2]
+MPE  :  [-3.15, 1.26, 0.54, -7.04, 16.95, -4.39, -10.38, -9.9, -13.71, 19.45, -13.99, 14.19, -1.29, 66.74, -28.36, 160.77, 55.77, 17.73, 25.96, -10.06, -30.77]
+RMSE  :  [5113.48, 296.38, 4885.32, 24289.97, 28164.27, 25282.45, 27127.16, 23543.17, 26249.49, 28235.94, 26405.97, 28510.27, 15103.21, 22829.56, 16948.02, 17122.46, 11252.83, 120.0, 377.12, 845.61, 2038.04]
+NRMSE  :  [4.5, 0.59, 4.33, 6.81, 7.9, 7.07, 7.91, 6.83, 7.33, 7.85, 7.51, 8.2, 11.9, 18.55, 13.96, 17.76, 11.72, 40.0, 34.28, 35.23, 37.74]
+BIAS_TRACK  :  [36.2, -8.0, 28.6, 38.9, 5.4, 43.18, 40.0, 48.0, 66.1, -0.82, 65.4, -0.4, 47.0, -26.0, 100.0, -100.0, -100.0, -23.0, -1.8, -6.6, 2.2]
+BIAS_NFM  :  [3.26, -0.36, 1.78, 4.75, -2.33, 5.61, 7.16, 5.07, 9.32, -4.0, 8.76, -5.29, 9.18, -23.75, 18.63, -34.53, -22.76, -6.36, -19.56, -25.35, -13.43]
+
+FINISH: 8
+
+START: 9
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 4
+
+MAPE            13.75  Mean Absolute Percentage Error
+MASE            11.30  Mean Absolute Scaled Error
+MDAPE            7.13  Median Absolute Percentage Error
+WMAPE            7.40  Weighted Mean Absolute Percentage Error
+SMAPE           15.48  Symmetric Mean Absolute Percentage Error
+ME           -2276.80  Mean Error
+MAE           4211.20  Mean Absolute Error
+MPE             -3.22  Mean Percentage Error
+RMSE          4938.30  Root Mean Squared Error
+NRMSE            4.39  Normalized Root Mean Squared Error
+BIAS_TRACK      29.40  Bias Tracking Signal
+BIAS_NFM         2.26  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 0
+
+MAPE             2.46  Mean Absolute Percentage Error
+MASE             1.44  Mean Absolute Scaled Error
+MDAPE            1.01  Median Absolute Percentage Error
+WMAPE            1.00  Weighted Mean Absolute Percentage Error
+SMAPE            2.30  Symmetric Mean Absolute Percentage Error
+ME              45.60  Mean Error
+MAE            246.80  Mean Absolute Error
+MPE              0.82  Mean Percentage Error
+RMSE           289.07  Root Mean Squared Error
+NRMSE            0.57  Normalized Root Mean Squared Error
+BIAS_TRACK      -6.80  Bias Tracking Signal
+BIAS_NFM        -0.30  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 15
+
+MAPE            15.51  Mean Absolute Percentage Error
+MASE            11.36  Mean Absolute Scaled Error
+MDAPE            7.06  Median Absolute Percentage Error
+WMAPE            7.39  Weighted Mean Absolute Percentage Error
+SMAPE           16.65  Symmetric Mean Absolute Percentage Error
+ME           -2276.90  Mean Error
+MAE           4085.70  Mean Absolute Error
+MPE             -1.04  Mean Percentage Error
+RMSE          4909.39  Root Mean Squared Error
+NRMSE            4.35  Normalized Root Mean Squared Error
+BIAS_TRACK      29.10  Bias Tracking Signal
+BIAS_NFM         1.54  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 3
+
+MAPE            17.44  Mean Absolute Percentage Error
+MASE            19.45  Mean Absolute Scaled Error
+MDAPE           11.92  Median Absolute Percentage Error
+WMAPE           12.05  Weighted Mean Absolute Percentage Error
+SMAPE           19.80  Symmetric Mean Absolute Percentage Error
+ME          -14785.20  Mean Error
+MAE          20763.40  Mean Absolute Error
+MPE             -8.47  Mean Percentage Error
+RMSE         25258.81  Root Mean Squared Error
+NRMSE            7.16  Normalized Root Mean Squared Error
+BIAS_TRACK      40.90  Bias Tracking Signal
+BIAS_NFM         5.82  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 29
+
+MAPE            35.11  Mean Absolute Percentage Error
+MASE            22.39  Mean Absolute Scaled Error
+MDAPE           13.62  Median Absolute Percentage Error
+WMAPE           14.38  Weighted Mean Absolute Percentage Error
+SMAPE           27.74  Symmetric Mean Absolute Percentage Error
+ME            -532.30  Mean Error
+MAE          24024.30  Mean Absolute Error
+MPE             18.34  Mean Percentage Error
+RMSE         27844.17  Root Mean Squared Error
+NRMSE            8.05  Normalized Root Mean Squared Error
+BIAS_TRACK       2.30  Bias Tracking Signal
+BIAS_NFM        -3.95  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 46
+
+MAPE            20.44  Mean Absolute Percentage Error
+MASE            20.15  Mean Absolute Scaled Error
+MDAPE           11.44  Median Absolute Percentage Error
+WMAPE           11.77  Weighted Mean Absolute Percentage Error
+SMAPE           19.09  Symmetric Mean Absolute Percentage Error
+ME          -15046.44  Mean Error
+MAE          20686.22  Mean Absolute Error
+MPE             -4.93  Mean Percentage Error
+RMSE         25139.55  Root Mean Squared Error
+NRMSE            7.00  Normalized Root Mean Squared Error
+BIAS_TRACK      43.34  Bias Tracking Signal
+BIAS_NFM         5.67  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 0
+
+MAPE            16.32  Mean Absolute Percentage Error
+MASE            20.01  Mean Absolute Scaled Error
+MDAPE           11.67  Median Absolute Percentage Error
+WMAPE           11.13  Weighted Mean Absolute Percentage Error
+SMAPE           16.69  Symmetric Mean Absolute Percentage Error
+ME          -13393.00  Mean Error
+MAE          19749.00  Mean Absolute Error
+MPE             -4.95  Mean Percentage Error
+RMSE         23585.21  Root Mean Squared Error
+NRMSE            6.78  Normalized Root Mean Squared Error
+BIAS_TRACK      38.00  Bias Tracking Signal
+BIAS_NFM         3.96  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            14.72  Mean Absolute Percentage Error
+MASE            17.60  Mean Absolute Scaled Error
+MDAPE            9.64  Median Absolute Percentage Error
+WMAPE           10.46  Weighted Mean Absolute Percentage Error
+SMAPE           16.75  Symmetric Mean Absolute Percentage Error
+ME          -16217.00  Mean Error
+MAE          18337.00  Mean Absolute Error
+MPE            -10.28  Mean Percentage Error
+RMSE         24169.88  Root Mean Squared Error
+NRMSE            6.97  Normalized Root Mean Squared Error
+BIAS_TRACK      56.00  Bias Tracking Signal
+BIAS_NFM         6.44  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 50
+
+MAPE            18.84  Mean Absolute Percentage Error
+MASE            20.63  Mean Absolute Scaled Error
+MDAPE           12.08  Median Absolute Percentage Error
+WMAPE           12.34  Weighted Mean Absolute Percentage Error
+SMAPE           22.01  Symmetric Mean Absolute Percentage Error
+ME          -19982.72  Mean Error
+MAE          21634.63  Mean Absolute Error
+MPE            -13.35  Mean Percentage Error
+RMSE         26405.63  Root Mean Squared Error
+NRMSE            7.35  Normalized Root Mean Squared Error
+BIAS_TRACK      66.62  Bias Tracking Signal
+BIAS_NFM         9.25  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 782
+
+MAPE            45.51  Mean Absolute Percentage Error
+MASE            22.44  Mean Absolute Scaled Error
+MDAPE           14.43  Median Absolute Percentage Error
+WMAPE           15.04  Weighted Mean Absolute Percentage Error
+SMAPE           31.88  Symmetric Mean Absolute Percentage Error
+ME            -512.75  Mean Error
+MAE          24079.11  Mean Absolute Error
+MPE             26.32  Mean Percentage Error
+RMSE         28040.22  Root Mean Squared Error
+NRMSE            7.81  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.27  Bias Tracking Signal
+BIAS_NFM        -3.87  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 0
+
+MAPE            26.89  Mean Absolute Percentage Error
+MASE            22.12  Mean Absolute Scaled Error
+MDAPE           12.52  Median Absolute Percentage Error
+WMAPE           12.52  Weighted Mean Absolute Percentage Error
+SMAPE           20.81  Symmetric Mean Absolute Percentage Error
+ME          -20078.00  Mean Error
+MAE          21758.80  Mean Absolute Error
+MPE             -4.14  Mean Percentage Error
+RMSE         26468.57  Root Mean Squared Error
+NRMSE            7.55  Normalized Root Mean Squared Error
+BIAS_TRACK      65.60  Bias Tracking Signal
+BIAS_NFM         8.66  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 19
+
+MAPE            32.92  Mean Absolute Percentage Error
+MASE            23.23  Mean Absolute Scaled Error
+MDAPE           15.05  Median Absolute Percentage Error
+WMAPE           15.55  Weighted Mean Absolute Percentage Error
+SMAPE           32.73  Symmetric Mean Absolute Percentage Error
+ME           -1400.40  Mean Error
+MAE          24636.80  Mean Absolute Error
+MPE             13.14  Mean Percentage Error
+RMSE         28686.18  Root Mean Squared Error
+NRMSE            8.26  Normalized Root Mean Squared Error
+BIAS_TRACK       1.80  Bias Tracking Signal
+BIAS_NFM        -3.87  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 4
+
+MAPE            25.94  Mean Absolute Percentage Error
+MASE            32.91  Mean Absolute Scaled Error
+MDAPE           19.53  Median Absolute Percentage Error
+WMAPE           20.20  Weighted Mean Absolute Percentage Error
+SMAPE           32.61  Symmetric Mean Absolute Percentage Error
+ME           -9745.60  Mean Error
+MAE          12147.60  Mean Absolute Error
+MPE            -15.21  Mean Percentage Error
+RMSE         14990.50  Root Mean Squared Error
+NRMSE           12.17  Normalized Root Mean Squared Error
+BIAS_TRACK      49.00  Bias Tracking Signal
+BIAS_NFM        10.60  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 74
+
+MAPE           116.13  Mean Absolute Percentage Error
+MASE            53.25  Mean Absolute Scaled Error
+MDAPE           32.51  Median Absolute Percentage Error
+WMAPE           42.93  Weighted Mean Absolute Percentage Error
+SMAPE           75.75  Symmetric Mean Absolute Percentage Error
+ME            8293.00  Mean Error
+MAE          19583.00  Mean Absolute Error
+MPE             93.21  Mean Percentage Error
+RMSE         23400.96  Root Mean Squared Error
+NRMSE           18.20  Normalized Root Mean Squared Error
+BIAS_TRACK     -30.00  Bias Tracking Signal
+BIAS_NFM       -22.40  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            29.26  Mean Absolute Percentage Error
+MASE            44.54  Mean Absolute Scaled Error
+MDAPE           23.58  Median Absolute Percentage Error
+WMAPE           23.35  Weighted Mean Absolute Percentage Error
+SMAPE           38.99  Symmetric Mean Absolute Percentage Error
+ME          -15343.40  Mean Error
+MAE          15343.40  Mean Absolute Error
+MPE            -29.26  Mean Percentage Error
+RMSE         17380.83  Root Mean Squared Error
+NRMSE           14.17  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        19.49  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 85
+
+MAPE            96.54  Mean Absolute Percentage Error
+MASE            45.19  Mean Absolute Scaled Error
+MDAPE           29.58  Median Absolute Percentage Error
+WMAPE           35.87  Weighted Mean Absolute Percentage Error
+SMAPE           69.77  Symmetric Mean Absolute Percentage Error
+ME           14116.80  Mean Error
+MAE          14116.80  Mean Absolute Error
+MPE             96.54  Mean Percentage Error
+RMSE         16359.41  Root Mean Squared Error
+NRMSE           17.09  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -34.88  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 50
+
+MAPE            86.70  Mean Absolute Percentage Error
+MASE            29.79  Mean Absolute Scaled Error
+MDAPE           19.90  Median Absolute Percentage Error
+WMAPE           22.31  Weighted Mean Absolute Percentage Error
+SMAPE           47.54  Symmetric Mean Absolute Percentage Error
+ME            9482.80  Mean Error
+MAE           9482.80  Mean Absolute Error
+MPE             86.70  Mean Percentage Error
+RMSE         10957.71  Root Mean Squared Error
+NRMSE           11.25  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -23.77  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            26.45  Mean Absolute Percentage Error
+MASE            72.06  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           21.68  Weighted Mean Absolute Percentage Error
+SMAPE           22.13  Symmetric Mean Absolute Percentage Error
+ME              47.00  Mean Error
+MAE             98.20  Mean Absolute Error
+MPE             17.92  Mean Percentage Error
+RMSE           121.08  Root Mean Squared Error
+NRMSE           40.36  Normalized Root Mean Squared Error
+BIAS_TRACK     -22.80  Bias Tracking Signal
+BIAS_NFM        -6.41  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 98
+
+MAPE            66.66  Mean Absolute Percentage Error
+MASE            74.49  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           47.94  Weighted Mean Absolute Percentage Error
+SMAPE           82.75  Symmetric Mean Absolute Percentage Error
+ME              29.00  Mean Error
+MAE            323.80  Mean Absolute Error
+MPE             34.38  Mean Percentage Error
+RMSE           370.70  Root Mean Squared Error
+NRMSE           33.70  Normalized Root Mean Squared Error
+BIAS_TRACK      -9.40  Bias Tracking Signal
+BIAS_NFM       -20.67  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 188
+
+MAPE            47.50  Mean Absolute Percentage Error
+MASE            75.55  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           66.27  Weighted Mean Absolute Percentage Error
+SMAPE          127.03  Symmetric Mean Absolute Percentage Error
+ME            -248.40  Mean Error
+MAE            684.00  Mean Absolute Error
+MPE            -10.17  Mean Percentage Error
+RMSE           832.20  Root Mean Squared Error
+NRMSE           34.68  Normalized Root Mean Squared Error
+BIAS_TRACK      -2.20  Bias Tracking Signal
+BIAS_NFM       -20.31  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 233
+
+MAPE            40.90  Mean Absolute Percentage Error
+MASE            76.31  Mean Absolute Scaled Error
+MDAPE           26.79  Median Absolute Percentage Error
+WMAPE           82.52  Weighted Mean Absolute Percentage Error
+SMAPE          157.21  Symmetric Mean Absolute Percentage Error
+ME            -942.80  Mean Error
+MAE           1423.60  Mean Absolute Error
+MPE            -32.96  Mean Percentage Error
+RMSE          1999.89  Root Mean Squared Error
+NRMSE           37.03  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.80  Bias Tracking Signal
+BIAS_NFM       -16.66  Bias Normalized Forecast Metric
+
+MAPE  :  [13.75, 2.46, 15.51, 17.44, 35.11, 20.44, 16.32, 14.72, 18.84, 45.51, 26.89, 32.92, 25.94, 116.13, 29.26, 96.54, 86.7, 26.45, 66.66, 47.5, 40.9]
+MASE  :  [11.3, 1.44, 11.36, 19.45, 22.39, 20.15, 20.01, 17.6, 20.63, 22.44, 22.12, 23.23, 32.91, 53.25, 44.54, 45.19, 29.79, 72.06, 74.49, 75.55, 76.31]
+MDAPE  :  [7.13, 1.01, 7.06, 11.92, 13.62, 11.44, 11.67, 9.64, 12.08, 14.43, 12.52, 15.05, 19.53, 32.51, 23.58, 29.58, 19.9, 16.67, 37.5, 37.5, 26.79]
+WMAPE  :  [7.4, 1.0, 7.39, 12.05, 14.38, 11.77, 11.13, 10.46, 12.34, 15.04, 12.52, 15.55, 20.2, 42.93, 23.35, 35.87, 22.31, 21.68, 47.94, 66.27, 82.52]
+SMAPE  :  [15.48, 2.3, 16.65, 19.8, 27.74, 19.09, 16.69, 16.75, 22.01, 31.88, 20.81, 32.73, 32.61, 75.75, 38.99, 69.77, 47.54, 22.13, 82.75, 127.03, 157.21]
+ME  :  [-2276.8, 45.6, -2276.9, -14785.2, -532.3, -15046.44, -13393.0, -16217.0, -19982.72, -512.74, -20078.0, -1400.4, -9745.6, 8293.0, -15343.4, 14116.8, 9482.8, 47.0, 29.0, -248.4, -942.8]
+MAE  :  [4211.2, 246.8, 4085.7, 20763.4, 24024.3, 20686.22, 19749.0, 18337.0, 21634.64, 24079.12, 21758.8, 24636.8, 12147.6, 19583.0, 15343.4, 14116.8, 9482.8, 98.2, 323.8, 684.0, 1423.6]
+MPE  :  [-3.22, 0.82, -1.04, -8.47, 18.34, -4.93, -4.95, -10.28, -13.35, 26.32, -4.14, 13.14, -15.21, 93.21, -29.26, 96.54, 86.7, 17.92, 34.38, -10.17, -32.96]
+RMSE  :  [4938.3, 289.07, 4909.39, 25258.81, 27844.17, 25139.55, 23585.21, 24169.88, 26405.63, 28040.22, 26468.57, 28686.18, 14990.5, 23400.96, 17380.83, 16359.41, 10957.71, 121.08, 370.7, 832.2, 1999.89]
+NRMSE  :  [4.39, 0.57, 4.35, 7.16, 8.05, 7.0, 6.78, 6.97, 7.35, 7.81, 7.55, 8.26, 12.17, 18.2, 14.17, 17.09, 11.25, 40.36, 33.7, 34.68, 37.03]
+BIAS_TRACK  :  [29.4, -6.8, 29.1, 40.9, 2.3, 43.34, 38.0, 56.0, 66.62, -0.26, 65.6, 1.8, 49.0, -30.0, 100.0, -100.0, -100.0, -22.8, -9.4, -2.2, -0.8]
+BIAS_NFM  :  [2.26, -0.3, 1.54, 5.82, -3.95, 5.67, 3.96, 6.44, 9.25, -3.87, 8.66, -3.87, 10.6, -22.4, 19.49, -34.88, -23.77, -6.41, -20.67, -20.31, -16.66]
+
+FINISH: 9
+
+START: 10
+Test: 1 / 21
+FORECAST      - low:   10 high: 1050 range:  500
+VAR to ACTUAL - low:  -50 high:  100 range:  500
+Zeros: 3
+
+MAPE            14.41  Mean Absolute Percentage Error
+MASE            11.45  Mean Absolute Scaled Error
+MDAPE            7.34  Median Absolute Percentage Error
+WMAPE            7.69  Weighted Mean Absolute Percentage Error
+SMAPE           15.03  Symmetric Mean Absolute Percentage Error
+ME           -2416.40  Mean Error
+MAE           4156.80  Mean Absolute Error
+MPE             -3.49  Mean Percentage Error
+RMSE          4953.61  Root Mean Squared Error
+NRMSE            4.38  Normalized Root Mean Squared Error
+BIAS_TRACK      34.00  Bias Tracking Signal
+BIAS_NFM         3.28  Bias Normalized Forecast Metric
+
+Test: 2 / 21
+FORECAST      - low:    5 high:  505 range:  500
+VAR to ACTUAL - low:   -5 high:    5 range:  500
+Zeros: 1
+
+MAPE             2.64  Mean Absolute Percentage Error
+MASE             1.68  Mean Absolute Scaled Error
+MDAPE            0.92  Median Absolute Percentage Error
+WMAPE            0.94  Weighted Mean Absolute Percentage Error
+SMAPE            2.83  Symmetric Mean Absolute Percentage Error
+ME              66.60  Mean Error
+MAE            249.00  Mean Absolute Error
+MPE              1.37  Mean Percentage Error
+RMSE           289.65  Root Mean Squared Error
+NRMSE            0.57  Normalized Root Mean Squared Error
+BIAS_TRACK     -15.00  Bias Tracking Signal
+BIAS_NFM        -0.75  Bias Normalized Forecast Metric
+
+Test: 3 / 21
+FORECAST      - low:    5 high: 1050 range: 1000
+VAR to ACTUAL - low:  -55 high:  100 range: 1000
+Zeros: 6
+
+MAPE            13.60  Mean Absolute Percentage Error
+MASE            11.48  Mean Absolute Scaled Error
+MDAPE            6.99  Median Absolute Percentage Error
+WMAPE            7.25  Weighted Mean Absolute Percentage Error
+SMAPE           14.44  Symmetric Mean Absolute Percentage Error
+ME           -2109.30  Mean Error
+MAE           4065.30  Mean Absolute Error
+MPE             -2.28  Mean Percentage Error
+RMSE          4910.70  Root Mean Squared Error
+NRMSE            4.32  Normalized Root Mean Squared Error
+BIAS_TRACK      23.60  Bias Tracking Signal
+BIAS_NFM         2.22  Bias Normalized Forecast Metric
+
+Test: 4 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -200 high:  500 range: 1000
+Zeros: 3
+
+MAPE            17.09  Mean Absolute Percentage Error
+MASE            22.31  Mean Absolute Scaled Error
+MDAPE           11.21  Median Absolute Percentage Error
+WMAPE           11.97  Weighted Mean Absolute Percentage Error
+SMAPE           18.78  Symmetric Mean Absolute Percentage Error
+ME          -16214.00  Mean Error
+MAE          21744.80  Mean Absolute Error
+MPE             -8.33  Mean Percentage Error
+RMSE         26110.81  Root Mean Squared Error
+NRMSE            7.36  Normalized Root Mean Squared Error
+BIAS_TRACK      45.60  Bias Tracking Signal
+BIAS_NFM         5.77  Bias Normalized Forecast Metric
+
+Test: 5 / 21
+FORECAST      - low:  100 high: 3100 range: 1000
+VAR to ACTUAL - low: -500 high:  500 range: 1000
+Zeros: 18
+
+MAPE            41.84  Mean Absolute Percentage Error
+MASE            24.73  Mean Absolute Scaled Error
+MDAPE           14.24  Median Absolute Percentage Error
+WMAPE           14.76  Weighted Mean Absolute Percentage Error
+SMAPE           26.25  Symmetric Mean Absolute Percentage Error
+ME           -3180.40  Mean Error
+MAE          24663.60  Mean Absolute Error
+MPE             22.73  Mean Percentage Error
+RMSE         28586.28  Root Mean Squared Error
+NRMSE            7.97  Normalized Root Mean Squared Error
+BIAS_TRACK       8.80  Bias Tracking Signal
+BIAS_NFM        -1.70  Bias Normalized Forecast Metric
+
+Test: 6 / 21
+FORECAST      - low:  100 high: 3100 range: 20000
+VAR to ACTUAL - low: -200 high:  500 range: 20000
+Zeros: 35
+
+MAPE            20.00  Mean Absolute Percentage Error
+MASE            20.31  Mean Absolute Scaled Error
+MDAPE           11.56  Median Absolute Percentage Error
+WMAPE           11.87  Weighted Mean Absolute Percentage Error
+SMAPE           19.18  Symmetric Mean Absolute Percentage Error
+ME          -15114.90  Mean Error
+MAE          20812.98  Mean Absolute Error
+MPE             -5.34  Mean Percentage Error
+RMSE         25199.22  Root Mean Squared Error
+NRMSE            7.02  Normalized Root Mean Squared Error
+BIAS_TRACK      43.24  Bias Tracking Signal
+BIAS_NFM         5.61  Bias Normalized Forecast Metric
+
+Test: 7 / 21
+FORECAST      - low:  100 high: 3100 range:  100
+VAR to ACTUAL - low: -200 high:  500 range:  100
+Zeros: 1
+
+MAPE            14.96  Mean Absolute Percentage Error
+MASE            17.12  Mean Absolute Scaled Error
+MDAPE           11.11  Median Absolute Percentage Error
+WMAPE           11.13  Weighted Mean Absolute Percentage Error
+SMAPE           19.28  Symmetric Mean Absolute Percentage Error
+ME          -13388.00  Mean Error
+MAE          18894.00  Mean Absolute Error
+MPE             -9.73  Mean Percentage Error
+RMSE         23452.71  Root Mean Squared Error
+NRMSE            7.18  Normalized Root Mean Squared Error
+BIAS_TRACK      46.00  Bias Tracking Signal
+BIAS_NFM         5.24  Bias Normalized Forecast Metric
+
+Test: 8 / 21
+FORECAST      - low:    5 high: 3100 range:  100
+VAR to ACTUAL - low: -100 high:  500 range:  100
+Zeros: 0
+
+MAPE            14.19  Mean Absolute Percentage Error
+MASE            18.37  Mean Absolute Scaled Error
+MDAPE            9.24  Median Absolute Percentage Error
+WMAPE           10.92  Weighted Mean Absolute Percentage Error
+SMAPE           16.88  Symmetric Mean Absolute Percentage Error
+ME          -19308.00  Mean Error
+MAE          20540.00  Mean Absolute Error
+MPE            -12.89  Mean Percentage Error
+RMSE         25751.87  Root Mean Squared Error
+NRMSE            7.42  Normalized Root Mean Squared Error
+BIAS_TRACK      66.00  Bias Tracking Signal
+BIAS_NFM         7.81  Bias Normalized Forecast Metric
+
+Test: 9 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -100 high:  500 range: 20000
+Zeros: 53
+
+MAPE            18.65  Mean Absolute Percentage Error
+MASE            20.61  Mean Absolute Scaled Error
+MDAPE           12.06  Median Absolute Percentage Error
+WMAPE           12.37  Weighted Mean Absolute Percentage Error
+SMAPE           22.12  Symmetric Mean Absolute Percentage Error
+ME          -20011.44  Mean Error
+MAE          21716.11  Mean Absolute Error
+MPE            -13.70  Mean Percentage Error
+RMSE         26504.15  Root Mean Squared Error
+NRMSE            7.39  Normalized Root Mean Squared Error
+BIAS_TRACK      66.04  Bias Tracking Signal
+BIAS_NFM         9.27  Bias Normalized Forecast Metric
+
+Test: 10 / 21
+FORECAST      - low:    5 high: 3100 range: 20000
+VAR to ACTUAL - low: -500 high:  500 range: 20000
+Zeros: 792
+
+MAPE            45.40  Mean Absolute Percentage Error
+MASE            22.70  Mean Absolute Scaled Error
+MDAPE           14.50  Median Absolute Percentage Error
+WMAPE           15.25  Weighted Mean Absolute Percentage Error
+SMAPE           32.38  Symmetric Mean Absolute Percentage Error
+ME            -673.29  Mean Error
+MAE          24332.90  Mean Absolute Error
+MPE             25.86  Mean Percentage Error
+RMSE         28261.95  Root Mean Squared Error
+NRMSE            7.87  Normalized Root Mean Squared Error
+BIAS_TRACK       0.06  Bias Tracking Signal
+BIAS_NFM        -3.85  Bias Normalized Forecast Metric
+
+Test: 11 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -100 high:  500 range:  500
+Zeros: 1
+
+MAPE            17.15  Mean Absolute Percentage Error
+MASE            20.30  Mean Absolute Scaled Error
+MDAPE           12.34  Median Absolute Percentage Error
+WMAPE           12.35  Weighted Mean Absolute Percentage Error
+SMAPE           21.70  Symmetric Mean Absolute Percentage Error
+ME          -19706.00  Mean Error
+MAE          21083.20  Mean Absolute Error
+MPE            -15.26  Mean Percentage Error
+RMSE         25714.97  Root Mean Squared Error
+NRMSE            7.21  Normalized Root Mean Squared Error
+BIAS_TRACK      70.00  Bias Tracking Signal
+BIAS_NFM         9.58  Bias Normalized Forecast Metric
+
+Test: 12 / 21
+FORECAST      - low:    5 high: 3100 range:  500
+VAR to ACTUAL - low: -500 high:  500 range:  500
+Zeros: 27
+
+MAPE            38.86  Mean Absolute Percentage Error
+MASE            23.57  Mean Absolute Scaled Error
+MDAPE           16.37  Median Absolute Percentage Error
+WMAPE           16.33  Weighted Mean Absolute Percentage Error
+SMAPE           36.73  Symmetric Mean Absolute Percentage Error
+ME           -2297.00  Mean Error
+MAE          25152.20  Mean Absolute Error
+MPE             17.21  Mean Percentage Error
+RMSE         28780.75  Root Mean Squared Error
+NRMSE            8.06  Normalized Root Mean Squared Error
+BIAS_TRACK       4.40  Bias Tracking Signal
+BIAS_NFM        -4.81  Bias Normalized Forecast Metric
+
+Test: 13 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -100 high:  300 range:  500
+Zeros: 7
+
+MAPE            24.65  Mean Absolute Percentage Error
+MASE            32.58  Mean Absolute Scaled Error
+MDAPE           19.02  Median Absolute Percentage Error
+WMAPE           20.05  Weighted Mean Absolute Percentage Error
+SMAPE           32.84  Symmetric Mean Absolute Percentage Error
+ME           -9893.00  Mean Error
+MAE          12187.00  Mean Absolute Error
+MPE            -16.42  Mean Percentage Error
+RMSE         15042.10  Root Mean Squared Error
+NRMSE           11.74  Normalized Root Mean Squared Error
+BIAS_TRACK      51.80  Bias Tracking Signal
+BIAS_NFM        10.37  Bias Normalized Forecast Metric
+
+Test: 14 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -500 high:  300 range:  500
+Zeros: 76
+
+MAPE           112.23  Mean Absolute Percentage Error
+MASE            52.30  Mean Absolute Scaled Error
+MDAPE           27.00  Median Absolute Percentage Error
+WMAPE           38.43  Weighted Mean Absolute Percentage Error
+SMAPE           71.79  Symmetric Mean Absolute Percentage Error
+ME            7420.20  Mean Error
+MAE          18919.80  Mean Absolute Error
+MPE             91.50  Mean Percentage Error
+RMSE         22438.81  Root Mean Squared Error
+NRMSE           17.99  Normalized Root Mean Squared Error
+BIAS_TRACK     -26.60  Bias Tracking Signal
+BIAS_NFM       -22.42  Bias Normalized Forecast Metric
+
+Test: 15 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low:   10 high:  300 range:  500
+Zeros: 0
+
+MAPE            26.96  Mean Absolute Percentage Error
+MASE            41.24  Mean Absolute Scaled Error
+MDAPE           21.77  Median Absolute Percentage Error
+WMAPE           21.95  Weighted Mean Absolute Percentage Error
+SMAPE           35.26  Symmetric Mean Absolute Percentage Error
+ME          -14433.20  Mean Error
+MAE          14433.20  Mean Absolute Error
+MPE            -26.96  Mean Percentage Error
+RMSE         16624.00  Root Mean Squared Error
+NRMSE           13.57  Normalized Root Mean Squared Error
+BIAS_TRACK     100.00  Bias Tracking Signal
+BIAS_NFM        17.63  Bias Normalized Forecast Metric
+
+Test: 16 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -300 high:  -10 range:  500
+Zeros: 81
+
+MAPE           141.79  Mean Absolute Percentage Error
+MASE            41.74  Mean Absolute Scaled Error
+MDAPE           29.12  Median Absolute Percentage Error
+WMAPE           34.74  Weighted Mean Absolute Percentage Error
+SMAPE           68.53  Symmetric Mean Absolute Percentage Error
+ME           14059.00  Mean Error
+MAE          14059.00  Mean Absolute Error
+MPE            141.79  Mean Percentage Error
+RMSE         16410.33  Root Mean Squared Error
+NRMSE           17.51  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -34.27  Bias Normalized Forecast Metric
+
+Test: 17 / 21
+FORECAST      - low:    5 high: 1000 range:  500
+VAR to ACTUAL - low: -200 high:  -10 range:  500
+Zeros: 42
+
+MAPE            49.91  Mean Absolute Percentage Error
+MASE            30.42  Mean Absolute Scaled Error
+MDAPE           20.38  Median Absolute Percentage Error
+WMAPE           21.45  Weighted Mean Absolute Percentage Error
+SMAPE           43.71  Symmetric Mean Absolute Percentage Error
+ME            9759.20  Mean Error
+MAE           9759.20  Mean Absolute Error
+MPE             49.91  Mean Percentage Error
+RMSE         11199.84  Root Mean Squared Error
+NRMSE           11.48  Normalized Root Mean Squared Error
+BIAS_TRACK    -100.00  Bias Tracking Signal
+BIAS_NFM       -21.86  Bias Normalized Forecast Metric
+
+Test: 18 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -2 high:    2 range:  500
+Zeros: 0
+
+MAPE            24.67  Mean Absolute Percentage Error
+MASE            75.95  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           20.39  Weighted Mean Absolute Percentage Error
+SMAPE           20.83  Symmetric Mean Absolute Percentage Error
+ME              43.80  Mean Error
+MAE             93.00  Mean Absolute Error
+MPE             16.47  Mean Percentage Error
+RMSE           116.02  Root Mean Squared Error
+NRMSE           38.67  Normalized Root Mean Squared Error
+BIAS_TRACK     -23.00  Bias Tracking Signal
+BIAS_NFM        -5.94  Bias Normalized Forecast Metric
+
+Test: 19 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:   -7 high:    7 range:  500
+Zeros: 94
+
+MAPE            62.14  Mean Absolute Percentage Error
+MASE            77.08  Mean Absolute Scaled Error
+MDAPE           37.50  Median Absolute Percentage Error
+WMAPE           46.41  Weighted Mean Absolute Percentage Error
+SMAPE           80.55  Symmetric Mean Absolute Percentage Error
+ME              -0.80  Mean Error
+MAE            326.40  Mean Absolute Error
+MPE             26.43  Mean Percentage Error
+RMSE           374.97  Root Mean Squared Error
+NRMSE           34.09  Normalized Root Mean Squared Error
+BIAS_TRACK      -0.40  Bias Tracking Signal
+BIAS_NFM       -17.36  Bias Normalized Forecast Metric
+
+Test: 20 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -20 high:   20 range:  500
+Zeros: 205
+
+MAPE            40.43  Mean Absolute Percentage Error
+MASE            78.27  Mean Absolute Scaled Error
+MDAPE           25.00  Median Absolute Percentage Error
+WMAPE           64.67  Weighted Mean Absolute Percentage Error
+SMAPE          128.75  Symmetric Mean Absolute Percentage Error
+ME            -203.60  Mean Error
+MAE            660.00  Mean Absolute Error
+MPE            -13.39  Mean Percentage Error
+RMSE           807.94  Root Mean Squared Error
+NRMSE           33.66  Normalized Root Mean Squared Error
+BIAS_TRACK      -5.80  Bias Tracking Signal
+BIAS_NFM       -24.20  Bias Normalized Forecast Metric
+
+Test: 21 / 21
+FORECAST      - low:    5 high:    6 range:  500
+VAR to ACTUAL - low:  -50 high:   50 range:  500
+Zeros: 239
+
+MAPE            43.45  Mean Absolute Percentage Error
+MASE            75.52  Mean Absolute Scaled Error
+MDAPE           16.67  Median Absolute Percentage Error
+WMAPE           82.70  Weighted Mean Absolute Percentage Error
+SMAPE          158.22  Symmetric Mean Absolute Percentage Error
+ME            -883.60  Mean Error
+MAE           1383.20  Mean Absolute Error
+MPE            -27.28  Mean Percentage Error
+RMSE          1961.99  Root Mean Squared Error
+NRMSE           36.33  Normalized Root Mean Squared Error
+BIAS_TRACK      -4.80  Bias Tracking Signal
+BIAS_NFM       -19.76  Bias Normalized Forecast Metric
+
+MAPE  :  [14.41, 2.64, 13.6, 17.09, 41.84, 20.0, 14.96, 14.19, 18.65, 45.4, 17.15, 38.86, 24.65, 112.23, 26.96, 141.79, 49.91, 24.67, 62.14, 40.43, 43.45]
+MASE  :  [11.45, 1.68, 11.48, 22.31, 24.73, 20.31, 17.12, 18.37, 20.61, 22.7, 20.3, 23.57, 32.58, 52.3, 41.24, 41.74, 30.42, 75.95, 77.08, 78.27, 75.52]
+MDAPE  :  [7.34, 0.92, 6.99, 11.21, 14.24, 11.56, 11.11, 9.24, 12.06, 14.5, 12.34, 16.37, 19.02, 27.0, 21.77, 29.12, 20.38, 16.67, 37.5, 25.0, 16.67]
+WMAPE  :  [7.69, 0.94, 7.25, 11.97, 14.76, 11.87, 11.13, 10.92, 12.37, 15.25, 12.35, 16.33, 20.05, 38.43, 21.95, 34.74, 21.45, 20.39, 46.41, 64.67, 82.7]
+SMAPE  :  [15.03, 2.83, 14.44, 18.78, 26.25, 19.18, 19.28, 16.88, 22.12, 32.38, 21.7, 36.73, 32.84, 71.79, 35.26, 68.53, 43.71, 20.83, 80.55, 128.75, 158.22]
+ME  :  [-2416.4, 66.6, -2109.3, -16214.0, -3180.4, -15114.9, -13388.0, -19308.0, -20011.44, -673.3, -19706.0, -2297.0, -9893.0, 7420.2, -14433.2, 14059.0, 9759.2, 43.8, -0.8, -203.6, -883.6]
+MAE  :  [4156.8, 249.0, 4065.3, 21744.8, 24663.6, 20812.98, 18894.0, 20540.0, 21716.12, 24332.9, 21083.2, 25152.2, 12187.0, 18919.8, 14433.2, 14059.0, 9759.2, 93.0, 326.4, 660.0, 1383.2]
+MPE  :  [-3.49, 1.37, -2.28, -8.33, 22.73, -5.34, -9.73, -12.89, -13.7, 25.86, -15.26, 17.21, -16.42, 91.5, -26.96, 141.79, 49.91, 16.47, 26.43, -13.39, -27.28]
+RMSE  :  [4953.61, 289.65, 4910.7, 26110.81, 28586.28, 25199.22, 23452.71, 25751.87, 26504.15, 28261.95, 25714.97, 28780.75, 15042.1, 22438.81, 16624.0, 16410.33, 11199.84, 116.02, 374.97, 807.94, 1961.99]
+NRMSE  :  [4.38, 0.57, 4.32, 7.36, 7.97, 7.02, 7.18, 7.42, 7.39, 7.87, 7.21, 8.06, 11.74, 17.99, 13.57, 17.51, 11.48, 38.67, 34.09, 33.66, 36.33]
+BIAS_TRACK  :  [34.0, -15.0, 23.6, 45.6, 8.8, 43.24, 46.0, 66.0, 66.04, 0.06, 70.0, 4.4, 51.8, -26.6, 100.0, -100.0, -100.0, -23.0, -0.4, -5.8, -4.8]
+BIAS_NFM  :  [3.28, -0.75, 2.22, 5.77, -1.7, 5.61, 5.24, 7.81, 9.27, -3.85, 9.58, -4.81, 10.37, -22.42, 17.63, -34.27, -21.86, -5.94, -17.36, -24.2, -19.76]
+
+FINISH: 10
+
+1
+MAPE  :  [13.71, 3.64, 13.97, 17.66, 34.51, 20.69, 15.83, 16.68, 19.26, 42.73, 21.34, 66.36, 43.17, 103.25, 28.5, 84.37, 70.43, 27.37, 54.42, 44.45, 40.66]
+MASE  :  [11.18, 1.41, 11.27, 21.38, 24.21, 20.24, 18.01, 25.53, 20.46, 23.04, 19.28, 22.49, 34.93, 47.64, 45.92, 43.72, 31.08, 82.05, 80.1, 76.27, 75.8]
+MDAPE  :  [7.69, 0.94, 7.31, 11.83, 15.18, 11.53, 10.26, 12.62, 12.13, 14.57, 11.78, 13.69, 21.43, 23.12, 23.75, 28.08, 19.09, 25.0, 28.57, 28.57, 16.67]
+WMAPE  :  [7.64, 0.97, 7.56, 12.13, 15.56, 11.85, 11.59, 12.12, 12.35, 15.26, 12.51, 14.81, 21.35, 37.97, 23.71, 34.27, 22.23, 22.62, 44.93, 67.37, 83.54]
+SMAPE  :  [15.48, 2.63, 16.63, 18.87, 28.52, 19.06, 19.29, 18.93, 22.15, 32.36, 23.42, 30.28, 37.66, 78.48, 36.9, 63.23, 49.97, 22.83, 82.6, 132.22, 161.02]
+ME  :  [-2206.0, 52.6, -2398.5, -16046.5, 538.5, -14873.37, -10932.0, -21665.0, -19963.98, -560.5, -19805.0, -2035.0, -10150.8, 8276.8, -15489.8, 14153.0, 9812.0, 54.4, 14.4, -258.8, -942.6]
+MAE  :  [4120.0, 241.4, 4184.1, 21489.1, 25143.5, 20669.2, 19436.0, 23081.0, 21646.76, 24392.21, 21634.2, 23293.4, 12669.2, 18873.6, 15489.8, 14153.0, 9812.0, 100.8, 325.2, 715.2, 1450.2]
+MPE  :  [-4.38, 2.17, -4.73, -7.87, 16.7, -4.4, -6.56, -13.58, -13.27, 23.14, -11.84, 47.45, -0.23, 83.95, -28.5, 84.37, 70.43, 19.63, 20.21, -13.12, -30.83]
+RMSE  :  [4982.38, 286.32, 4982.72, 25822.41, 28907.36, 25089.77, 23249.52, 27748.46, 26446.02, 28320.44, 26343.58, 27466.22, 15435.83, 22948.56, 17682.1, 16339.36, 11268.37, 122.47, 373.26, 873.84, 2030.98]
+NRMSE  :  [4.41, 0.57, 4.36, 7.37, 8.12, 6.98, 6.7, 8.14, 7.37, 7.92, 7.53, 7.72, 11.98, 17.94, 14.13, 17.18, 11.59, 40.82, 33.93, 36.41, 37.61]
+BIAS_TRACK  :  [23.6, -12.4, 35.0, 45.8, -1.5, 41.66, 28.0, 74.0, 66.15, -0.68, 63.4, 1.6, 49.0, -28.2, 100.0, -100.0, -100.0, -29.8, -3.6, -4.6, -6.4]
+BIAS_NFM  :  [3.33, -0.55, 3.3, 5.76, -3.5, 5.46, 3.69, 8.31, 9.5, -3.8, 9.26, -3.46, 10.15, -26.4, 18.45, -31.62, -24.98, -7.2, -19.4, -22.52, -19.96]
+
+2
+MAPE  :  [15.48, 2.29, 13.08, 16.39, 35.76, 18.59, 15.17, 20.73, 18.76, 51.4, 16.1, 31.21, 30.34, 64.76, 28.41, 80.85, 76.37, 26.57, 58.61, 45.77, 47.4]
+MASE  :  [10.69, 1.43, 11.85, 19.27, 23.47, 20.53, 17.2, 21.38, 20.45, 22.79, 19.72, 24.07, 35.42, 45.28, 45.26, 43.09, 32.77, 76.99, 74.66, 76.67, 75.0]
+MDAPE  :  [6.59, 1.01, 7.28, 10.66, 14.38, 11.64, 8.77, 11.53, 12.02, 14.49, 11.12, 13.13, 20.76, 22.12, 23.01, 26.85, 22.99, 16.67, 28.57, 37.5, 28.57]
+WMAPE  :  [7.04, 0.96, 7.53, 11.22, 15.15, 11.92, 10.33, 12.59, 12.36, 15.16, 11.57, 14.26, 20.82, 33.28, 22.99, 33.1, 24.22, 21.92, 45.94, 67.61, 83.42]
+SMAPE  :  [15.35, 2.27, 15.1, 18.1, 27.98, 19.2, 17.95, 25.95, 22.42, 31.85, 19.33, 29.52, 34.33, 72.13, 37.62, 61.91, 50.04, 22.45, 83.55, 130.79, 155.06]
+ME  :  [-2526.6, 60.0, -2240.1, -14136.6, -293.1, -15035.76, -10279.0, -22310.0, -19962.01, -850.57, -18335.4, -1001.4, -10028.2, 5407.2, -15453.8, 13885.0, 10338.0, 41.0, 36.8, -281.8, -994.8]
+MAE  :  [3952.6, 245.6, 4151.9, 19905.0, 24612.9, 20813.73, 18817.0, 23434.0, 21618.06, 24357.88, 20388.6, 23359.8, 12539.4, 17311.2, 15453.8, 13885.0, 10338.0, 100.6, 320.8, 724.6, 1468.0]
+MPE  :  [-1.24, 0.45, -4.8, -7.21, 18.83, -6.8, -3.22, -16.25, -13.84, 32.08, -13.01, 13.67, -12.58, 42.64, -28.41, 80.85, 76.37, 16.63, 27.25, -13.67, -26.0]
+RMSE  :  [4836.73, 289.0, 4957.66, 24193.95, 28373.3, 25264.2, 23295.18, 28103.93, 26423.39, 28299.47, 25192.87, 27624.83, 15281.56, 21146.82, 17679.97, 16163.5, 11662.6, 121.41, 368.84, 883.91, 2077.87]
+NRMSE  :  [4.25, 0.59, 4.35, 6.76, 8.25, 7.04, 6.9, 8.0, 7.38, 7.89, 7.28, 7.9, 12.38, 17.11, 14.35, 16.98, 12.26, 40.47, 33.53, 36.83, 38.48]
+BIAS_TRACK  :  [35.6, -11.8, 30.0, 41.9, -0.1, 42.77, 28.0, 80.0, 66.66, 0.98, 58.4, 4.0, 51.6, -18.8, 100.0, -100.0, -100.0, -17.6, -10.0, -1.4, -3.0]
+BIAS_NFM  :  [2.21, -0.17, 3.29, 4.99, -3.94, 5.64, 1.97, 11.69, 9.41, -3.86, 8.35, -4.02, 10.78, -21.76, 18.81, -30.95, -25.02, -5.81, -21.72, -20.38, -15.45]
+
+3
+MAPE  :  [12.6, 3.86, 14.65, 17.25, 37.16, 21.51, 14.55, 16.85, 19.28, 40.37, 18.14, 36.57, 25.6, 91.05, 28.94, 73.64, 53.04, 27.05, 64.31, 47.26, 42.24]
+MASE  :  [11.81, 1.56, 12.22, 19.61, 22.87, 20.13, 22.78, 22.21, 20.83, 22.85, 20.42, 22.17, 34.58, 53.44, 46.71, 46.53, 28.62, 78.34, 78.59, 79.52, 78.01]
+MDAPE  :  [7.43, 0.95, 7.8, 11.8, 14.58, 11.55, 12.6, 12.15, 12.23, 14.69, 11.43, 14.06, 19.56, 29.98, 23.71, 29.0, 19.52, 16.67, 37.5, 37.5, 37.5]
+WMAPE  :  [7.46, 0.95, 7.77, 11.75, 14.88, 11.89, 11.9, 12.77, 12.44, 15.17, 12.23, 15.06, 20.08, 38.92, 23.92, 35.44, 22.03, 22.14, 48.73, 66.75, 82.7]
+SMAPE  :  [14.73, 2.71, 16.54, 19.42, 28.25, 19.29, 16.02, 20.51, 22.42, 32.16, 22.32, 36.87, 33.53, 69.2, 37.82, 68.42, 49.18, 22.58, 90.56, 127.35, 157.73]
+ME  :  [-2736.0, 37.8, -2466.1, -14278.7, 268.1, -14983.29, -17153.0, -21989.0, -20227.8, -902.79, -19860.8, -1547.0, -10003.0, 7140.6, -15578.4, 15023.0, 9563.8, 48.4, 50.2, -285.6, -968.6]
+MAE  :  [4184.0, 243.8, 4363.5, 20501.9, 24772.7, 20698.18, 21765.0, 23557.0, 21878.77, 24440.78, 21780.8, 23473.0, 12261.4, 18919.8, 15578.4, 15023.0, 9563.8, 100.0, 340.2, 710.4, 1444.6]
+MPE  :  [-7.24, 2.23, -4.09, -7.36, 20.0, -3.7, -8.79, -14.98, -13.46, 20.79, -14.38, 16.32, -17.62, 68.86, -28.94, 73.64, 53.04, 18.45, 32.29, -12.89, -33.28]
+RMSE  :  [4940.52, 284.99, 5159.43, 24964.06, 28656.18, 25106.08, 26076.57, 28129.85, 26666.5, 28375.8, 26326.94, 27467.13, 14879.74, 22467.19, 17689.96, 17207.12, 11113.03, 122.64, 381.55, 868.47, 2010.31]
+NRMSE  :  [4.34, 0.57, 4.53, 7.13, 8.19, 6.98, 8.22, 8.33, 7.44, 7.94, 7.5, 7.7, 11.58, 18.1, 14.45, 17.67, 11.46, 40.88, 34.69, 36.19, 37.23]
+BIAS_TRACK  :  [43.2, -6.4, 34.0, 36.6, -0.6, 42.58, 46.0, 68.0, 67.18, 0.73, 64.2, 2.2, 52.6, -25.6, 100.0, -100.0, -100.0, -23.2, -12.4, 2.4, -0.4]
+BIAS_NFM  :  [4.65, -0.5, 2.98, 5.11, -3.78, 5.47, 5.47, 9.38, 9.46, -3.75, 9.47, -5.65, 11.53, -19.69, 18.91, -34.21, -24.59, -6.6, -24.8, -18.43, -15.37]
+
+4
+MAPE  :  [15.75, 2.8, 15.98, 21.41, 33.73, 20.94, 13.52, 14.23, 18.46, 45.16, 18.23, 32.16, 29.84, 209.14, 29.46, 98.34, 79.56, 28.7, 55.0, 46.25, 45.15]
+MASE  :  [12.21, 1.44, 11.72, 20.13, 22.82, 20.08, 20.01, 19.81, 20.68, 22.78, 21.49, 23.62, 37.44, 47.13, 46.81, 46.16, 30.58, 80.02, 74.85, 76.33, 84.67]
+MDAPE  :  [7.71, 0.94, 7.62, 11.35, 13.98, 11.35, 10.18, 10.37, 12.06, 14.44, 12.62, 14.43, 19.17, 25.75, 24.05, 29.47, 20.54, 25.0, 28.57, 28.57, 28.57]
+WMAPE  :  [7.74, 0.92, 7.67, 11.97, 14.53, 11.77, 10.8, 10.47, 12.3, 15.27, 12.68, 14.71, 20.15, 37.52, 23.71, 34.51, 23.0, 23.53, 45.41, 66.86, 83.69]
+SMAPE  :  [15.48, 2.51, 17.34, 19.78, 28.64, 19.15, 15.01, 15.79, 21.92, 32.28, 22.14, 29.37, 33.54, 68.78, 39.35, 61.43, 51.35, 23.76, 86.12, 129.3, 158.99]
+ME  :  [-2314.6, 46.6, -2245.7, -15059.8, -690.0, -14777.48, -13129.0, -18419.0, -20041.01, -945.69, -20284.0, -1511.8, -9534.0, 6170.2, -15398.2, 14532.2, 9843.8, 56.4, 38.4, -249.6, -1020.4]
+MAE  :  [4151.4, 240.6, 4166.9, 20718.6, 24373.2, 20619.85, 20029.0, 20477.0, 21706.48, 24406.27, 21884.0, 24109.0, 12160.0, 18007.4, 15398.2, 14532.2, 9843.8, 104.4, 327.6, 697.2, 1502.4]
+MPE  :  [-2.39, 1.23, -1.96, -4.42, 16.48, -3.99, -7.16, -10.93, -13.7, 25.38, -13.89, 11.53, -11.45, 187.24, -29.46, 98.34, 79.56, 20.7, 23.33, -10.42, -30.02]
+RMSE  :  [4958.87, 285.34, 4972.44, 25155.99, 28271.65, 25019.66, 24248.88, 25032.56, 26505.05, 28313.13, 26683.85, 27965.22, 14951.47, 21789.37, 17458.93, 16800.78, 11255.86, 126.33, 375.82, 853.16, 2086.1]
+NRMSE  :  [4.41, 0.57, 4.43, 7.23, 8.08, 6.97, 7.34, 7.52, 7.38, 7.88, 7.65, 7.87, 11.64, 17.13, 14.32, 17.69, 11.99, 42.11, 34.17, 35.55, 38.63]
+BIAS_TRACK  :  [31.2, -8.6, 29.6, 45.3, 0.3, 42.18, 36.0, 64.0, 66.51, 1.19, 68.8, 1.6, 47.6, -25.2, 100.0, -100.0, -100.0, -28.8, -10.2, -3.6, -1.6]
+BIAS_NFM  :  [3.26, -0.43, 2.26, 5.76, -4.04, 5.34, 4.59, 6.64, 9.28, -3.7, 9.0, -1.61, 10.37, -19.89, 19.68, -30.71, -25.67, -7.52, -22.74, -21.86, -15.74]
+
+5
+MAPE  :  [16.37, 3.51, 21.9, 16.96, 55.5, 19.41, 15.99, 16.44, 18.24, 42.91, 22.19, 33.3, 26.79, 80.88, 30.1, 101.3, 94.73, 27.53, 59.54, 41.84, 45.95]
+MASE  :  [11.74, 1.48, 12.35, 19.08, 22.92, 20.15, 22.84, 18.45, 20.6, 22.73, 21.14, 22.18, 35.1, 51.19, 44.37, 43.95, 31.85, 82.54, 78.88, 78.57, 78.44]
+MDAPE  :  [7.27, 1.07, 7.3, 11.02, 14.87, 11.5, 11.88, 11.19, 11.95, 14.61, 12.2, 14.57, 19.48, 26.15, 24.48, 27.05, 20.92, 16.67, 28.57, 28.57, 44.44]
+WMAPE  :  [7.65, 1.02, 7.3, 11.43, 15.22, 11.79, 12.62, 11.56, 12.3, 15.24, 12.61, 15.03, 20.83, 38.81, 24.43, 33.27, 22.1, 22.44, 46.49, 64.37, 83.46]
+SMAPE  :  [15.47, 2.61, 14.56, 18.16, 27.64, 19.18, 18.37, 21.12, 22.02, 32.21, 23.1, 32.57, 33.8, 77.11, 40.15, 65.16, 47.84, 22.93, 83.0, 127.42, 158.07]
+ME  :  [-2396.8, 41.0, -2174.3, -15391.7, 263.9, -14892.28, -16990.0, -20530.0, -19820.2, -588.4, -20002.2, -2190.8, -9654.4, 7686.8, -15568.6, 13533.2, 10210.6, 48.2, 24.6, -215.6, -1046.8]
+MAE  :  [4208.0, 249.8, 4168.1, 20748.3, 24555.1, 20620.26, 21760.0, 21254.0, 21567.86, 24458.64, 21842.6, 24510.8, 12100.0, 18653.6, 15568.6, 13533.2, 10210.6, 101.4, 325.0, 659.6, 1514.0]
+MPE  :  [-0.48, 1.73, 5.83, -6.76, 38.69, -5.83, -11.12, -14.95, -13.78, 23.43, -10.21, 12.9, -16.34, 58.1, -30.1, 101.3, 94.73, 18.67, 26.7, -13.57, -31.78]
+RMSE  :  [4981.64, 290.76, 4982.01, 25268.48, 28576.12, 25105.91, 26402.75, 26104.08, 26343.08, 28409.57, 26916.28, 28491.09, 14869.56, 22458.56, 17711.23, 15829.72, 11621.21, 124.18, 372.59, 804.24, 2084.49]
+NRMSE  :  [4.42, 0.58, 4.37, 7.06, 8.18, 6.99, 8.21, 7.94, 7.34, 7.92, 7.56, 8.21, 11.68, 18.27, 14.45, 16.73, 12.03, 41.39, 33.87, 33.51, 38.6]
+BIAS_TRACK  :  [30.0, -8.2, 28.4, 47.2, 0.8, 42.36, 46.0, 76.0, 65.58, 0.84, 65.8, 6.0, 49.2, -25.0, 100.0, -100.0, -100.0, -21.8, -8.2, -1.2, 2.2]
+BIAS_NFM  :  [2.2, -0.38, 2.3, 4.89, -3.9, 5.55, 6.98, 9.88, 9.16, -3.79, 8.98, -3.4, 12.09, -23.12, 20.08, -32.58, -23.92, -6.63, -20.42, -22.53, -13.29]
+
+6
+MAPE  :  [15.11, 2.73, 15.44, 20.22, 53.98, 20.54, 16.15, 15.24, 18.32, 41.75, 19.03, 31.06, 30.69, 106.67, 28.3, 111.92, 77.0, 28.2, 53.97, 47.71, 42.72]
+MASE  :  [12.23, 1.56, 12.15, 19.51, 24.16, 20.07, 23.1, 23.19, 20.85, 22.53, 20.55, 22.93, 31.13, 52.71, 42.31, 43.58, 30.69, 83.76, 78.16, 76.36, 78.07]
+MDAPE  :  [7.33, 0.99, 7.8, 10.84, 14.58, 11.6, 11.83, 12.14, 12.17, 14.41, 12.56, 14.4, 18.89, 25.77, 23.45, 28.54, 20.87, 25.0, 28.57, 28.57, 28.57]
+WMAPE  :  [7.93, 0.99, 7.56, 11.56, 15.07, 11.84, 12.18, 11.96, 12.43, 15.1, 12.42, 15.43, 19.89, 41.26, 23.35, 34.86, 23.34, 23.28, 44.73, 68.11, 82.63]
+SMAPE  :  [15.05, 2.4, 15.07, 18.9, 27.5, 19.3, 18.21, 17.8, 22.18, 32.4, 23.11, 35.4, 32.14, 75.3, 36.67, 66.01, 47.47, 23.46, 84.28, 138.18, 156.19]
+ME  :  [-2665.8, 53.0, -2221.0, -14800.4, -80.2, -14924.32, -14110.0, -21079.0, -20130.69, -740.07, -21234.0, 1398.6, -8917.4, 9660.0, -14972.6, 14159.2, 9998.2, 55.8, 15.8, -193.0, -979.4]
+MAE  :  [4378.6, 250.6, 4201.6, 20752.8, 24339.6, 20716.04, 20860.0, 22471.0, 21746.79, 24215.47, 22784.4, 24214.6, 11636.2, 19220.4, 14972.6, 14159.2, 9998.2, 103.4, 328.6, 695.0, 1449.4]
+MPE  :  [-4.21, 1.09, -1.34, -4.56, 36.61, -4.62, -9.81, -13.62, -14.28, 22.31, -15.67, 10.76, -7.25, 88.7, -28.3, 111.92, 77.0, 20.27, 19.13, -6.07, -32.39]
+RMSE  :  [5178.78, 293.63, 5030.77, 25025.45, 28205.31, 25173.3, 24858.82, 26895.57, 26518.44, 28161.23, 27533.84, 28057.52, 14484.84, 23336.99, 17105.06, 16496.72, 11453.08, 124.66, 374.3, 835.4, 2035.94]
+NRMSE  :  [4.61, 0.58, 4.41, 6.99, 8.12, 7.02, 7.77, 7.94, 7.38, 7.88, 7.85, 8.08, 11.32, 18.22, 13.92, 17.44, 11.84, 41.55, 34.03, 34.81, 37.7]
+BIAS_TRACK  :  [34.2, -9.0, 28.1, 41.2, -1.9, 42.44, 40.0, 72.0, 67.42, 0.74, 69.2, -7.8, 44.6, -33.6, 100.0, -100.0, -100.0, -29.8, -1.4, -10.2, 1.8]
+BIAS_NFM  :  [4.15, -0.34, 2.7, 5.43, -3.31, 5.41, 6.26, 8.14, 9.4, -4.0, 10.54, -4.42, 8.25, -26.02, 18.34, -33.01, -23.74, -7.4, -19.94, -28.61, -15.04]
+
+7
+MAPE  :  [11.69, 2.18, 14.34, 20.46, 41.63, 19.74, 19.83, 16.23, 18.18, 43.37, 17.83, 46.61, 30.16, 105.79, 28.71, 105.01, 48.37, 26.78, 58.86, 46.54, 42.6]
+MASE  :  [10.85, 1.55, 11.77, 20.23, 23.02, 20.42, 23.03, 22.86, 20.83, 22.81, 21.38, 23.81, 33.63, 50.88, 46.36, 46.28, 30.69, 83.92, 76.59, 77.38, 75.41]
+MDAPE  :  [6.04, 1.06, 7.27, 10.92, 14.84, 11.43, 11.6, 12.43, 12.08, 14.38, 13.15, 13.77, 21.21, 25.77, 23.7, 28.35, 20.3, 16.67, 37.5, 28.57, 28.57]
+WMAPE  :  [6.72, 0.99, 7.35, 11.62, 15.05, 11.86, 11.93, 12.25, 12.4, 15.05, 13.25, 15.0, 20.93, 38.31, 23.54, 33.86, 22.44, 22.13, 47.02, 66.95, 83.14]
+SMAPE  :  [15.42, 2.5, 16.01, 19.12, 30.49, 19.2, 19.15, 18.47, 21.94, 31.81, 21.77, 31.45, 36.1, 74.9, 37.64, 62.94, 49.21, 22.53, 82.6, 132.09, 157.4]
+ME  :  [-2081.2, 54.6, -2205.0, -14625.4, -2323.0, -15105.28, -15956.0, -21527.0, -20074.16, -657.57, -21424.4, 737.2, -9443.2, 8038.0, -15597.2, 14338.6, 9742.8, 46.4, 17.2, -214.0, -978.2]
+MAE  :  [3724.4, 255.0, 4164.4, 20341.8, 25003.6, 20906.0, 20226.0, 22353.0, 21793.91, 24353.33, 22868.0, 23862.4, 12376.0, 18790.0, 15597.2, 14338.6, 9742.8, 100.4, 328.0, 684.0, 1459.0]
+MPE  :  [-4.96, 0.57, -3.67, -3.76, 22.38, -5.47, -5.64, -13.51, -14.08, 24.01, -15.66, 28.33, -9.44, 85.17, -28.71, 105.01, 48.37, 17.78, 24.84, -8.44, -31.4]
+RMSE  :  [4588.69, 295.47, 5003.16, 24756.08, 28801.67, 25383.29, 25585.93, 27242.82, 26537.39, 28307.11, 27609.97, 27653.37, 15053.54, 22648.93, 17636.7, 16534.54, 11141.07, 121.49, 373.42, 834.87, 2038.41]
+NRMSE  :  [4.17, 0.59, 4.39, 7.02, 8.27, 7.07, 7.69, 8.14, 7.42, 7.91, 7.89, 7.76, 11.91, 18.09, 14.52, 17.86, 11.56, 40.5, 33.95, 34.79, 37.75]
+BIAS_TRACK  :  [28.4, -10.8, 26.5, 44.9, 4.2, 42.44, 38.0, 82.0, 66.32, 0.44, 66.6, -3.4, 44.0, -28.0, 100.0, -100.0, -100.0, -22.8, -6.8, -6.6, -3.6]
+BIAS_NFM  :  [2.46, -0.41, 3.14, 4.91, -3.65, 5.51, 5.73, 8.3, 9.24, -3.7, 9.9, -4.42, 7.72, -23.74, 18.82, -31.47, -24.61, -6.36, -19.48, -24.88, -16.14]
+
+8
+MAPE  :  [15.19, 2.99, 17.25, 16.41, 34.9, 21.07, 18.75, 13.46, 18.65, 38.63, 16.9, 33.78, 38.28, 87.28, 28.36, 160.77, 55.77, 26.0, 61.47, 46.29, 46.07]
+MASE  :  [11.88, 1.54, 11.72, 19.45, 23.01, 20.32, 19.44, 16.79, 20.4, 22.86, 20.75, 21.88, 34.11, 51.08, 43.96, 47.05, 29.65, 78.6, 73.99, 76.5, 79.56]
+MDAPE  :  [7.58, 0.98, 7.68, 10.86, 14.71, 11.53, 13.49, 10.77, 11.98, 14.55, 12.27, 15.21, 19.08, 26.14, 22.42, 29.48, 21.31, 16.67, 37.5, 28.57, 44.44]
+WMAPE  :  [7.62, 0.98, 7.73, 11.32, 14.8, 11.87, 13.48, 10.57, 12.29, 15.1, 12.14, 15.89, 19.76, 38.76, 23.07, 37.32, 22.93, 21.27, 47.27, 67.72, 83.0]
+SMAPE  :  [15.8, 2.53, 16.31, 18.41, 26.18, 19.32, 21.63, 17.46, 22.17, 32.15, 20.82, 35.51, 33.08, 74.2, 37.26, 69.06, 45.51, 21.74, 84.52, 135.49, 156.12]
+ME  :  [-2730.4, 47.6, -2080.6, -13882.1, -747.1, -15138.88, -16669.0, -16305.0, -19753.38, -396.48, -20023.4, -67.2, -9669.8, 8032.0, -14917.4, 14810.4, 9861.2, 46.8, 13.0, -224.2, -1006.2]
+MAE  :  [4225.2, 258.0, 4086.6, 19875.3, 24534.7, 20792.96, 22085.0, 18931.0, 21438.58, 24298.39, 21630.2, 24591.2, 12327.8, 19158.0, 14917.4, 14810.4, 9861.2, 96.4, 334.2, 703.4, 1470.2]
+MPE  :  [-3.15, 1.26, 0.54, -7.04, 16.95, -4.39, -10.38, -9.9, -13.71, 19.45, -13.99, 14.19, -1.29, 66.74, -28.36, 160.77, 55.77, 17.73, 25.96, -10.06, -30.77]
+RMSE  :  [5113.48, 296.38, 4885.32, 24289.97, 28164.27, 25282.45, 27127.16, 23543.17, 26249.49, 28235.94, 26405.97, 28510.27, 15103.21, 22829.56, 16948.02, 17122.46, 11252.83, 120.0, 377.12, 845.61, 2038.04]
+NRMSE  :  [4.5, 0.59, 4.33, 6.81, 7.9, 7.07, 7.91, 6.83, 7.33, 7.85, 7.51, 8.2, 11.9, 18.55, 13.96, 17.76, 11.72, 40.0, 34.28, 35.23, 37.74]
+BIAS_TRACK  :  [36.2, -8.0, 28.6, 38.9, 5.4, 43.18, 40.0, 48.0, 66.1, -0.82, 65.4, -0.4, 47.0, -26.0, 100.0, -100.0, -100.0, -23.0, -1.8, -6.6, 2.2]
+BIAS_NFM  :  [3.26, -0.36, 1.78, 4.75, -2.33, 5.61, 7.16, 5.07, 9.32, -4.0, 8.76, -5.29, 9.18, -23.75, 18.63, -34.53, -22.76, -6.36, -19.56, -25.35, -13.43]
+
+9
+MAPE  :  [13.75, 2.46, 15.51, 17.44, 35.11, 20.44, 16.32, 14.72, 18.84, 45.51, 26.89, 32.92, 25.94, 116.13, 29.26, 96.54, 86.7, 26.45, 66.66, 47.5, 40.9]
+MASE  :  [11.3, 1.44, 11.36, 19.45, 22.39, 20.15, 20.01, 17.6, 20.63, 22.44, 22.12, 23.23, 32.91, 53.25, 44.54, 45.19, 29.79, 72.06, 74.49, 75.55, 76.31]
+MDAPE  :  [7.13, 1.01, 7.06, 11.92, 13.62, 11.44, 11.67, 9.64, 12.08, 14.43, 12.52, 15.05, 19.53, 32.51, 23.58, 29.58, 19.9, 16.67, 37.5, 37.5, 26.79]
+WMAPE  :  [7.4, 1.0, 7.39, 12.05, 14.38, 11.77, 11.13, 10.46, 12.34, 15.04, 12.52, 15.55, 20.2, 42.93, 23.35, 35.87, 22.31, 21.68, 47.94, 66.27, 82.52]
+SMAPE  :  [15.48, 2.3, 16.65, 19.8, 27.74, 19.09, 16.69, 16.75, 22.01, 31.88, 20.81, 32.73, 32.61, 75.75, 38.99, 69.77, 47.54, 22.13, 82.75, 127.03, 157.21]
+ME  :  [-2276.8, 45.6, -2276.9, -14785.2, -532.3, -15046.44, -13393.0, -16217.0, -19982.72, -512.74, -20078.0, -1400.4, -9745.6, 8293.0, -15343.4, 14116.8, 9482.8, 47.0, 29.0, -248.4, -942.8]
+MAE  :  [4211.2, 246.8, 4085.7, 20763.4, 24024.3, 20686.22, 19749.0, 18337.0, 21634.64, 24079.12, 21758.8, 24636.8, 12147.6, 19583.0, 15343.4, 14116.8, 9482.8, 98.2, 323.8, 684.0, 1423.6]
+MPE  :  [-3.22, 0.82, -1.04, -8.47, 18.34, -4.93, -4.95, -10.28, -13.35, 26.32, -4.14, 13.14, -15.21, 93.21, -29.26, 96.54, 86.7, 17.92, 34.38, -10.17, -32.96]
+RMSE  :  [4938.3, 289.07, 4909.39, 25258.81, 27844.17, 25139.55, 23585.21, 24169.88, 26405.63, 28040.22, 26468.57, 28686.18, 14990.5, 23400.96, 17380.83, 16359.41, 10957.71, 121.08, 370.7, 832.2, 1999.89]
+NRMSE  :  [4.39, 0.57, 4.35, 7.16, 8.05, 7.0, 6.78, 6.97, 7.35, 7.81, 7.55, 8.26, 12.17, 18.2, 14.17, 17.09, 11.25, 40.36, 33.7, 34.68, 37.03]
+BIAS_TRACK  :  [29.4, -6.8, 29.1, 40.9, 2.3, 43.34, 38.0, 56.0, 66.62, -0.26, 65.6, 1.8, 49.0, -30.0, 100.0, -100.0, -100.0, -22.8, -9.4, -2.2, -0.8]
+BIAS_NFM  :  [2.26, -0.3, 1.54, 5.82, -3.95, 5.67, 3.96, 6.44, 9.25, -3.87, 8.66, -3.87, 10.6, -22.4, 19.49, -34.88, -23.77, -6.41, -20.67, -20.31, -16.66]
+
+10
+MAPE  :  [14.41, 2.64, 13.6, 17.09, 41.84, 20.0, 14.96, 14.19, 18.65, 45.4, 17.15, 38.86, 24.65, 112.23, 26.96, 141.79, 49.91, 24.67, 62.14, 40.43, 43.45]
+MASE  :  [11.45, 1.68, 11.48, 22.31, 24.73, 20.31, 17.12, 18.37, 20.61, 22.7, 20.3, 23.57, 32.58, 52.3, 41.24, 41.74, 30.42, 75.95, 77.08, 78.27, 75.52]
+MDAPE  :  [7.34, 0.92, 6.99, 11.21, 14.24, 11.56, 11.11, 9.24, 12.06, 14.5, 12.34, 16.37, 19.02, 27.0, 21.77, 29.12, 20.38, 16.67, 37.5, 25.0, 16.67]
+WMAPE  :  [7.69, 0.94, 7.25, 11.97, 14.76, 11.87, 11.13, 10.92, 12.37, 15.25, 12.35, 16.33, 20.05, 38.43, 21.95, 34.74, 21.45, 20.39, 46.41, 64.67, 82.7]
+SMAPE  :  [15.03, 2.83, 14.44, 18.78, 26.25, 19.18, 19.28, 16.88, 22.12, 32.38, 21.7, 36.73, 32.84, 71.79, 35.26, 68.53, 43.71, 20.83, 80.55, 128.75, 158.22]
+ME  :  [-2416.4, 66.6, -2109.3, -16214.0, -3180.4, -15114.9, -13388.0, -19308.0, -20011.44, -673.3, -19706.0, -2297.0, -9893.0, 7420.2, -14433.2, 14059.0, 9759.2, 43.8, -0.8, -203.6, -883.6]
+MAE  :  [4156.8, 249.0, 4065.3, 21744.8, 24663.6, 20812.98, 18894.0, 20540.0, 21716.12, 24332.9, 21083.2, 25152.2, 12187.0, 18919.8, 14433.2, 14059.0, 9759.2, 93.0, 326.4, 660.0, 1383.2]
+MPE  :  [-3.49, 1.37, -2.28, -8.33, 22.73, -5.34, -9.73, -12.89, -13.7, 25.86, -15.26, 17.21, -16.42, 91.5, -26.96, 141.79, 49.91, 16.47, 26.43, -13.39, -27.28]
+RMSE  :  [4953.61, 289.65, 4910.7, 26110.81, 28586.28, 25199.22, 23452.71, 25751.87, 26504.15, 28261.95, 25714.97, 28780.75, 15042.1, 22438.81, 16624.0, 16410.33, 11199.84, 116.02, 374.97, 807.94, 1961.99]
+NRMSE  :  [4.38, 0.57, 4.32, 7.36, 7.97, 7.02, 7.18, 7.42, 7.39, 7.87, 7.21, 8.06, 11.74, 17.99, 13.57, 17.51, 11.48, 38.67, 34.09, 33.66, 36.33]
+BIAS_TRACK  :  [34.0, -15.0, 23.6, 45.6, 8.8, 43.24, 46.0, 66.0, 66.04, 0.06, 70.0, 4.4, 51.8, -26.6, 100.0, -100.0, -100.0, -23.0, -0.4, -5.8, -4.8]
+BIAS_NFM  :  [3.28, -0.75, 2.22, 5.77, -1.7, 5.61, 5.24, 7.81, 9.27, -3.85, 9.58, -4.81, 10.37, -22.42, 17.63, -34.27, -21.86, -5.94, -17.36, -24.2, -19.76]
+

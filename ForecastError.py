@@ -95,7 +95,8 @@ def rmse(actual: np.ndarray, predicted: np.ndarray):
 
 def nrmse(actual: np.ndarray, predicted: np.ndarray):
     """ Normalized Root Mean Squared Error """
-    return rmse(actual, predicted) / (actual.max() - actual.min())
+    # return rmse(actual, predicted) / (actual.max() - actual.min())
+    return rmse(actual, predicted) / (np.max(actual) - np.min(actual))
 
 
 def me(actual: np.ndarray, predicted: np.ndarray):
@@ -163,6 +164,14 @@ def smdape(actual: np.ndarray, predicted: np.ndarray):
     """
     #    return np.median(2.0 * np.abs(actual - predicted) / ((np.abs(actual) + np.abs(predicted)) + EPSILON))
     return np.median(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
+
+
+def bias_tracking(actual: np.ndarray, predicted: np.ndarray):
+    return np.mean(_safe_div((actual - predicted), np.abs(actual - predicted)))
+
+
+def bias_nfm(actual: np.ndarray, predicted: np.ndarray):
+    return np.mean(_safe_div((actual - predicted), (actual + predicted)))
 
 
 def maape(actual: np.ndarray, predicted: np.ndarray):
@@ -274,92 +283,88 @@ def wmape(actual: np.ndarray, predicted: np.ndarray):
     Weighted Mean Absolute Percentage Error
     Note: result is NOT multiplied by 100
     """
-    se_mape = _safe_div(abs(actual - predicted), actual)
-    se_actual_prod_mape = actual * se_mape
-    ft_actual_sum = actual.sum()
-    ft_actual_prod_mape_sum = se_actual_prod_mape.sum()
-    ft_wmape_forecast = ft_actual_prod_mape_sum / ft_actual_sum
-
-    return ft_wmape_forecast
-
-
-#    return np.mean(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
+    se_actual_prod_mape = actual * _safe_div(abs(actual - predicted), actual)
+    return se_actual_prod_mape.sum() / actual.sum()
 
 
 METRICS = {
-    'mse': mse,
-    'rmse': rmse,
-    'nrmse': nrmse,
-    'me': me,
-    'mae': mae,
-    'mad': mad,
-    'gmae': gmae,
-    'mdae': mdae,
-    'mpe': mpe,
-    'mape': mape,
-    'mdape': mdape,
-    'smape': smape,
-    'smdape': smdape,
-    'maape': maape,
-    'mase': mase,
-    'std_ae': std_ae,
-    'std_ape': std_ape,
-    'rmspe': rmspe,
-    'rmdspe': rmdspe,
-    'rmsse': rmsse,
-    'inrse': inrse,
-    'rrse': rrse,
-    'mre': mre,
-    'rae': rae,
-    'mrae': mrae,
-    'mdrae': mdrae,
-    'gmrae': gmrae,
+    'MSE': mse,
+    'RMSE': rmse,
+    'NRMSE': nrmse,
+    'ME': me,
+    'MAE': mae,
+    'MAD': mad,
+    'GMAE': gmae,
+    'MDAE': mdae,
+    'MPE': mpe,
+    'MAPE': mape,
+    'MDAPE': mdape,
+    'SMAPE': smape,
+    'SMDAPE': smdape,
+    'MAAPE': maape,
+    'MASE': mase,
+    'STD_AE': std_ae,
+    'STD_APE': std_ape,
+    'RMSPE': rmspe,
+    'RMDSPE': rmdspe,
+    'RMSSE': rmsse,
+    'INRSE': inrse,
+    'RRSE': rrse,
+    'MRE': mre,
+    'RAE': rae,
+    'MRAE': mrae,
+    'MDRAE': mdrae,
+    'GMRAE': gmrae,
     'mbrae': mbrae,
     'umbrae': umbrae,
-    'mda': mda,
-    'wmape': wmape,
+    'MDA': mda,
+    'WMAPE': wmape,
+    'BIAS_TRACK': bias_tracking,
+    'BIAS_NFM': bias_nfm,
     'error': _error,
     '%_error': _percentage_error,
 }
 
 METRICS_NAME = {
-    'mse': 'Mean Squared Error',
-    'rmse': 'Root Mean Squared Error',
-    'nrmse': 'Normalized Root Mean Squared Error',
-    'me': 'Mean Error',
-    'mae': 'Mean Absolute Error',
-    'mad': 'Mean Absolute Deviation',
-    'gmae': 'Geometric Mean Absolute Error',
-    'mdae': 'Median Absolute Error',
-    'mpe': 'Mean Percentage Error',
-    'mape': 'Mean Absolute Percentage Error',
-    'mdape': 'Median Absolute percentage Error',
-    'smape': 'Symmetric Mean Absolute Percentage Error',
-    'smdape': 'Symmetric Median Absolute Percentage Error',
-    'maape': 'Mean Arctangent Absolute Percentage Error',
-    'mase': 'Mean Absolute Scaled Error',
-    'std_ae': 'Normalized Absolute Error',
-    'std_ape': 'Normalized Absolute Percentage Error',
+    'MSE': 'Mean Squared Error',
+    'RMSE': 'Root Mean Squared Error',
+    'NRMSE': 'Normalized Root Mean Squared Error',
+    'ME': 'Mean Error',
+    'MAE': 'Mean Absolute Error',
+    'MAD': 'Mean Absolute Deviation',
+    'GMAE': 'Geometric Mean Absolute Error',
+    'MDAE': 'Median Absolute Error',
+    'MPE': 'Mean Percentage Error',
+    'MAPE': 'Mean Absolute Percentage Error',
+    'MDAPE': 'Median Absolute Percentage Error',
+    'SMAPE': 'Symmetric Mean Absolute Percentage Error',
+    'SMDAPE': 'Symmetric Median Absolute Percentage Error',
+    'MAAPE': 'Mean Arctangent Absolute Percentage Error',
+    'MASE': 'Mean Absolute Scaled Error',
+    'STD_AE': 'Normalized Absolute Error',
+    'STD_APE': 'Normalized Absolute Percentage Error',
     'rmspe': 'Root Mean Squared Percentage Error',
-    'rmdspe': 'Root Median Squared Percentage Error',
-    'rmsse': 'Root Mean Squared Scaled Error',
-    'inrse': 'Integral Normalized Root Squared Error',
-    'rrse': 'Root Relative Squared Error',
-    'mre': 'Mean Relative Error',
-    'rae': 'Relative Absolute Error',
-    'mrae': 'Mean Relative Absolute Error',
-    'mdrae': 'Median Relative Absolute Error',
-    'gmrae': 'Geometric Mean Relative Absolute Error',
-    'mbrae': 'Mean Bounded Relative Absolute Error',
-    'umbrae': 'Unscaled Mean Bounded Relative Absolute Error',
-    'mda': 'Mean Directional Accuracy',
-    'wmape': 'Weighted Mean Absolute Percentage Error',
+    'RMDSPE': 'Root Median Squared Percentage Error',
+    'RMSSE': 'Root Mean Squared Scaled Error',
+    'IINRSE': 'Integral Normalized Root Squared Error',
+    'RRSE': 'Root Relative Squared Error',
+    'MRE': 'Mean Relative Error',
+    'RAE': 'Relative Absolute Error',
+    'MRAE': 'Mean Relative Absolute Error',
+    'MDRAE': 'Median Relative Absolute Error',
+    'GMRAE': 'Geometric Mean Relative Absolute Error',
+    'MBRAE': 'Mean Bounded Relative Absolute Error',
+    'UMBRAE': 'Unscaled Mean Bounded Relative Absolute Error',
+    'MDA': 'Mean Directional Accuracy',
+    'WMAPE': 'Weighted Mean Absolute Percentage Error',
+    'BIAS_TRACK': 'Bias Tracking Signal',
+    'BIAS_NFM': 'Bias Normalized Forecast Metric',
     'error': 'Simple Error',
     '%_error': 'Percentage Error',
 }
 
 
-def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('mape', 'mase')):
+def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('MAPE', 'MASE')):
     results = {}
     for name in metrics:
         try:
@@ -370,32 +375,107 @@ def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('mape', 'mase')
     return results
 
 
-test_values_set = [[[10, 1050, 500], [-50, 100, 500]],
-                   [[5, 505, 500], [-5, 5, 500]]]
+test_values_set = [
+    [[10, 1050, 500], [-50, 100, 500]],
+    [[5, 505, 500], [-5, 5, 500]],
+    [[5, 1050, 1000], [-55, 100, 1000]],
+    [[100, 3100, 1000], [-200, 500, 1000]],
+    [[100, 3100, 1000], [-500, 500, 1000]],
+    [[100, 3100, 20000], [-200, 500, 20000]],
+    [[100, 3100, 100], [-200, 500, 100]],
+    [[5, 3100, 100], [-100, 500, 100]],
+    [[5, 3100, 20000], [-100, 500, 20000]],
+    [[5, 3100, 20000], [-500, 500, 20000]],
+    [[5, 3100, 500], [-100, 500, 500]],
+    [[5, 3100, 500], [-500, 500, 500]],
+    [[5, 1000, 500], [-100, 300, 500]],
+    [[5, 1000, 500], [-500, 300, 500]],
+    [[5, 1000, 500], [10, 300, 500]],
+    [[5, 1000, 500], [-300, -10, 500]],
+    [[5, 1000, 500], [-200, -10, 500]],
+    [[5, 6, 500], [-2, 2, 500]],
+    [[5, 6, 500], [-7, 7, 500]],
+    [[5, 6, 500], [-20, 20, 500]],
+    [[5, 6, 500], [-50, 50, 500]]
+]
 
-for test_values in test_values_set:
-    print('{:<8} - low: {:>4} high: {:>4} range: {:>4}'.format('FORECAST', test_values[0][0], test_values[0][1],
-                                                               test_values[0][2]))
-    print('{:<8} - low: {:>4} high: {:>4} range: {:>4}'.format('ADJUST', test_values[1][0], test_values[1][1],
-                                                               test_values[1][2]))
+test_metrics = ['MAPE', 'MASE', 'MDAPE', 'WMAPE', 'SMAPE', 'ME', 'MAE', 'MPE', 'RMSE', 'NRMSE',
+                'BIAS_TRACK', 'BIAS_NFM', 'NRMSE']
+
+df_list = []
+
+num_tests = len(test_values_set)
+
+for x in range(1, 11):
+    print('START: {}'.format(x))
+    tests = 1
+    df = {}
+
+    for test_values in test_values_set:
+        print('Test: {} / {}'.format(tests, num_tests))
+
+        print(f'{"FORECAST":<13} - low: {test_values[0][0]:>4} high: {test_values[0][1]:>4}'
+              f' range: {test_values[0][2]:>4}')
+        print(f'{"VAR to ACTUAL":<13} - low: {test_values[1][0]:>4} high: {test_values[1][1]:>4}'
+              f' range: {test_values[1][2]:>4}')
+
+        the_forecast = np.array(random.randint(low=test_values[0][0], high=test_values[0][1], size=test_values[0][2]))
+
+        adjust = np.array(random.randint(low=test_values[1][0], high=test_values[1][1], size=test_values[1][2]))
+
+        the_actuals = the_forecast + adjust
+        the_actuals[the_actuals < 0] = 0
+
+        print('Zeros: {}'.format(test_values[0][2] - np.count_nonzero(the_actuals)))
+        print('')
+
+        answers = evaluate(the_actuals, the_forecast, metrics=test_metrics)
+
+        for answer in answers:
+            print(f'{answer:<11}{answers[answer] * 100:>10.2f}  {METRICS_NAME[answer]:<}')
+
+            if tests == 1:
+                _df = {answer: [round(answers[answer] * 100, 2)]}
+                df.update(_df)
+                _df.clear()
+            else:
+                df[answer].append(round(answers[answer] * 100, 2))
+
+        tests += 1
+        print('')
+
+    for key, value in df.items():
+        print(key, ' : ', value)
+
+    df_list.append(df)
+
+    print('')
+    print('FINISH: {}'.format(x))
     print('')
 
-    the_forecast = np.array(random.randint(low=10, high=1050, size=500))
+w = 1
+for thing in df_list:
+    print(w)
+    for key, value in thing.items():
+        print(key, ' : ', value)
+    print('')
+    w += 1
 
-    adjust = np.array(random.randint(low=-50, high=100, size=500))
 
-    the_actuals = the_forecast + adjust
-    the_actuals[the_actuals < 0] = 0
+"""
+the_forecast = np.array([90, 100,100,150,100])
+the_actuals = np.array([100,90,150,100,80])
 
-    answers = evaluate(the_actuals, the_forecast,
-                       metrics=('mape', 'mase', 'mdape', 'wmape', 'smape', 'me', 'mae', 'mpe'))
+the_forecast = np.array([1.1, 1.9, 3.0, 4.4, 5.0, 5.6])
+the_actuals = np.array([0.9, 1.8, 2.5, 4.5, 5.0, 6.2])
 
-    # print(the_forecast)
-    # print(the_actuals)
-    # print(the_actuals - the_forecast)
+the_forecast = np.array([-2.95,-2.7,-1,-.68,1.5,-1,.9,-.37,1.26,-.54,.58,-2.13,-.75,-.89,1.25,-1.65,-3.2,1.29,.6])
+the_actuals = np.array([-2.9,-2.83,-.95,-.88,1.21,-1.67,.83,-.27,1.36,-.34,.48,-2.83,-.95,-.88,1.21,-1.67,-2.99,
+1.24,.64])
 
-    for answer in answers:
-        print(f'{answer:<8}{answers[answer] * 100:<20}{METRICS_NAME[answer]:<50}')
+answers = evaluate(the_actuals, the_forecast,
+                   metrics=('mape', 'mase', 'mdape', 'wmape', 'smape', 'me', 'mae', 'mpe'))
 
-    print('\n')
-
+for answer in answers:-
+    print(f'{answer:<8}{answers[answer] * 100:<20}{METRICS_NAME[answer]:<50}')
+"""
