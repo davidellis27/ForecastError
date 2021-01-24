@@ -5,7 +5,7 @@ from numpy import random
 from flask import Flask
 import pandas as pd
 import plotly.express as px
-from plotly.subplots import make_subplots
+
 
 def _safe_div(a, b):
     with np.errstate(divide='ignore', invalid='ignore'):
@@ -290,13 +290,11 @@ def wmape(actual: np.ndarray, predicted: np.ndarray):
     return se_actual_prod_mape.sum() / actual.sum()
 
 
-
-
 app = Flask(__name__)
+
 
 @app.route('/')
 def chart():
-
     METRICS = {
         'MSE': mse,
         'RMSE': rmse,
@@ -373,8 +371,6 @@ def chart():
         '%_error': 'Percentage Error',
     }
 
-
-
     test_values_set = [
         [[10, 1050, 500], [-50, 100, 500]],
         [[5, 505, 500], [-5, 5, 500]],
@@ -421,7 +417,7 @@ def chart():
     for x in range(1, num_iterations + 1):
         print('START: {}'.format(x))
         tests = 1
-        #df = {}
+        # df = {}
         df = {"Test": []}
 
         for test_values in test_values_set:
@@ -432,7 +428,8 @@ def chart():
             print(f'{"VAR to ACTUAL":<13} - low: {test_values[1][0]:>4} high: {test_values[1][1]:>4}'
                   f' range: {test_values[1][2]:>4}')
 
-            the_forecast = np.array(random.randint(low=test_values[0][0], high=test_values[0][1], size=test_values[0][2]))
+            the_forecast = np.array(
+                random.randint(low=test_values[0][0], high=test_values[0][1], size=test_values[0][2]))
 
             adjust = np.array(random.randint(low=test_values[1][0], high=test_values[1][1], size=test_values[1][2]))
 
@@ -454,14 +451,11 @@ def chart():
                 else:
                     df[answer].append(round(answers[answer] * 100, 2))
 
-
             df["Test"].append(tests)
-
 
             tests += 1
             print('')
 
-        #_df = {"Test" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]}
         df.update(_df)
         df_list.append(df)
 
@@ -473,9 +467,9 @@ def chart():
         print('')
 
         plot_data = pd.DataFrame.from_dict(df)
-        plot = px.line(plot_data, x = 'Test', y = ['MAPE', 'MASE', 'MDAPE', 'WMAPE', 'SMAPE', 'NRMSE', 'MPE'], title="Forecast Measurement Metrics - Run {}".format(x))
+        plot = px.line(plot_data, x='Test', y=['MAPE', 'MASE', 'MDAPE', 'WMAPE', 'SMAPE', 'NRMSE', 'MPE'],
+                       title="Forecast Measurement Metrics - Run {}".format(x))
         plot.show()
-
 
     w = 1
     for thing in df_list:
@@ -485,9 +479,8 @@ def chart():
         print('')
         w += 1
 
-    return("drawing chart")
+    return ("drawing chart")
 
 
 if __name__ == "__main__":
     app.run()
-
