@@ -434,7 +434,6 @@ def forecasterror(iters=1):
                   f' range: {test_values[0][2]:>4}')
             output_array.append(["Forcast Range", test_values[0][0], test_values[0][1], test_values[0][2]])
 
-
             print(f'{"VAR to ACTUAL":<13} - low: {test_values[1][0]:>4} high: {test_values[1][1]:>4}'
                   f' range: {test_values[1][2]:>4}')
             output_array.append(["VAR to Forecast Range", test_values[1][0], test_values[1][1], test_values[1][2]])
@@ -442,7 +441,9 @@ def forecasterror(iters=1):
             _df = pd.DataFrame(output_array, columns=['Data Set', 'Low', 'High', 'Size'])
             output_array = []
 
-            output += _df.to_html(index=False, justify='left').replace('class="dataframe"', 'style="border-collapse:collapse" class="dataframe"')
+            output += _df.to_html(index=False, justify='left').replace('class="dataframe"',
+                                                                       'style="border-collapse:collapse" '
+                                                                       'class="dataframe"')
 
             the_forecast = np.array(
                 random.randint(low=test_values[0][0], high=test_values[0][1], size=test_values[0][2]))
@@ -461,7 +462,9 @@ def forecasterror(iters=1):
 
             for answer in answers:
                 print(f'{answer:<11}{answers[answer] * 100:>10.2f}  {METRICS_NAME[answer]:<}')
-                output_array.append([answer, '@@div style="text-align:right"@@@{:.2f}@@/div@@@'.format(round(answers[answer] * 100, 2)), METRICS_NAME[answer]])
+                output_array.append(
+                    [answer, '@@div style="text-align:right"@@@{:.2f}@@/div@@@'.format(round(answers[answer] * 100, 2)),
+                     METRICS_NAME[answer]])
                 # output_array[0][1] = str.replace('&lt', '<')
 
                 if tests == 1:
@@ -479,7 +482,8 @@ def forecasterror(iters=1):
             output_array = []
 
             output += _df.to_html(index=False, justify='left').replace('class="dataframe"',
-                                                                       'style="border-collapse:collapse" class="dataframe"')
+                                                                       'style="border-collapse:collapse" '
+                                                                       'class="dataframe"')
 
             print('')
             output += '<br>'
@@ -520,11 +524,11 @@ def forecasterror(iters=1):
 
         w += 1
 
+    # not using DASH so had to do a little HTML tweaking for HTML characters
     output = output.replace('@@@', '>')
     output = output.replace('@@', '<')
 
-    print(output)
-    return (output)
+    return output
 
 
 if __name__ == "__main__":
