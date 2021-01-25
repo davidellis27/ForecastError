@@ -131,27 +131,27 @@ def forecasterror(iters=1):
     num_iterations = int(iters)
 
     now = datetime.datetime.now()
-    print(now.strftime("%Y-%m-%d %H:%M:%S"))
-    print('')
+    # print(now.strftime("%Y-%m-%d %H:%M:%S"))
+    # print('')
     output += '{}<br><br>'.format(now.strftime("%Y-%m-%d %H:%M:%S"))
 
     for x in range(1, num_iterations + 1):
-        print('START: {}'.format(x))
+        # print('START: {}'.format(x))
         output += 'START {}<br>'.format(x)
 
         tests = 1
         df = {"Test": []}
 
         for test_values in test_values_set:
-            print('Test: {} / {}'.format(tests, num_tests))
+            # print('Test: {} / {}'.format(tests, num_tests))
             output += 'Test: {} / {}<br>'.format(tests, num_tests)
 
-            print(f'{"FORECAST":<13} - low: {test_values[0][0]:>4} high: {test_values[0][1]:>4}'
-                  f' range: {test_values[0][2]:>4}')
+            # print(f'{"FORECAST":<13} - low: {test_values[0][0]:>4} high: {test_values[0][1]:>4}'
+            #      f' range: {test_values[0][2]:>4}')
             output_array.append(["Forcast Range", test_values[0][0], test_values[0][1], test_values[0][2]])
 
-            print(f'{"VAR to ACTUAL":<13} - low: {test_values[1][0]:>4} high: {test_values[1][1]:>4}'
-                  f' range: {test_values[1][2]:>4}')
+            # print(f'{"VAR to ACTUAL":<13} - low: {test_values[1][0]:>4} high: {test_values[1][1]:>4}'
+            #      f' range: {test_values[1][2]:>4}')
             output_array.append(["VAR to Forecast Range", test_values[1][0], test_values[1][1], test_values[1][2]])
 
             _df = pd.DataFrame(output_array, columns=['Data Set', 'Low', 'High', 'Size'])
@@ -169,15 +169,15 @@ def forecasterror(iters=1):
             the_actuals = the_forecast + adjust
             the_actuals[the_actuals < 0] = 0
 
-            print('Zeros: {}'.format(test_values[0][2] - np.count_nonzero(the_actuals)))
+            # print('Zeros: {}'.format(test_values[0][2] - np.count_nonzero(the_actuals)))
             output += 'Zeros: {}<br>'.format(test_values[0][2] - np.count_nonzero(the_actuals))
-            print('')
+            # print('')
             output += '<br>'
 
             answers = evaluate(the_actuals, the_forecast, metrics=test_metrics)
 
             for answer in answers:
-                print(f'{answer:<11}{answers[answer] * 100:>10.2f}  {METRICS_NAME[answer]:<}')
+                # print(f'{answer:<11}{answers[answer] * 100:>10.2f}  {METRICS_NAME[answer]:<}')
                 output_array.append(
                     [answer, '@@div style="text-align:right"@@@{:.2f}@@/div@@@'.format(round(answers[answer] * 100, 2)),
                      METRICS_NAME[answer]])
@@ -200,20 +200,20 @@ def forecasterror(iters=1):
                                                                        'style="border-collapse:collapse" '
                                                                        'class="dataframe"')
 
-            print('')
+            # print('')
             output += '<br>'
 
         df_list.append(df)
 
-        for key, value in df.items():
-            print(key, ' : ', value)
+        # for key, value in df.items():
+        #     print(key, ' : ', value)
 
         _df = pd.DataFrame.from_dict(df)
         output += _df.to_html(index=False, justify='left')
 
-        print('')
-        print('FINISH: {}'.format(x))
-        print('')
+        # print('')
+        # print('FINISH: {}'.format(x))
+        # print('')
         output += '<br>'
         output += 'FINISH: {}<br>'.format(x)
         output += '<br>'
@@ -225,16 +225,16 @@ def forecasterror(iters=1):
 
     w = 1
     for thing in df_list:
-        print(w)
+        # print(w)
         output += '{}<br>'.format(w)
 
-        for key, value in thing.items():
-            print(key, ' : ', value)
+        # for key, value in thing.items():
+        #    print(key, ' : ', value)
 
         _df = pd.DataFrame.from_dict(thing)
         output += _df.to_html(index=False, justify='left')
 
-        print('')
+        # print('')
         output += '<br>'
 
         w += 1
