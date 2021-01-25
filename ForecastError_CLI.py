@@ -462,22 +462,3 @@ for thing in df_list:
         print(key, ' : ', value)
     print('')
     w += 1
-
-
-"""
-the_forecast = np.array([90, 100,100,150,100])
-the_actuals = np.array([100,90,150,100,80])
-
-the_forecast = np.array([1.1, 1.9, 3.0, 4.4, 5.0, 5.6])
-the_actuals = np.array([0.9, 1.8, 2.5, 4.5, 5.0, 6.2])
-
-the_forecast = np.array([-2.95,-2.7,-1,-.68,1.5,-1,.9,-.37,1.26,-.54,.58,-2.13,-.75,-.89,1.25,-1.65,-3.2,1.29,.6])
-the_actuals = np.array([-2.9,-2.83,-.95,-.88,1.21,-1.67,.83,-.27,1.36,-.34,.48,-2.83,-.95,-.88,1.21,-1.67,-2.99,
-1.24,.64])
-
-answers = evaluate(the_actuals, the_forecast,
-                   metrics=('mape', 'mase', 'mdape', 'wmape', 'smape', 'me', 'mae', 'mpe'))
-
-for answer in answers:-
-    print(f'{answer:<8}{answers[answer] * 100:<20}{METRICS_NAME[answer]:<50}')
-"""
