@@ -14,77 +14,6 @@ app = Flask(__name__)
 @app.route('/forecasterror/', methods=['GET'])
 @app.route('/forecasterror/<iters>', methods=['GET'])
 def forecasterror(iters=1):
-    METRICS = {
-        'MSE': mse,
-        'RMSE': rmse,
-        'NRMSE': nrmse,
-        'ME': me,
-        'MAE': mae,
-        'MAD': mad,
-        'GMAE': gmae,
-        'MDAE': mdae,
-        'MPE': mpe,
-        'MAPE': mape,
-        'MDAPE': mdape,
-        'SMAPE': smape,
-        'SMDAPE': smdape,
-        'MAAPE': maape,
-        'MASE': mase,
-        'STD_AE': std_ae,
-        'STD_APE': std_ape,
-        'RMSPE': rmspe,
-        'RMDSPE': rmdspe,
-        'RMSSE': rmsse,
-        'INRSE': inrse,
-        'RRSE': rrse,
-        'MRE': mre,
-        'RAE': rae,
-        'MRAE': mrae,
-        'MDRAE': mdrae,
-        'GMRAE': gmrae,
-        'mbrae': mbrae,
-        'umbrae': umbrae,
-        'MDA': mda,
-        'WMAPE': wmape,
-        'BIAS_TRACK': bias_tracking,
-        'BIAS_NFM': bias_nfm,
-    }
-
-    METRICS_NAME = {
-        'MSE': 'Mean Squared Error',
-        'RMSE': 'Root Mean Squared Error',
-        'NRMSE': 'Normalized Root Mean Squared Error',
-        'ME': 'Mean Error',
-        'MAE': 'Mean Absolute Error',
-        'MAD': 'Mean Absolute Deviation',
-        'GMAE': 'Geometric Mean Absolute Error',
-        'MDAE': 'Median Absolute Error',
-        'MPE': 'Mean Percentage Error',
-        'MAPE': 'Mean Absolute Percentage Error',
-        'MDAPE': 'Median Absolute Percentage Error',
-        'SMAPE': 'Symmetric Mean Absolute Percentage Error',
-        'SMDAPE': 'Symmetric Median Absolute Percentage Error',
-        'MAAPE': 'Mean Arctangent Absolute Percentage Error',
-        'MASE': 'Mean Absolute Scaled Error',
-        'STD_AE': 'Normalized Absolute Error',
-        'STD_APE': 'Normalized Absolute Percentage Error',
-        'rmspe': 'Root Mean Squared Percentage Error',
-        'RMDSPE': 'Root Median Squared Percentage Error',
-        'RMSSE': 'Root Mean Squared Scaled Error',
-        'IINRSE': 'Integral Normalized Root Squared Error',
-        'RRSE': 'Root Relative Squared Error',
-        'MRE': 'Mean Relative Error',
-        'RAE': 'Relative Absolute Error',
-        'MRAE': 'Mean Relative Absolute Error',
-        'MDRAE': 'Median Relative Absolute Error',
-        'GMRAE': 'Geometric Mean Relative Absolute Error',
-        'MBRAE': 'Mean Bounded Relative Absolute Error',
-        'UMBRAE': 'Unscaled Mean Bounded Relative Absolute Error',
-        'MDA': 'Mean Directional Accuracy',
-        'WMAPE': 'Weighted Mean Absolute Percentage Error',
-        'BIAS_TRACK': 'Bias Tracking Signal',
-        'BIAS_NFM': 'Bias Normalized Forecast Metric',
-    }
 
     test_values_set = [
         [[10, 1050, 500], [-50, 100, 500]],
@@ -110,7 +39,7 @@ def forecasterror(iters=1):
         [[5, 6, 500], [-50, 50, 500]]
     ]
 
-    test_metrics = ['MAPE', 'MASE', 'MDAPE', 'WMAPE', 'SMAPE', 'ME', 'MAE', 'MPE', 'RMSE', 'NRMSE',
+    test_metrics = ['MAPE', 'MASE', 'WAPE', 'MDAPE', 'SMAPE', 'ME', 'MAE', 'MPE', 'RMSE', 'NRMSE',
                     'BIAS_TRACK', 'BIAS_NFM', 'NRMSE']
 
     def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('MAPE', 'MASE')):
@@ -219,7 +148,7 @@ def forecasterror(iters=1):
         output += '<br>'
 
         plot_data = pd.DataFrame.from_dict(df)
-        plot = px.line(plot_data, x='Test', y=['MAPE', 'MASE', 'MDAPE', 'WMAPE', 'SMAPE', 'NRMSE', 'MPE'],
+        plot = px.line(plot_data, x='Test', y=['MAPE', 'MASE', 'MDAPE', 'WAPE', 'SMAPE', 'NRMSE', 'MPE'],
                        title="Forecast Measurement Metrics - Run {}".format(x))
         plot.show()
 
