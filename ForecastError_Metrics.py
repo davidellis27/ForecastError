@@ -90,6 +90,15 @@ def rmse(actual: np.ndarray, predicted: np.ndarray):
     return np.sqrt(mse(actual, predicted))
 
 
+# rmsd sum(square(_error(actual, predicted)))/number of observations
+def rmsd(actual: np.ndarray, predicted: np.ndarray):
+    """ Root Mean Squared Deviation"""
+    one = np.square(_error(actual, predicted))
+    return one.sum() / actual.size()
+    # return np.sum(np.square(_error(actual, predicted))) / actual.size()
+    # is this just RMSE?
+
+
 def nrmse(actual: np.ndarray, predicted: np.ndarray):
     """ Normalized Root Mean Squared Error """
     # return rmse(actual, predicted) / (actual.max() - actual.min())
@@ -121,7 +130,7 @@ def mdae(actual: np.ndarray, predicted: np.ndarray):
 
 def mpe(actual: np.ndarray, predicted: np.ndarray):
     """ Mean Percentage Error """
-    return np.mean(_percentage_error(actual, predicted))
+    return 100 * np.mean(_percentage_error(actual, predicted))
 
 
 def mape(actual: np.ndarray, predicted: np.ndarray):
@@ -134,7 +143,7 @@ def mape(actual: np.ndarray, predicted: np.ndarray):
         - Undefined when actual[t] == 0
     Note: result is NOT multiplied by 100
     """
-    return np.mean(np.abs(_percentage_error(actual, predicted)))
+    return 100 * np.mean(np.abs(_percentage_error(actual, predicted)))
 
 
 def mdape(actual: np.ndarray, predicted: np.ndarray):
@@ -142,7 +151,7 @@ def mdape(actual: np.ndarray, predicted: np.ndarray):
     Median Absolute Percentage Error
     Note: result is NOT multiplied by 100
     """
-    return np.median(np.abs(_percentage_error(actual, predicted)))
+    return 100 * np.median(np.abs(_percentage_error(actual, predicted)))
 
 
 def smape(actual: np.ndarray, predicted: np.ndarray):
@@ -151,7 +160,7 @@ def smape(actual: np.ndarray, predicted: np.ndarray):
     Note: result is NOT multiplied by 100
     """
     #    return np.mean(2.0 * np.abs(actual - predicted) / ((np.abs(actual) + np.abs(predicted)) + EPSILON))
-    return np.mean(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
+    return 100 * np.mean(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
 
 
 def smdape(actual: np.ndarray, predicted: np.ndarray):
@@ -160,7 +169,7 @@ def smdape(actual: np.ndarray, predicted: np.ndarray):
     Note: result is NOT multiplied by 100
     """
     #    return np.median(2.0 * np.abs(actual - predicted) / ((np.abs(actual) + np.abs(predicted)) + EPSILON))
-    return np.median(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
+    return 100 * np.median(2.0 * (_safe_div(np.abs(actual - predicted), (np.abs(actual) + np.abs(predicted)))))
 
 
 def bias_tracking(actual: np.ndarray, predicted: np.ndarray):
@@ -177,7 +186,7 @@ def maape(actual: np.ndarray, predicted: np.ndarray):
     Note: result is NOT multiplied by 100
     """
     #    return np.mean(np.arctan(np.abs((actual - predicted) / (actual + EPSILON))))
-    return np.mean(np.arctan(np.abs(_safe_div((actual - predicted), actual))))
+    return 100 * np.mean(np.arctan(np.abs(_safe_div((actual - predicted), actual))))
 
 
 def mase(actual: np.ndarray, predicted: np.ndarray, seasonality: int = 1):
@@ -205,7 +214,7 @@ def rmspe(actual: np.ndarray, predicted: np.ndarray):
     Root Mean Squared Percentage Error
     Note: result is NOT multiplied by 100
     """
-    return np.sqrt(np.mean(np.square(_percentage_error(actual, predicted))))
+    return 100 * np.sqrt(np.mean(np.square(_percentage_error(actual, predicted))))
 
 
 def rmdspe(actual: np.ndarray, predicted: np.ndarray):
@@ -213,7 +222,7 @@ def rmdspe(actual: np.ndarray, predicted: np.ndarray):
     Root Median Squared Percentage Error
     Note: result is NOT multiplied by 100
     """
-    return np.sqrt(np.median(np.square(_percentage_error(actual, predicted))))
+    return 100 * np.sqrt(np.median(np.square(_percentage_error(actual, predicted))))
 
 
 def rmsse(actual: np.ndarray, predicted: np.ndarray, seasonality: int = 1):
@@ -281,7 +290,7 @@ def wape(actual: np.ndarray, predicted: np.ndarray):
     Note: result is NOT multiplied by 100
     """
     se_actual_prod_mape = actual * _safe_div(abs(actual - predicted), actual)
-    return se_actual_prod_mape.sum() / actual.sum()
+    return 100 * se_actual_prod_mape.sum() / actual.sum()
 
 
 wmape = wape  # Weighted Mead Absolute Percentage Error = WAPE when the weighting factor is the actuals
@@ -315,10 +324,11 @@ METRICS = {
     'MRAE': mrae,
     'MDRAE': mdrae,
     'GMRAE': gmrae,
-    'mbrae': mbrae,
-    'umbrae': umbrae,
+    'MBREA': mbrae,
+    'UMBRAE': umbrae,
     'MDA': mda,
     'WMAPE': wmape,
+    'RMSD': rmsd,
     'BIAS_TRACK': bias_tracking,
     'BIAS_NFM': bias_nfm,
 }
@@ -342,7 +352,7 @@ METRICS_NAME = {
     'MASE': 'Mean Absolute Scaled Error',
     'STD_AE': 'Normalized Absolute Error',
     'STD_APE': 'Normalized Absolute Percentage Error',
-    'rmspe': 'Root Mean Squared Percentage Error',
+    'RMSPE': 'Root Mean Squared Percentage Error',
     'RMDSPE': 'Root Median Squared Percentage Error',
     'RMSSE': 'Root Mean Squared Scaled Error',
     'IINRSE': 'Integral Normalized Root Squared Error',
@@ -356,6 +366,7 @@ METRICS_NAME = {
     'UMBRAE': 'Unscaled Mean Bounded Relative Absolute Error',
     'MDA': 'Mean Directional Accuracy',
     'WMAPE': 'Weighted Mean Absolute Percentage Error',
+    'RMSD': 'Root Mean Squared Deviation',
     'BIAS_TRACK': 'Bias Tracking Signal',
     'BIAS_NFM': 'Bias Normalized Forecast Metric',
 }

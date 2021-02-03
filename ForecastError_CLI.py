@@ -73,6 +73,8 @@ for x in range(1, num_iterations + 1):
         the_actuals = the_forecast + adjust
         the_actuals[the_actuals < 0] = 0
 
+        the_forecast = ([])
+
         print('Zeros: {}'.format(test_values[0][2] - np.count_nonzero(the_actuals)))
         print('')
 

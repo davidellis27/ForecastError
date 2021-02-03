@@ -39,7 +39,7 @@ def forecasterror(iters=1):
         [[5, 6, 500], [-50, 50, 500]]
     ]
 
-    test_metrics = ['MAPE', 'MASE', 'WAPE', 'MDAPE', 'SMAPE', 'ME', 'MAE', 'MPE', 'RMSE', 'NRMSE',
+    test_metrics = ['MPE', 'MAPE', 'WAPE', 'MDAPE', 'SMAPE', 'ME', 'MAE', 'MASE', 'MSE', 'RMSE', 'NRMSE',
                     'BIAS_TRACK', 'BIAS_NFM', 'NRMSE']
 
     def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('MAPE', 'MASE')):
@@ -98,6 +98,12 @@ def forecasterror(iters=1):
             the_actuals = the_forecast + adjust
             the_actuals[the_actuals < 0] = 0
 
+            # the_forecast = np.array([200,300,400,500])
+            # the_actuals = np.array([230,290,740,450])
+
+            # the_actuals = np.array([27.58,25.95,26.08,26.36,27.99,29.61,28.85,29.43,29.67,30.19,31.79,31.98])
+            # the_forecast = np.array([27.58,26.765,26.015,26.220,27.175,28.8,29.23,29.14,29.55,29.93,30.99,31.885])
+
             # print('Zeros: {}'.format(test_values[0][2] - np.count_nonzero(the_actuals)))
             output += 'Zeros: {}<br>'.format(test_values[0][2] - np.count_nonzero(the_actuals))
             # print('')
@@ -106,17 +112,17 @@ def forecasterror(iters=1):
             answers = evaluate(the_actuals, the_forecast, metrics=test_metrics)
 
             for answer in answers:
-                # print(f'{answer:<11}{answers[answer] * 100:>10.2f}  {METRICS_NAME[answer]:<}')
+                # print(f'{answer:<11}{answers[answer]:>10.2f}  {METRICS_NAME[answer]:<}')
                 output_array.append(
-                    [answer, '@@div style="text-align:right"@@@{:.2f}@@/div@@@'.format(round(answers[answer] * 100, 2)),
+                    [answer, '@@div style="text-align:right"@@@{:.2f}@@/div@@@'.format(round(answers[answer], 2)),
                      METRICS_NAME[answer]])
 
                 if tests == 1:
-                    _df = {answer: [round(answers[answer] * 100, 2)]}
+                    _df = {answer: [round(answers[answer], 2)]}
                     df.update(_df)
                     _df.clear()
                 else:
-                    df[answer].append(round(answers[answer] * 100, 2))
+                    df[answer].append(round(answers[answer], 2))
 
             df["Test"].append(tests)
 
@@ -148,8 +154,16 @@ def forecasterror(iters=1):
         output += '<br>'
 
         plot_data = pd.DataFrame.from_dict(df)
-        plot = px.line(plot_data, x='Test', y=['MAPE', 'MASE', 'MDAPE', 'WAPE', 'SMAPE', 'NRMSE', 'MPE'],
-                       title="Forecast Measurement Metrics - Run {}".format(x))
+        plot = px.line(plot_data, x='Test', y=['MAPE', 'MDAPE', 'WAPE', 'SMAPE', 'MPE'],
+                       title="Forecast Measurement Metrics - Percent Error - Run {}".format(x))
+        plot.show()
+
+        plot = px.line(plot_data, x='Test', y=['MAE', 'RMSE'],
+                       title="Forecast Measurement Metrics - Scaled Error - Run {}".format(x))
+        plot.show()
+
+        plot = px.line(plot_data, x='Test', y=['NRMSE', 'MASE'],
+                       title="Forecast Measurement Metrics - Absolute Error - Run {}".format(x))
         plot.show()
 
     w = 1
