@@ -154,6 +154,7 @@ def mdape(actual: np.ndarray, predicted: np.ndarray):
     return 100 * np.median(np.abs(_percentage_error(actual, predicted)))
 
 
+# there are 3 versions of this formula.  look at wiki page
 def smape(actual: np.ndarray, predicted: np.ndarray):
     """
     Symmetric Mean Absolute Percentage Error
