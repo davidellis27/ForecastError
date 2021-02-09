@@ -70,7 +70,7 @@ def forecasterror(iters=1):
 
     num_tests = len(test_values_set)
     num_iterations = int(iters)
-    num_iterations = 1
+    num_iterations = 2
 
     for x in range(1, num_iterations + 1):
         the_text = 'START {}'.format(x)
@@ -84,7 +84,7 @@ def forecasterror(iters=1):
             output_array.append(html.Div(children=the_text))
 
             params_array = [["Forcast Range", test_values[0][0], test_values[0][1], test_values[0][2]],
-                          ["VAR to Forecast Range", test_values[1][0], test_values[1][1], test_values[1][2]]]
+                            ["VAR to Forecast Range", test_values[1][0], test_values[1][1], test_values[1][2]]]
             _df = pd.DataFrame(params_array, columns=['Data Set', 'Low', 'High', 'Size'])
 
             table_id = 'table-params-{}'.format(tests)
@@ -127,14 +127,18 @@ def forecasterror(iters=1):
             for answer in answers:
                 metrics_array.append([answer, '{:.2f}'.format(round(answers[answer], 2)), METRICS_NAME[answer]])
 
-            # df["Test"].append(tests)
+                if tests == 1:
+                    df.update({answer: [round(answers[answer], 2)]})
+                else:
+                    df[answer].append(round(answers[answer], 2))
+
+            df["Test"].append(tests)
 
             _df = pd.DataFrame(metrics_array, columns=['Metric', 'Value', 'Description'])
+
             metrics_array = []
 
             table_id = 'table-metrics-{}-{}'.format(x, tests)
-            # print(table_id)
-
             output_array.append(html.Div(dash_table.DataTable(
                 id=table_id,
                 columns=[{"name": i, "id": i} for i in _df.columns],
@@ -164,65 +168,76 @@ def forecasterror(iters=1):
 
             tests += 1
 
+        the_text = 'Iteration {} All Metrics'.format(x)
+        output_array.append(html.P(children=the_text))
+
+        _df = pd.DataFrame.from_dict(df)
+
+        table_id = 'table-all-metrics-{}'.format(x)
+        output_array.append(html.Div(dash_table.DataTable(
+            id=table_id,
+            columns=[{"name": i, "id": i} for i in _df.columns],
+            data=_df.to_dict('records'),
+
+            style_data_conditional=[
+                {
+                    'if': {'row_index': 'odd'},
+                    'backgroundColor': 'rgb(248, 248, 248)'
+                }
+            ],
+            style_header={
+                'backgroundColor': 'rgb(230, 230, 230)',
+                'fontWeight': 'bold'
+            }
+        ), style={'width': '20%', 'display': 'inline-block'}))
+
+        output_array.append(html.Div(dcc.Graph(
+            figure={
+                "data": [
+                     {
+                         "x": df['Test'],
+                         "y": df[metric],
+                         "type": "line",
+                         "name": metric
+                     } for metric in ['MAPE', 'WAPE', 'MDAPE', 'SMAPE', 'MPE']
+                ],
+                "layout": {"title": "Forecast Measurement Metrics - Percent Error - Run {}".format(x)},
+            },
+        )))
+
+        output_array.append(html.Div(dcc.Graph(
+            figure={
+                "data": [
+                     {
+                         "x": df['Test'],
+                         "y": df[metric],
+                         "type": "line",
+                         "name": metric
+                     } for metric in ['MAE', 'RMSE']
+                ],
+                "layout": {"title": "Forecast Measurement Metrics - Scaled Error - Run {}".format(x)},
+            },
+        )))
+
+        output_array.append(html.Div(dcc.Graph(
+            figure={
+                "data": [
+                     {
+                         "x": df['Test'],
+                         "y": df[metric],
+                         "type": "line",
+                         "name": metric
+                     } for metric in ['NRMSE', 'MASE']
+                ],
+                "layout": {"title": "Forecast Measurement Metrics - Absolute Error - Run {}".format(x)},
+            },
+        )))
+
         the_text = 'FINISH {}'.format(x)
         output_array.append(html.Div(children=the_text))
 
-        """
-        df_list.append(df)
-
-        # for key, value in df.items():
-        #     print(key, ' : ', value)
-
-        _df = pd.DataFrame.from_dict(df)
-        output += _df.to_html(index=False, justify='left')
-
-
-        plot_data = pd.DataFrame.from_dict(df)
-        plot = px.line(plot_data, x='Test', y=['MAPE', 'MDAPE', 'WAPE', 'SMAPE', 'MPE'],
-                       title="Forecast Measurement Metrics - Percent Error - Run {}".format(x))
-        plot.show()
-
-        plot = px.line(plot_data, x='Test', y=['MAE', 'RMSE'],
-                       title="Forecast Measurement Metrics - Scaled Error - Run {}".format(x))
-        plot.show()
-
-        plot = px.line(plot_data, x='Test', y=['NRMSE', 'MASE'],
-                       title="Forecast Measurement Metrics - Absolute Error - Run {}".format(x))
-        plot.show()
-        """
-
-    """
-    w = 1
-    for thing in df_list:
-        # print(w)
-        output += '{}<br>'.format(w)
-
-        # for key, value in thing.items():
-        #    print(key, ' : ', value)
-
-        _df = pd.DataFrame.from_dict(thing)
-        output += _df.to_html(index=False, justify='left')
-
-        # print('')
-        output += '<br>'
-
-        w += 1
-
-    # not using DASH so had to do a little HTML tweaking for HTML characters
-    output = output.replace('@@@', '>')
-    output = output.replace('@@', '<')
-
-    """
-
-    # david_list = []
-    # david_list.append(output_start)
-    # david_list.extend(output_params)
-    # david_list.extend(output_zeros)
-    # david_list.extend(output_metrics)
-
-    # return html.Div(children=[output_start, output_test_number])
-    # return html.Div(children=david_list)
     return html.Div(children=output_array)
+
 
 output_date = current_date()
 

@@ -118,9 +118,7 @@ def forecasterror(iters=1):
                      METRICS_NAME[answer]])
 
                 if tests == 1:
-                    _df = {answer: [round(answers[answer], 2)]}
-                    df.update(_df)
-                    _df.clear()
+                    df.update({answer: [round(answers[answer], 2)]})
                 else:
                     df[answer].append(round(answers[answer], 2))
 
