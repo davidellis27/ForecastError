@@ -54,6 +54,71 @@ def forecasterror(iters=1):
     test_metrics = ['MPE', 'MAPE', 'WAPE', 'MDAPE', 'SMAPE', 'ME', 'MAE', 'MASE', 'MSE', 'RMSE', 'NRMSE',
                     'BIAS_TRACK', 'BIAS_NFM', 'NRMSE']
 
+    def datatable_params(the_table_id, the_df):
+        return html.Div(dash_table.DataTable(
+            id=the_table_id,
+            columns=[{"name": i, "id": i} for i in the_df.columns],
+            data=the_df.to_dict('records'),
+
+            style_data_conditional=[
+                {
+                    'if': {'row_index': 'odd'},
+                    'backgroundColor': 'rgb(248, 248, 248)'
+                }
+            ],
+            style_header={
+                'backgroundColor': 'rgb(230, 230, 230)',
+                'fontWeight': 'bold'
+            }
+        ), style={'width': '20%', 'display': 'inline-block'})
+
+    def datatable_metrics(the_table_id, the_df):
+        return html.Div(dash_table.DataTable(
+            id = table_id,
+            columns = [{"name": i, "id": i} for i in _df.columns],
+            data = _df.to_dict('records'),
+
+            style_data_conditional = [
+                                         {
+                                             'if': {'row_index': 'odd'},
+                                             'backgroundColor': 'rgb(248, 248, 248)'
+                                         },
+                                         {
+                                             'if': {'column_id': 'Description'},
+                                             'textAlign': 'left'
+                                         }
+                                     ],
+            style_header_conditional = [
+                                           {
+                                               'if': {'column_id': 'Description'},
+                                               'textAlign': 'left'
+                                           }
+                                       ],
+            style_header = {
+                'backgroundColor': 'rgb(230, 230, 230)',
+                'fontWeight': 'bold'
+            }
+
+        ), style = {'width': '20%', 'display': 'inline-block'})
+
+    def datatable_all_metrics(the_table_id, the_df):
+        return html.Div(dash_table.DataTable(
+            id=table_id,
+            columns=[{"name": i, "id": i} for i in _df.columns],
+            data=_df.to_dict('records'),
+
+            style_data_conditional=[
+                {
+                    'if': {'row_index': 'odd'},
+                    'backgroundColor': 'rgb(248, 248, 248)'
+                }
+            ],
+            style_header={
+                'backgroundColor': 'rgb(230, 230, 230)',
+                'fontWeight': 'bold'
+            }
+        ), style={'width': '20%', 'display': 'inline-block'})
+
     def evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('MAPE', 'MASE')):
         results = {}
         for name in metrics:
@@ -70,7 +135,7 @@ def forecasterror(iters=1):
 
     num_tests = len(test_values_set)
     num_iterations = int(iters)
-    num_iterations = 2
+    # num_iterations = 2
 
     for x in range(1, num_iterations + 1):
         the_text = 'START {}'.format(x)
@@ -81,29 +146,14 @@ def forecasterror(iters=1):
 
         for test_values in test_values_set:
             the_text = 'Test: {} / {}'.format(tests, num_tests)
-            output_array.append(html.Div(children=the_text))
+            output_array.append(html.P(children=the_text))
 
             params_array = [["Forcast Range", test_values[0][0], test_values[0][1], test_values[0][2]],
                             ["VAR to Forecast Range", test_values[1][0], test_values[1][1], test_values[1][2]]]
             _df = pd.DataFrame(params_array, columns=['Data Set', 'Low', 'High', 'Size'])
 
-            table_id = 'table-params-{}'.format(tests)
-            output_array.append(html.Div(dash_table.DataTable(
-                id=table_id,
-                columns=[{"name": i, "id": i} for i in _df.columns],
-                data=_df.to_dict('records'),
-
-                style_data_conditional=[
-                    {
-                        'if': {'row_index': 'odd'},
-                        'backgroundColor': 'rgb(248, 248, 248)'
-                    }
-                ],
-                style_header={
-                    'backgroundColor': 'rgb(230, 230, 230)',
-                    'fontWeight': 'bold'
-                }
-            ), style={'width': '20%', 'display': 'inline-block'}))
+            table_id = 'table-params-{}-{}'.format(x, tests)
+            output_array.append(datatable_params(table_id, _df))
 
             the_forecast = np.array(
                 random.randint(low=test_values[0][0], high=test_values[0][1], size=test_values[0][2]))
@@ -139,32 +189,7 @@ def forecasterror(iters=1):
             metrics_array = []
 
             table_id = 'table-metrics-{}-{}'.format(x, tests)
-            output_array.append(html.Div(dash_table.DataTable(
-                id=table_id,
-                columns=[{"name": i, "id": i} for i in _df.columns],
-                data=_df.to_dict('records'),
-
-                style_data_conditional=[
-                    {
-                        'if': {'row_index': 'odd'},
-                        'backgroundColor': 'rgb(248, 248, 248)'
-                    },
-                    {
-                        'if': {'column_id': 'Description'},
-                        'textAlign': 'left'
-                    }
-                ],
-                style_header_conditional=[
-                    {
-                        'if': {'column_id': 'Description'},
-                        'textAlign': 'left'
-                    }
-                ],
-                style_header={
-                    'backgroundColor': 'rgb(230, 230, 230)',
-                    'fontWeight': 'bold'
-                }
-            ), style={'width': '20%', 'display': 'inline-block'}))
+            output_array.append(datatable_metrics(table_id, _df))
 
             tests += 1
 
@@ -173,33 +198,18 @@ def forecasterror(iters=1):
 
         _df = pd.DataFrame.from_dict(df)
 
-        table_id = 'table-all-metrics-{}'.format(x)
-        output_array.append(html.Div(dash_table.DataTable(
-            id=table_id,
-            columns=[{"name": i, "id": i} for i in _df.columns],
-            data=_df.to_dict('records'),
-
-            style_data_conditional=[
-                {
-                    'if': {'row_index': 'odd'},
-                    'backgroundColor': 'rgb(248, 248, 248)'
-                }
-            ],
-            style_header={
-                'backgroundColor': 'rgb(230, 230, 230)',
-                'fontWeight': 'bold'
-            }
-        ), style={'width': '20%', 'display': 'inline-block'}))
+        table_id = 'table-all-metrics-{}-{}'.format(x, tests)
+        output_array.append(datatable_all_metrics(table_id, _df))
 
         output_array.append(html.Div(dcc.Graph(
             figure={
                 "data": [
-                     {
-                         "x": df['Test'],
-                         "y": df[metric],
-                         "type": "line",
-                         "name": metric
-                     } for metric in ['MAPE', 'WAPE', 'MDAPE', 'SMAPE', 'MPE']
+                    {
+                        "x": df['Test'],
+                        "y": df[metric],
+                        "type": "line",
+                        "name": metric
+                    } for metric in ['MAPE', 'WAPE', 'MDAPE', 'SMAPE', 'MPE']
                 ],
                 "layout": {"title": "Forecast Measurement Metrics - Percent Error - Run {}".format(x)},
             },
@@ -208,12 +218,12 @@ def forecasterror(iters=1):
         output_array.append(html.Div(dcc.Graph(
             figure={
                 "data": [
-                     {
-                         "x": df['Test'],
-                         "y": df[metric],
-                         "type": "line",
-                         "name": metric
-                     } for metric in ['MAE', 'RMSE']
+                    {
+                        "x": df['Test'],
+                        "y": df[metric],
+                        "type": "line",
+                        "name": metric
+                    } for metric in ['MAE', 'RMSE']
                 ],
                 "layout": {"title": "Forecast Measurement Metrics - Scaled Error - Run {}".format(x)},
             },
@@ -222,12 +232,12 @@ def forecasterror(iters=1):
         output_array.append(html.Div(dcc.Graph(
             figure={
                 "data": [
-                     {
-                         "x": df['Test'],
-                         "y": df[metric],
-                         "type": "line",
-                         "name": metric
-                     } for metric in ['NRMSE', 'MASE']
+                    {
+                        "x": df['Test'],
+                        "y": df[metric],
+                        "type": "line",
+                        "name": metric
+                    } for metric in ['NRMSE', 'MASE']
                 ],
                 "layout": {"title": "Forecast Measurement Metrics - Absolute Error - Run {}".format(x)},
             },
@@ -242,6 +252,7 @@ def forecasterror(iters=1):
 output_date = current_date()
 
 app.layout = html.Div(children=[output_date, forecasterror(1)])
+
 
 if __name__ == "__main__":
     server.run(host='localhost', port=5001, debug=True)
